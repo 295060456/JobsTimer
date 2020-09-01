@@ -10,5 +10,6 @@
 #define Pods_h
 
 #import <Masonry/Masonry.h>
+#import <ReactiveObjC.h>
 
 #endif /* Pods_h */

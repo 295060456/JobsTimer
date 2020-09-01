@@ -7,6 +7,7 @@ target 'Timer' do
 
   # Pods for Timer
   pod 'Masonry'
+  pod 'ReactiveObjC'
 
   target 'TimerTests' do
     inherit! :search_paths
