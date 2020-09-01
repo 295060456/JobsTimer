@@ -7,32 +7,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C98D5291-204A-45E3-A8E4-5A681B1CF921"
-            shouldBeEnabled = "Yes"
+            uuid = "D06E0A48-0E9F-4D4F-96C5-F74B8710A81B"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Timer/&#x4e1a;&#x52a1;/&#x9a8c;&#x8bc1;&#x7801;&#x6309;&#x94ae;/UIButton+CountDownBtn.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "348"
-            endingLineNumber = "348"
-            landmarkName = "-setCount:"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-timeFailBeginFrom:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "64AECBED-3207-4BC7-A8DA-188FD531849C"
+            uuid = "D0EB7F53-6FA1-49E4-8560-FBF1417DA07E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Timer/Manual_Add_ThirdParty /TimerManager/NSTimerManager/NSTimerManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-nsTimeStartSysAutoInRunLoop"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBEB8D35-9DEF-4355-82BB-D683E46682C7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Timer/&#x4e1a;&#x52a1;/&#x9a8c;&#x8bc1;&#x7801;&#x6309;&#x94ae;/UIButton+CountDownBtn.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "347"
-            endingLineNumber = "347"
-            landmarkName = "-setCount:"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "-nsTimerManager"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28AD4BE5-7891-4925-9667-26B37C5A97D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Timer/Manual_Add_ThirdParty /TimerManager/NSTimerManager/NSTimerManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "-timerStyle"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
