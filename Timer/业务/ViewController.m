@@ -11,6 +11,8 @@
 
 @interface ViewController ()
 
+@property(nonatomic,strong)NSTimerManager *nsTimerManager;
+
 @end
 
 @implementation ViewController
@@ -18,8 +20,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-
+    [NSTimerManager nsTimeStart:self.nsTimerManager.nsTimer
+                    withRunLoop:nil];
 }
 
+-(NSTimerManager *)nsTimerManager{
+    if (!_nsTimerManager) {
+        _nsTimerManager = NSTimerManager.new;
+        [_nsTimerManager actionNSTimerManagerBlock:^(id data) {
+            NSLog(@"你好");
+        }];
+    }return _nsTimerManager;
+}
 
 @end

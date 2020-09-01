@@ -19,29 +19,40 @@
 
 -(void)dealloc{
     NSLog(@"Running self.class = %@;NSStringFromSelector(_cmd) = '%@';__FUNCTION__ = %s", self.class, NSStringFromSelector(_cmd),__FUNCTION__);
-    [self nsTimeDestroy];
+    if (_nsTimer) {
+        [NSTimerManager nsTimeDestroy:_nsTimer];
+    }
 }
 
 -(void)actionNSTimerManagerBlock:(MKDataBlock)NSTimerManagerBlock{
     _NSTimerManagerBlock = NSTimerManagerBlock;
 }
+///定时器启动 手动添加定时器到RunLoop
++(void)nsTimeStart:(NSTimer *)nsTimer
+       withRunLoop:(NSRunLoop *_Nullable)runLoop{
+    if (!runLoop) {
+        runLoop = NSRunLoop.mainRunLoop;
+    }
+    [runLoop addTimer:nsTimer
+              forMode:NSDefaultRunLoopMode];
+}
 ///定时器暂停
--(void)nsTimePause{
-    if (_nsTimer) {
-        [self.nsTimer setFireDate:NSDate.distantFuture];
++(void)nsTimePause:(NSTimer *)nsTimer{
+    if (nsTimer) {
+        [nsTimer setFireDate:NSDate.distantFuture];
     }
 }
 ///定时器继续
--(void)nsTimecontinue{
-    if (_nsTimer) {
-        [self.nsTimer setFireDate:NSDate.date];
++(void)nsTimecontinue:(NSTimer *)nsTimer{
+    if (nsTimer) {
+        [nsTimer setFireDate:NSDate.date];
     }
 }
 ///销毁定时器
--(void)nsTimeDestroy{
-    if (_nsTimer) {
-        [_nsTimer invalidate];
-        _nsTimer = nil;
++(void)nsTimeDestroy:(NSTimer *)nsTimer{
+    if (nsTimer) {
+        [nsTimer invalidate];
+        nsTimer = nil;
     }
 }
 #pragma mark —— lazyLoad
@@ -76,8 +87,8 @@
 -(NSTimer *)nsTimer{
     if (!_nsTimer) {
         _nsTimer = [[NSTimer alloc] initWithFireDate:self.date
-                                            interval:self.interval
-                                             repeats:self.repeats
+                                            interval:1//self.interval
+                                             repeats:YES//self.repeats
                                                block:^(NSTimer * _Nonnull timer) {
             if (self.NSTimerManagerBlock) {
                 self.NSTimerManagerBlock(timer);
