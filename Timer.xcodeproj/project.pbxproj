@@ -84,9 +84,6 @@
 		C572A30824FE1D53000A1687 /* Nanosecond_TimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nanosecond_TimerManager.m; sourceTree = "<group>"; };
 		C572A30A24FE1D5D000A1687 /* CADisplayLink_TimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADisplayLink_TimerManager.h; sourceTree = "<group>"; };
 		C572A30B24FE1D5D000A1687 /* CADisplayLink_TimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLink_TimerManager.m; sourceTree = "<group>"; };
-		C5C67C4524FE38B9000A26B8 /* CountDownBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownBtn.h; sourceTree = "<group>"; };
-		C5C67C4624FE38BA000A26B8 /* 验证码按钮单例封装 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "验证码按钮单例封装"; sourceTree = "<group>"; };
-		C5C67C4724FE38BA000A26B8 /* CountDownBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownBtn.m; sourceTree = "<group>"; };
 		C5C67C4B24FE3978000A26B8 /* UIButton+CountDownBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDownBtn.h"; sourceTree = "<group>"; };
 		C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDownBtn.m"; sourceTree = "<group>"; };
 		D7E9E56A550482EC07A7ACD6 /* Pods-TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.release.xcconfig"; path = "Target Support Files/Pods-TimerTests/Pods-TimerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -236,7 +233,6 @@
 		C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
-				C5C67C4424FE38B1000A26B8 /* 💰VerifyCodeButton */,
 				C572A2F924FE043E000A1687 /* TimerManager */,
 			);
 			path = "Manual_Add_ThirdParty ";
@@ -301,16 +297,6 @@
 				C572A30824FE1D53000A1687 /* Nanosecond_TimerManager.m */,
 			);
 			path = Nanosecond_TimerManager;
-			sourceTree = "<group>";
-		};
-		C5C67C4424FE38B1000A26B8 /* 💰VerifyCodeButton */ = {
-			isa = PBXGroup;
-			children = (
-				C5C67C4624FE38BA000A26B8 /* 验证码按钮单例封装 */,
-				C5C67C4524FE38B9000A26B8 /* CountDownBtn.h */,
-				C5C67C4724FE38BA000A26B8 /* CountDownBtn.m */,
-			);
-			path = "💰VerifyCodeButton";
 			sourceTree = "<group>";
 		};
 		C5C67C4A24FE3951000A26B8 /* 验证码按钮 */ = {
