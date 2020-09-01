@@ -22,6 +22,7 @@
 		C572A30924FE1D53000A1687 /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A30824FE1D53000A1687 /* Nanosecond_TimerManager.m */; };
 		C572A30C24FE1D5D000A1687 /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A30B24FE1D5D000A1687 /* CADisplayLink_TimerManager.m */; };
 		C5C67C4D24FE3978000A26B8 /* UIButton+CountDownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */; };
+		C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6724FE5059000A26B8 /* UIView+Measure.m */; };
 		CD33AB0A067A6FE9AA09DFF2 /* Pods_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AF209B3CB78224724D4250 /* Pods_Timer.framework */; };
 		FEE83C41D65071720FC5369D /* Pods_Timer_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641383732AC358E7A2BDCDF5 /* Pods_Timer_TimerUITests.framework */; };
 		FF684147520F90C4783DFE8B /* Pods_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E235AAB326B2235AD4C1C2A5 /* Pods_TimerTests.framework */; };
@@ -86,6 +87,9 @@
 		C572A30B24FE1D5D000A1687 /* CADisplayLink_TimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLink_TimerManager.m; sourceTree = "<group>"; };
 		C5C67C4B24FE3978000A26B8 /* UIButton+CountDownBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDownBtn.h"; sourceTree = "<group>"; };
 		C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDownBtn.m"; sourceTree = "<group>"; };
+		C5C67C6624FE5059000A26B8 /* UIView+Measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Measure.h"; sourceTree = "<group>"; };
+		C5C67C6724FE5059000A26B8 /* UIView+Measure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Measure.m"; sourceTree = "<group>"; };
+		C5C67C6924FE7671000A26B8 /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
 		D7E9E56A550482EC07A7ACD6 /* Pods-TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.release.xcconfig"; path = "Target Support Files/Pods-TimerTests/Pods-TimerTests.release.xcconfig"; sourceTree = "<group>"; };
 		E235AAB326B2235AD4C1C2A5 /* Pods_TimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AF209B3CB78224724D4250 /* Pods_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,6 +237,8 @@
 		C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C5C67C6624FE5059000A26B8 /* UIView+Measure.h */,
+				C5C67C6724FE5059000A26B8 /* UIView+Measure.m */,
 				C572A2F924FE043E000A1687 /* TimerManager */,
 			);
 			path = "Manual_Add_ThirdParty ";
@@ -255,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				C572A2FA24FE0473000A1687 /* TimerManager.h */,
+				C5C67C6924FE7671000A26B8 /* TimerManager_DefineStructure.h */,
 				C572A30324FE1D1A000A1687 /* NSTimerManager */,
 				C572A30524FE1D31000A1687 /* CADisplayLink_TimerManager */,
 				C572A30424FE1D22000A1687 /* GCD_TimerManager(未完) */,
@@ -554,6 +561,7 @@
 				C572A30924FE1D53000A1687 /* Nanosecond_TimerManager.m in Sources */,
 				C572A2C324FDFF66000A1687 /* Timer.xcdatamodeld in Sources */,
 				C572A30224FE1D14000A1687 /* GCD_TimerManager.m in Sources */,
+				C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */,
 				C572A30C24FE1D5D000A1687 /* CADisplayLink_TimerManager.m in Sources */,
 				C572A2FF24FE1CFD000A1687 /* NSTimerManager.m in Sources */,
 			);

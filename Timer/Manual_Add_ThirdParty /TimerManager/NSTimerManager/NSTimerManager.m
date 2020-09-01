@@ -37,11 +37,32 @@
 -(NSTimer *)nsTimeStartSysAutoInRunLoop{
     switch (self.timerType) {
         case ScheduledTimerType_0:{
+            @weakify(self)
             self.nsTimer = [NSTimer scheduledTimerWithTimeInterval:self.timeInterval
                                                            repeats:self.repeats
                                                              block:^(NSTimer * _Nonnull timer) {
-                if (self.NSTimerManagerBlock) {
-                    self.NSTimerManagerBlock(timer);
+                @strongify(self)
+                switch (self.timerStyle) {
+                    case TimerStyle_clockwise:{//顺时针模式
+                        if (self.NSTimerManagerBlock) {
+                            self.NSTimerManagerBlock(timer);
+                        }
+                    }break;
+                    case TimerStyle_anticlockwise:{//逆时针模式（倒计时）
+                        if (self.anticlockwiseTime >= 0) {
+                            if (self.NSTimerManagerBlock) {
+                                self.NSTimerManagerBlock(timer);
+                            }
+                            self.anticlockwiseTime -= self.timeInterval;
+                        }else{
+                            if (self->_nsTimer) {
+                                [NSTimerManager nsTimeDestroy:self->_nsTimer];
+                            }
+                        }
+                    }break;
+                        
+                    default:
+                        break;
                 }
             }];
         }break;
@@ -135,12 +156,33 @@
 
 -(NSTimer *)nsTimer{
     if (!_nsTimer) {
+        @weakify(self)
         _nsTimer = [[NSTimer alloc] initWithFireDate:self.date
-                                            interval:1//self.interval
-                                             repeats:YES//self.repeats
+                                            interval:self.timeInterval
+                                             repeats:self.repeats
                                                block:^(NSTimer * _Nonnull timer) {
-            if (self.NSTimerManagerBlock) {
-                self.NSTimerManagerBlock(timer);
+            @strongify(self)
+            switch (self.timerStyle) {
+                case TimerStyle_clockwise:{//顺时针模式
+                    if (self.NSTimerManagerBlock) {
+                        self.NSTimerManagerBlock(timer);
+                    }
+                }break;
+                case TimerStyle_anticlockwise:{//逆时针模式（倒计时）
+                    if (self.anticlockwiseTime >= 0) {
+                        if (self.NSTimerManagerBlock) {
+                            self.NSTimerManagerBlock(timer);
+                        }
+                        self.anticlockwiseTime -= self.timeInterval;
+                    }else{
+                        if (self->_nsTimer) {
+                            [NSTimerManager nsTimeDestroy:self->_nsTimer];
+                        }
+                    }
+                }break;
+                    
+                default:
+                    break;
             }
         }];
     }return _nsTimer;
@@ -174,6 +216,12 @@
     if (!_invocation) {
         //需要补充
     }return _invocation;
+}
+
+-(TimerStyle)timerStyle{
+    if (_timerStyle == TimerStyle_anticlockwise) {
+        self.repeats = YES;
+    }return _timerStyle;
 }
 
 @end

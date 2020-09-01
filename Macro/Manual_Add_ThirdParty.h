@@ -10,5 +10,7 @@
 #define Manual_Add_ThirdParty_h
 
 #import "AABlock.h"
+#import "UIView+Measure.h"
+#import "TimerManager.h"
 
 #endif /* Manual_Add_ThirdParty_h */

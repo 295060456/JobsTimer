@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TimerManager_DefineStructure.h"
 
 #import <mach/mach.h>
 #import <mach/mach_time.h>

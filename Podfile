@@ -8,6 +8,8 @@ target 'Timer' do
   # Pods for Timer
   pod 'Masonry'
   pod 'ReactiveObjC'
+  pod 'MJRefresh'
+  pod 'MJExtension'
 
   target 'TimerTests' do
     inherit! :search_paths
