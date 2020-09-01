@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TimerManager.h"
 
 @interface ViewController ()
 
