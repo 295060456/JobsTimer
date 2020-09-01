@@ -28,8 +28,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    self.view.backgroundColor = [UIColor redColor];
-    [self makeTimer];
-//    self.countDownBtn.alpha = 1;
+//    [self makeTimer];
+    self.countDownBtn.alpha = 1;
 //    [self secountDown];
 
 }
@@ -95,8 +95,11 @@
         _nsTimerManager = NSTimerManager.new;
         _nsTimerManager.timerStyle = TimerStyle_anticlockwise;
         _nsTimerManager.anticlockwiseTime = 5;
-        [_nsTimerManager actionNSTimerManagerBlock:^(id data) {
+        [_nsTimerManager actionNSTimerManagerRunningBlock:^(id data) {
             NSLog(@"你好");
+        }];
+        [_nsTimerManager actionNSTimerManagerFinishBlock:^(id data) {
+            NSLog(@"我死你妈球了");
         }];
     }return _nsTimerManager;
 }
@@ -110,7 +113,7 @@
         _countDownBtn.bgCountDownColor = [UIColor redColor];;
         _countDownBtn.bgEndColor = [UIColor clearColor];;
         _countDownBtn.layerCornerRadius = 6;
-        [_countDownBtn timeFailBeginFrom:60];
+        [_countDownBtn timeFailBeginFrom:3];
         [self.view addSubview:_countDownBtn];
         _countDownBtn.frame = CGRectMake(100, 100, 100, 100);
     }return _countDownBtn;

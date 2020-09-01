@@ -72,40 +72,39 @@ static char *UIButton_CountDownBtn_countDownBlock = "UIButton_CountDownBtn_count
     [self.nsTimerManager nsTimeStartSysAutoInRunLoop];
     
 }
-//计时器方法:
-- (void)timerFired {
-    if (self.count != 1) {
-        self.count -= 1;
-        self.enabled = NO;
-        NSString *countStr;
-        NSString *str;
-        switch (self.showTimeType) {
-            case ShowTimeType_SS:{
-                //不做任何处理
-                str = [NSString stringWithFormat:@"%@%ld秒",self.titleRuningStr,self.count];
-            }break;
-            case ShowTimeType_MMSS:{
-                countStr = [self getMMSSFromStr:[NSString stringWithFormat:@"%ld",self.count]];
-                str = [self.titleRuningStr stringByAppendingString:countStr];
-            }break;
-            case ShowTimeType_HHMMSS:{
-                countStr = [self getHHMMSSFromStr:[NSString stringWithFormat:@"%ld",self.count]];
-                str = [self.titleRuningStr stringByAppendingString:countStr];
-            }break;
-            default:
-                str = @"异常值";
-                break;
-        }
-        [self setTitle:str
-              forState:UIControlStateNormal];
-        self.backgroundColor = self.bgCountDownColor;
-    } else {
-        self.enabled = YES;
-        [self setTitle:self.titleEndStr
-              forState:UIControlStateNormal];
-        self.backgroundColor = self.bgEndColor;
-        [NSTimerManager nsTimeDestroy:self.nsTimerManager.nsTimer];
+//
+-(void)timerRuning{
+    self.enabled = NO;
+    NSString *countStr;
+    NSString *str;
+    switch (self.showTimeType) {
+        case ShowTimeType_SS:{
+            //不做任何处理
+            str = [NSString stringWithFormat:@"%@%ld秒",self.titleRuningStr,self.count];
+        }break;
+        case ShowTimeType_MMSS:{
+            countStr = [self getMMSSFromStr:[NSString stringWithFormat:@"%ld",self.count]];
+            str = [self.titleRuningStr stringByAppendingString:countStr];
+        }break;
+        case ShowTimeType_HHMMSS:{
+            countStr = [self getHHMMSSFromStr:[NSString stringWithFormat:@"%ld",self.count]];
+            str = [self.titleRuningStr stringByAppendingString:countStr];
+        }break;
+        default:
+            str = @"异常值";
+            break;
     }
+    [self setTitle:str
+          forState:UIControlStateNormal];
+    self.backgroundColor = self.bgCountDownColor;
+}
+
+-(void)timerDestroy{
+    self.enabled = YES;
+    [self setTitle:self.titleEndStr
+          forState:UIControlStateNormal];
+    self.backgroundColor = self.bgEndColor;
+    [NSTimerManager nsTimeDestroy:self.nsTimerManager.nsTimer];
 }
 //传入 秒  得到 xx:xx:xx
 -(NSString *)getHHMMSSFromStr:(NSString *)totalTime{
@@ -117,7 +116,6 @@ static char *UIButton_CountDownBtn_countDownBlock = "UIButton_CountDownBtn_count
 //    NSLog(@"format_time : %@",format_time);
     return format_time;
 }
-
 //传入 秒  得到  xx分钟xx秒
 -(NSString *)getMMSSFromStr:(NSString *)totalTime{
     NSInteger seconds = [totalTime integerValue];
@@ -131,6 +129,8 @@ static char *UIButton_CountDownBtn_countDownBlock = "UIButton_CountDownBtn_count
 #pragma mark —— @property(nonatomic,strong)NSTimerManager *nsTimerManager;
 -(NSTimerManager *)nsTimerManager{
     NSTimerManager *timerManager = objc_getAssociatedObject(self, UIButton_CountDownBtn_nsTimerManager);
+    timerManager.timerStyle = TimerStyle_anticlockwise;
+    timerManager.anticlockwiseTime = self.count;
     if (!timerManager) {
         timerManager = NSTimerManager.new;
         objc_setAssociatedObject(self,
@@ -139,13 +139,17 @@ static char *UIButton_CountDownBtn_countDownBlock = "UIButton_CountDownBtn_count
                                  OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
     @weakify(self)
-    [timerManager actionNSTimerManagerBlock:^(id data) {
+    [timerManager actionNSTimerManagerRunningBlock:^(id data) {
         @strongify(self)
         NSLog(@"你好");
-        [self timerFired];
+        [self timerRuning];
         if (self.countDownBlock) {
             self.countDownBlock(@1);
         }
+    }];
+    
+    [timerManager actionNSTimerManagerFinishBlock:^(id data) {
+        [self timerDestroy];
     }];
     
     return timerManager;
@@ -340,6 +344,9 @@ static char *UIButton_CountDownBtn_countDownBlock = "UIButton_CountDownBtn_count
 }
 
 -(void)setCount:(long)count{
+    if (count == 0) {
+        count = 3;
+    }
     objc_setAssociatedObject(self,
                              UIButton_CountDownBtn_count,
                              [NSNumber numberWithLong:count],
