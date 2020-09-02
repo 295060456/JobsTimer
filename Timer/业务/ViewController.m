@@ -29,19 +29,18 @@
     [super viewDidLoad];
 //    self.view.backgroundColor = [UIColor redColor];
 //    [self makeTimer];
-    self.countDownBtn.alpha = 1;
-//    [self secountDown];
-
+//    self.countDownBtn.alpha = 1;
+    [self 倒计时放大特效];
 }
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches
-           withEvent:(UIEvent *)event{
+-(void)倒计时放大特效{
     [self makeTimer];
+    [self secountDown];
 }
 
 -(void)secountDown{
     _countDown =[[UILabel alloc]init];
-    _countDown.textColor = [UIColor whiteColor];;
+    _countDown.textColor = [UIColor redColor];;
     _countDown.font =[UIFont boldSystemFontOfSize:100];
     _countDown.textAlignment = 1;
     [self.view addSubview:_countDown];
@@ -50,7 +49,7 @@
     _countDown.width =_countDown.height = 100;
    
     _aphView = [UIView new];
-    _aphView.backgroundColor = [UIColor whiteColor];
+    _aphView.backgroundColor = [UIColor blueColor];
     [self.view addSubview:_aphView];
     _aphView.frame = CGRectMake(0, 0, 100, 100);
     _aphView.centerX = _countDown.centerX;
@@ -61,9 +60,6 @@
 }
 
 -(void)getCuntDown:(NSInteger)second{
-    if (second == 4) {
-        second = 3;
-    }
     _countDown.text=[NSString stringWithFormat:@"%ld",(long)second];
     _countDown.alpha = 1;
     _aphView.alpha = 0;
@@ -97,6 +93,10 @@
         _nsTimerManager.anticlockwiseTime = 5;
         [_nsTimerManager actionNSTimerManagerRunningBlock:^(id data) {
             NSLog(@"你好");
+            if ([data isKindOfClass:NSTimerManager.class]) {
+                NSTimerManager *timerManager = (NSTimerManager *)data;
+                [self getCuntDown:(NSInteger)timerManager.anticlockwiseTime];
+            }
         }];
         [_nsTimerManager actionNSTimerManagerFinishBlock:^(id data) {
             NSLog(@"我死你妈球了");

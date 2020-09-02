@@ -51,20 +51,20 @@
                 switch (self.timerStyle) {
                     case TimerStyle_clockwise:{//顺时针模式
                         if (self.NSTimerManagerRunningBlock) {
-                            self.NSTimerManagerRunningBlock(timer);
+                            self.NSTimerManagerRunningBlock(self);
                         }
                     }break;
                     case TimerStyle_anticlockwise:{//逆时针模式（倒计时）
                         if (self.anticlockwiseTime >= 1) {
                             if (self.NSTimerManagerRunningBlock) {
-                                self.NSTimerManagerRunningBlock(timer);
+                                self.NSTimerManagerRunningBlock(self);
                             }
                             self.anticlockwiseTime -= self.timeInterval;
                         }else{
                             if (self->_nsTimer) {
                                 [NSTimerManager nsTimeDestroy:self->_nsTimer];
                                 if (self.NSTimerManagerFinishBlock) {
-                                    self.NSTimerManagerFinishBlock(@1);
+                                    self.NSTimerManagerFinishBlock(self);
                                 }
                             }
                         }
@@ -174,20 +174,20 @@
             switch (self.timerStyle) {
                 case TimerStyle_clockwise:{//顺时针模式
                     if (self.NSTimerManagerRunningBlock) {
-                        self.NSTimerManagerRunningBlock(timer);
+                        self.NSTimerManagerRunningBlock(self);
                     }
                 }break;
                 case TimerStyle_anticlockwise:{//逆时针模式（倒计时）
                     if (self.anticlockwiseTime >= 0) {
                         if (self.NSTimerManagerRunningBlock) {
-                            self.NSTimerManagerRunningBlock(timer);
+                            self.NSTimerManagerRunningBlock(self);
                         }
                         self.anticlockwiseTime -= self.timeInterval;
                     }else{
                         if (self->_nsTimer) {
                             [NSTimerManager nsTimeDestroy:self->_nsTimer];
                             if (self.NSTimerManagerFinishBlock) {
-                                self.NSTimerManagerFinishBlock(@1);
+                                self.NSTimerManagerFinishBlock(self);
                             }
                         }
                     }
