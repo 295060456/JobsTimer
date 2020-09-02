@@ -94,12 +94,12 @@
 -(UILabel *)countDown{
     if (!_countDown) {
         _countDown = UILabel.new;
-        _countDown.textColor = [UIColor redColor];;
-        _countDown.font =[UIFont boldSystemFontOfSize:100];
+        _countDown.textColor = self.countDownTextColor;;
+        _countDown.font = [UIFont boldSystemFontOfSize:100];
         _countDown.textAlignment = 1;
-        _countDown.x = (SCREEN_WIDTH - 100)/2;
-        _countDown.y = (SCREEN_HEIGHT - 100)/2;
-        _countDown.width =_countDown.height = 100;
+        _countDown.x = (SCREEN_WIDTH - 100) / 2;
+        _countDown.y = (SCREEN_HEIGHT - 100) / 2;
+        _countDown.width = _countDown.height = 100;
         [self.effectView addSubview:_countDown];
     }return _countDown;
 }
@@ -107,14 +107,30 @@
 -(UIView *)aphView{
     if (!_aphView) {
         _aphView = UIView.new;
-        _aphView.backgroundColor = [UIColor blueColor];
-        _aphView.frame = CGRectMake(0, 0, 100, 100);
+        _aphView.backgroundColor = self.aphViewBackgroundColor;
+        _aphView.frame = CGRectMake(0,
+                                    0,
+                                    100,
+                                    100);
         _aphView.centerX = _countDown.centerX;
         _aphView.centerY = _countDown.centerY;
         _aphView.alpha = 0;
         _aphView.layer.cornerRadius = 50.f;
         [self.effectView addSubview:_aphView];
     }return _aphView;
+}
+
+
+-(UIColor *)countDownTextColor{
+    if (!_countDownTextColor) {
+        _countDownTextColor = [UIColor redColor];
+    }return _countDownTextColor;
+}
+
+-(UIColor *)aphViewBackgroundColor{
+    if (!_aphViewBackgroundColor) {
+        _aphViewBackgroundColor = [UIColor clearColor];
+    }return _aphViewBackgroundColor;
 }
 
 -(CGFloat)countDownTime{
