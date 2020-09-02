@@ -27,6 +27,11 @@
 //    [self makeTimer];
 //    self.countDownBtn.alpha = 1;
     
+//    [self.movieCountDown 倒计时放大特效];
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches
+          withEvent:(UIEvent *)event{
     [self.movieCountDown 倒计时放大特效];
 }
 
@@ -63,7 +68,7 @@
         _countDownBtn.titleBeginStr = @"重新发送";
         _countDownBtn.titleColor = [UIColor blueColor];
         _countDownBtn.bgCountDownColor = [UIColor redColor];;
-        _countDownBtn.bgEndColor = [UIColor clearColor];;
+        _countDownBtn.bgEndColor = [UIColor blueColor];;
         _countDownBtn.layerCornerRadius = 6;
         [_countDownBtn timeFailBeginFrom:5];//
         [self.view addSubview:_countDownBtn];
