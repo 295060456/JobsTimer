@@ -3,4 +3,22 @@
    uuid = "FD94FCA5-9949-411E-BF8B-460DE61E4908"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6383BF1F-B1FC-41F2-801E-C62A5A4DF382"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Timer/&#x4e1a;&#x52a1;/&#x7535;&#x5f71;&#x5012;&#x8ba1;&#x65f6;&#x7279;&#x6548;/MovieCountDown.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-makeTimer"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

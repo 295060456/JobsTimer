@@ -188,8 +188,8 @@
                         }
                         self.anticlockwiseTime -= self.timeInterval;
                     }else{
-                        if (self->_nsTimer) {
-                            [NSTimerManager nsTimeDestroy:self->_nsTimer];
+                        if (timer) {
+                            [NSTimerManager nsTimeDestroy:timer];
                             if (self.NSTimerManagerFinishBlock) {
                                 self.NSTimerManagerFinishBlock(self);
                             }
