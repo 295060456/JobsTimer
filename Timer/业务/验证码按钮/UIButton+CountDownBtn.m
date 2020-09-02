@@ -41,7 +41,6 @@ static char *UIButton_CountDownBtn_countDownBlock = "UIButton_CountDownBtn_count
 @dynamic count;
 @dynamic countDownBlock;
 
-
 -(void)drawRect:(CGRect)rect{
     [super drawRect:rect];
     [self setTitle:self.titleBeginStr
@@ -129,8 +128,6 @@ static char *UIButton_CountDownBtn_countDownBlock = "UIButton_CountDownBtn_count
 #pragma mark —— @property(nonatomic,strong)NSTimerManager *nsTimerManager;
 -(NSTimerManager *)nsTimerManager{
     NSTimerManager *timerManager = objc_getAssociatedObject(self, UIButton_CountDownBtn_nsTimerManager);
-    timerManager.timerStyle = TimerStyle_anticlockwise;
-    timerManager.anticlockwiseTime = self.count;
     if (!timerManager) {
         timerManager = NSTimerManager.new;
         objc_setAssociatedObject(self,
@@ -138,6 +135,10 @@ static char *UIButton_CountDownBtn_countDownBlock = "UIButton_CountDownBtn_count
                                  timerManager,
                                  OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
+    
+    timerManager.timerStyle = TimerStyle_anticlockwise;
+    timerManager.anticlockwiseTime = self.count;
+    
     @weakify(self)
     [timerManager actionNSTimerManagerRunningBlock:^(id data) {
         @strongify(self)

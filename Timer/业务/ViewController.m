@@ -25,7 +25,7 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+-(void)viewDidLoad {
     [super viewDidLoad];
 //    self.view.backgroundColor = [UIColor redColor];
 //    [self makeTimer];
@@ -34,7 +34,7 @@
 
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches
+-(void)touchesBegan:(NSSet<UITouch *> *)touches
            withEvent:(UIEvent *)event{
     [self makeTimer];
 }
@@ -60,7 +60,7 @@
     _aphView.layer.cornerRadius = 50.f;
 }
 
-- (void)getCuntDown:(NSInteger)second{
+-(void)getCuntDown:(NSInteger)second{
     if (second == 4) {
         second = 3;
     }
@@ -113,7 +113,7 @@
         _countDownBtn.bgCountDownColor = [UIColor redColor];;
         _countDownBtn.bgEndColor = [UIColor clearColor];;
         _countDownBtn.layerCornerRadius = 6;
-        [_countDownBtn timeFailBeginFrom:3];
+        [_countDownBtn timeFailBeginFrom:5];//
         [self.view addSubview:_countDownBtn];
         _countDownBtn.frame = CGRectMake(100, 100, 100, 100);
     }return _countDownBtn;
