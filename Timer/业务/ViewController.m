@@ -46,8 +46,8 @@
         [_nsTimerManager actionNSTimerManagerRunningBlock:^(id data) {
             NSLog(@"你好");
             if ([data isKindOfClass:NSTimerManager.class]) {
-                NSTimerManager *timerManager = (NSTimerManager *)data;
-                timerManager.anticlockwiseTime;
+//                NSTimerManager *timerManager = (NSTimerManager *)data;
+//                timerManager.anticlockwiseTime;
             }
         }];
         [_nsTimerManager actionNSTimerManagerFinishBlock:^(id data) {
