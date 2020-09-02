@@ -79,6 +79,7 @@
 -(MovieCountDown *)movieCountDown{
     if (!_movieCountDown) {
         _movieCountDown = MovieCountDown.new;
+        _movieCountDown.countDownTime = 9;
         _movieCountDown.effectView = self.view;
         [_movieCountDown actionMovieCountDownFinishBlock:^(id data) {
             NSLog(@"我死球了");

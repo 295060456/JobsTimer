@@ -33,11 +33,12 @@
 }
 
 -(void)makeTimer{
+    self.nsTimerManager.anticlockwiseTime = self.countDownTime;
     //创建方式——1
     [NSTimerManager nsTimeStart:self.nsTimerManager.nsTimer
                     withRunLoop:nil];
     //创建方式——2
-//    [self.nsTimerManager nsTimeStartSysAutoInRunLoop];
+    //    [self.nsTimerManager nsTimeStartSysAutoInRunLoop];
 }
 
 -(void)secountDown{
@@ -74,7 +75,7 @@
     if (!_nsTimerManager) {
         _nsTimerManager = NSTimerManager.new;
         _nsTimerManager.timerStyle = TimerStyle_anticlockwise;
-        _nsTimerManager.anticlockwiseTime = 5;
+        _nsTimerManager.anticlockwiseTime = self.countDownTime;
         [_nsTimerManager actionNSTimerManagerRunningBlock:^(id data) {
             if ([data isKindOfClass:NSTimerManager.class]) {
                 NSTimerManager *timerManager = (NSTimerManager *)data;
@@ -114,6 +115,12 @@
         _aphView.layer.cornerRadius = 50.f;
         [self.effectView addSubview:_aphView];
     }return _aphView;
+}
+
+-(CGFloat)countDownTime{
+    if (_countDownTime == 0) {
+        _countDownTime = 5;
+    }return _countDownTime;
 }
 
 @end

@@ -21,7 +21,7 @@
 -(void)dealloc{
     NSLog(@"Running self.class = %@;NSStringFromSelector(_cmd) = '%@';__FUNCTION__ = %s", self.class, NSStringFromSelector(_cmd),__FUNCTION__);
     if (_nsTimer) {
-        [NSTimerManager nsTimeDestroy:_nsTimer];
+        [self nsTimeDestroy];
     }
 }
 
@@ -38,7 +38,6 @@
 -(void)actionNSTimerManagerFinishBlock:(MKDataBlock)NSTimerManagerFinishBlock{
     _NSTimerManagerFinishBlock = NSTimerManagerFinishBlock;
 }
-
 ///定时器启动 系统自动添加到RunLoop
 -(NSTimer *)nsTimeStartSysAutoInRunLoop{
     switch (self.timerType) {
@@ -61,8 +60,8 @@
                             }
                             self.anticlockwiseTime -= self.timeInterval;
                         }else{
-                            if (self->_nsTimer) {
-                                [NSTimerManager nsTimeDestroy:self->_nsTimer];
+                            if (self_weak_.nsTimer) {
+                                [self_weak_ nsTimeDestroy];
                                 if (self.NSTimerManagerFinishBlock) {
                                     self.NSTimerManagerFinishBlock(self);
                                 }
@@ -120,10 +119,10 @@
     }
 }
 ///销毁定时器
-+(void)nsTimeDestroy:(NSTimer *)nsTimer{
-    if (nsTimer) {
-        [nsTimer invalidate];//这个是唯一一个可以将计时器从runloop中移出的方法
-        nsTimer = nil;
+-(void)nsTimeDestroy{
+    if (_nsTimer) {
+        [_nsTimer invalidate];//这个是唯一一个可以将计时器从runloop中移出的方法
+        _nsTimer = nil;
     }
 }
 #pragma mark —— lazyLoad
@@ -188,11 +187,9 @@
                         }
                         self.anticlockwiseTime -= self.timeInterval;
                     }else{
-                        if (timer) {
-                            [NSTimerManager nsTimeDestroy:timer];
-                            if (self.NSTimerManagerFinishBlock) {
-                                self.NSTimerManagerFinishBlock(self);
-                            }
+                        [self nsTimeDestroy];
+                        if (self.NSTimerManagerFinishBlock) {
+                            self.NSTimerManagerFinishBlock(self);
                         }
                     }
                 }break;
