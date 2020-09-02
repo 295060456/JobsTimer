@@ -9,17 +9,13 @@
 #import "ViewController.h"
 #import "TimerManager.h"
 #import "UIButton+CountDownBtn.h"
-
-#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#import "MovieCountDown.h"
 
 @interface ViewController ()
 
 @property(nonatomic,strong)NSTimerManager *nsTimerManager;
 @property(nonatomic,strong)UIButton *countDownBtn;
-
-@property(nonatomic,strong) UILabel *countDown;
-@property(nonatomic,strong) UIView *aphView;
+@property(nonatomic,strong)MovieCountDown *movieCountDown;
 
 @end
 
@@ -30,52 +26,8 @@
 //    self.view.backgroundColor = [UIColor redColor];
 //    [self makeTimer];
 //    self.countDownBtn.alpha = 1;
-    [self 倒计时放大特效];
-}
-
--(void)倒计时放大特效{
-    [self makeTimer];
-    [self secountDown];
-}
-
--(void)secountDown{
-    _countDown =[[UILabel alloc]init];
-    _countDown.textColor = [UIColor redColor];;
-    _countDown.font =[UIFont boldSystemFontOfSize:100];
-    _countDown.textAlignment = 1;
-    [self.view addSubview:_countDown];
-    _countDown.x = (SCREEN_WIDTH - 100)/2;
-    _countDown.y = (SCREEN_HEIGHT - 100)/2;
-    _countDown.width =_countDown.height = 100;
-   
-    _aphView = [UIView new];
-    _aphView.backgroundColor = [UIColor blueColor];
-    [self.view addSubview:_aphView];
-    _aphView.frame = CGRectMake(0, 0, 100, 100);
-    _aphView.centerX = _countDown.centerX;
-    _aphView.centerY = _countDown.centerY;
-    _aphView.alpha = 0;
     
-    _aphView.layer.cornerRadius = 50.f;
-}
-
--(void)getCuntDown:(NSInteger)second{
-    _countDown.text=[NSString stringWithFormat:@"%ld",(long)second];
-    _countDown.alpha = 1;
-    _aphView.alpha = 0;
-    @weakify(self)
-    [UIView animateWithDuration:0.8
-                     animations:^{
-        @strongify(self)
-        self.countDown.alpha = 0.8;//透明度
-        self.aphView.alpha = 0.1;
-        self.countDown.transform = CGAffineTransformMakeScale(1.5, 1.5);//放大值
-        self.aphView.transform = CGAffineTransformMakeScale(10, 10);//放大值
-    } completion:^(BOOL finished) {
-        @strongify(self)
-        self.aphView.alpha = self.countDown.alpha =  0;
-        self.countDown.transform = self.aphView.transform = CGAffineTransformIdentity;//回复原大小
-    }];
+    [self.movieCountDown 倒计时放大特效];
 }
 
 -(void)makeTimer{
@@ -95,7 +47,7 @@
             NSLog(@"你好");
             if ([data isKindOfClass:NSTimerManager.class]) {
                 NSTimerManager *timerManager = (NSTimerManager *)data;
-                [self getCuntDown:(NSInteger)timerManager.anticlockwiseTime];
+                timerManager.anticlockwiseTime;
             }
         }];
         [_nsTimerManager actionNSTimerManagerFinishBlock:^(id data) {
@@ -117,6 +69,13 @@
         [self.view addSubview:_countDownBtn];
         _countDownBtn.frame = CGRectMake(100, 100, 100, 100);
     }return _countDownBtn;
+}
+
+-(MovieCountDown *)movieCountDown{
+    if (!_movieCountDown) {
+        _movieCountDown = MovieCountDown.new;
+        _movieCountDown.effectView = self.view;
+    }return _movieCountDown;
 }
 
 @end
