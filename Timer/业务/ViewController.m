@@ -51,7 +51,7 @@
             }
         }];
         [_nsTimerManager actionNSTimerManagerFinishBlock:^(id data) {
-            NSLog(@"我死你妈球了");
+            NSLog(@"我死球了");
         }];
     }return _nsTimerManager;
 }

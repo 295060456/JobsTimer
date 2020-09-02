@@ -12,8 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MovieCountDown : NSObject
 
-@property(nonatomic,strong)UILabel *countDown;
-@property(nonatomic,strong)UIView *aphView;
 @property(nonatomic,weak)UIView *effectView;
 
 -(void)倒计时放大特效;

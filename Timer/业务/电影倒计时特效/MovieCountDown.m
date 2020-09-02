@@ -13,6 +13,8 @@
 
 @interface MovieCountDown ()
 
+@property(nonatomic,strong)UILabel *countDown;
+@property(nonatomic,strong)UIView *aphView;
 @property(nonatomic,strong)NSTimerManager *nsTimerManager;
 
 @end
@@ -38,24 +40,12 @@
 }
 
 -(void)secountDown{
-    _countDown =[[UILabel alloc]init];
-    _countDown.textColor = [UIColor redColor];;
-    _countDown.font =[UIFont boldSystemFontOfSize:100];
-    _countDown.textAlignment = 1;
-    [self.effectView addSubview:_countDown];
-    _countDown.x = (SCREEN_WIDTH - 100)/2;
-    _countDown.y = (SCREEN_HEIGHT - 100)/2;
-    _countDown.width =_countDown.height = 100;
-   
-    _aphView = [UIView new];
-    _aphView.backgroundColor = [UIColor blueColor];
-    [self.effectView addSubview:_aphView];
-    _aphView.frame = CGRectMake(0, 0, 100, 100);
-    _aphView.centerX = _countDown.centerX;
-    _aphView.centerY = _countDown.centerY;
-    _aphView.alpha = 0;
-    
-    _aphView.layer.cornerRadius = 50.f;
+    if (self.effectView) {
+        self.countDown.alpha = 1;
+        self.aphView.alpha = 1;
+    }else{
+        NSAssert(0,@"检查属性 effectView 不能为空");
+    }
 }
 
 -(void)getCuntDown:(NSInteger)second{
@@ -77,6 +67,7 @@
     }];
 }
 
+#pragma mark —— lazyLoad
 -(NSTimerManager *)nsTimerManager{
     if (!_nsTimerManager) {
         _nsTimerManager = NSTimerManager.new;
@@ -92,6 +83,32 @@
             NSLog(@"结束回调");
         }];
     }return _nsTimerManager;
+}
+
+-(UILabel *)countDown{
+    if (!_countDown) {
+        _countDown = UILabel.new;
+        _countDown.textColor = [UIColor redColor];;
+        _countDown.font =[UIFont boldSystemFontOfSize:100];
+        _countDown.textAlignment = 1;
+        _countDown.x = (SCREEN_WIDTH - 100)/2;
+        _countDown.y = (SCREEN_HEIGHT - 100)/2;
+        _countDown.width =_countDown.height = 100;
+        [self.effectView addSubview:_countDown];
+    }return _countDown;
+}
+
+-(UIView *)aphView{
+    if (!_aphView) {
+        _aphView = UIView.new;
+        _aphView.backgroundColor = [UIColor blueColor];
+        _aphView.frame = CGRectMake(0, 0, 100, 100);
+        _aphView.centerX = _countDown.centerX;
+        _aphView.centerY = _countDown.centerY;
+        _aphView.alpha = 0;
+        _aphView.layer.cornerRadius = 50.f;
+        [self.effectView addSubview:_aphView];
+    }return _aphView;
 }
 
 @end
