@@ -16,6 +16,7 @@
 @property(nonatomic,strong)UILabel *countDown;
 @property(nonatomic,strong)UIView *aphView;
 @property(nonatomic,strong)NSTimerManager *nsTimerManager;
+@property(nonatomic,copy)MKDataBlock movieCountDownFinishBlock;
 
 @end
 
@@ -67,6 +68,10 @@
     }];
 }
 
+-(void)actionMovieCountDownFinishBlock:(MKDataBlock)movieCountDownFinishBlock{
+    _movieCountDownFinishBlock = movieCountDownFinishBlock;
+}
+
 #pragma mark —— lazyLoad
 -(NSTimerManager *)nsTimerManager{
     if (!_nsTimerManager) {
@@ -81,6 +86,9 @@
         }];
         [_nsTimerManager actionNSTimerManagerFinishBlock:^(id data) {
             NSLog(@"结束回调");
+            if (self.movieCountDownFinishBlock) {
+                self.movieCountDownFinishBlock(data);
+            }
         }];
     }return _nsTimerManager;
 }

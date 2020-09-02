@@ -178,7 +178,7 @@
                     }
                 }break;
                 case TimerStyle_anticlockwise:{//逆时针模式（倒计时）
-                    if (self.anticlockwiseTime >= 0) {
+                    if (self.anticlockwiseTime >= 1) {
                         if (self.NSTimerManagerRunningBlock) {
                             self.NSTimerManagerRunningBlock(self);
                         }

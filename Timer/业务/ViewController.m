@@ -75,6 +75,9 @@
     if (!_movieCountDown) {
         _movieCountDown = MovieCountDown.new;
         _movieCountDown.effectView = self.view;
+        [_movieCountDown actionMovieCountDownFinishBlock:^(id data) {
+            NSLog(@"我死球了");
+        }];
     }return _movieCountDown;
 }
 
