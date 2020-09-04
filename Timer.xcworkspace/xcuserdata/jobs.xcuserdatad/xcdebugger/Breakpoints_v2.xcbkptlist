@@ -7,16 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "59608FA6-A198-4C28-BB61-6591A3F93872"
+            uuid = "5128B0D0-8951-42E5-B597-9693D39C79E0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Timer/&#x4e1a;&#x52a1;/&#x7535;&#x5f71;&#x5012;&#x8ba1;&#x65f6;&#x7279;&#x6548;/MovieCountDown.m"
+            filePath = "Timer/Manual_Add_ThirdParty /TimerManager/NSTimerManager/NSTimerManager.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "-makeTimer"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "-nsTimer"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC07C031-CCF1-4E0E-AAB5-AB2D0F4488B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Timer/Manual_Add_ThirdParty /TimerManager/NSTimerManager/NSTimerManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-nsTimeStartSysAutoInRunLoop"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
