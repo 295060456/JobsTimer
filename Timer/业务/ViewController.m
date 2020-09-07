@@ -64,26 +64,39 @@
 
 -(UIButton *)countDownBtn{
     if (!_countDownBtn) {
-        _countDownBtn = [[UIButton alloc] initWithType:CountDownBtnType_countDown];
-        
+        _countDownBtn = [[UIButton alloc] initWithType:CountDownBtnType_countDown
+                                               runType:CountDownBtnRunType_manual
+                                      layerBorderWidth:0
+                                     layerCornerRadius:0
+                                      layerBorderColor:nil
+                                            titleColor:kWhiteColor
+                                         titleBeginStr:@"发送验证码"
+                                        titleLabelFont:[UIFont systemFontOfSize:8
+                                                                         weight:UIFontWeightRegular]];
         _countDownBtn.titleBeginStr = @"发送验证码";
-        _countDownBtn.titleRuningStr = @"重新发送";
+        _countDownBtn.titleRuningStr = @"重新发送\n";
+        _countDownBtn.titleLabel.numberOfLines = 0;
         _countDownBtn.titleEndStr = @"重新发送";
-        _countDownBtn.backgroundColor = [UIColor blueColor];
-        _countDownBtn.titleColor = [UIColor whiteColor];
-        _countDownBtn.bgCountDownColor = [UIColor redColor];//倒计时的时候此btn的背景色
-        _countDownBtn.bgEndColor = [UIColor blueColor];//倒计时完全结束后的背景色
+        _countDownBtn.backgroundColor = KLightGrayColor;
+        _countDownBtn.titleColor = kWhiteColor;
+        _countDownBtn.bgCountDownColor = KLightGrayColor;//倒计时的时候此btn的背景色
+        _countDownBtn.bgEndColor = KLightGrayColor;//倒计时完全结束后的背景色
         _countDownBtn.layerCornerRadius = 6;
-        _countDownBtn.showTimeType = ShowTimeType_MMSS;
-        [_countDownBtn timeFailBeginFrom:5];
+        _countDownBtn.showTimeType = ShowTimeType_SS;
+        _countDownBtn.titleLabelFont = [UIFont systemFontOfSize:8
+                                                         weight:UIFontWeightRegular];
+        _countDownBtn.countDownBtnNewLineType = CountDownBtnNewLineType_newLine;
+        
+        [_countDownBtn timeFailBeginFrom:5];//注销这句话就是手动启动，放开这句话就是自启动
+        
 //        @weakify(self)
         [_countDownBtn actionCountDownClickEventBlock:^(id data) {
 //            @strongify(self)
             NSLog(@"MMP");
         }];
-        
         [self.view addSubview:_countDownBtn];
         _countDownBtn.frame = CGRectMake(100, 100, 100, 100);
+
     }return _countDownBtn;
 }
 

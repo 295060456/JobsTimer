@@ -13,4 +13,6 @@
 #import "UIView+Measure.h"
 #import "TimerManager.h"
 
+#import "NSString+Extras.h"
+
 #endif /* Manual_Add_ThirdParty_h */

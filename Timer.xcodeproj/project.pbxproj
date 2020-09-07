@@ -24,6 +24,7 @@
 		C5C67C4D24FE3978000A26B8 /* UIButton+CountDownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */; };
 		C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6724FE5059000A26B8 /* UIView+Measure.m */; };
 		C5C67C6E24FF4A80000A26B8 /* MovieCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */; };
+		C5E5C62825065CF2001E69DA /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C62725065CF1001E69DA /* NSString+Extras.m */; };
 		CD33AB0A067A6FE9AA09DFF2 /* Pods_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AF209B3CB78224724D4250 /* Pods_Timer.framework */; };
 		FEE83C41D65071720FC5369D /* Pods_Timer_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641383732AC358E7A2BDCDF5 /* Pods_Timer_TimerUITests.framework */; };
 		FF684147520F90C4783DFE8B /* Pods_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E235AAB326B2235AD4C1C2A5 /* Pods_TimerTests.framework */; };
@@ -93,6 +94,8 @@
 		C5C67C6924FE7671000A26B8 /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
 		C5C67C6C24FF4A80000A26B8 /* MovieCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCountDown.h; sourceTree = "<group>"; };
 		C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCountDown.m; sourceTree = "<group>"; };
+		C5E5C62625065CF1001E69DA /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
+		C5E5C62725065CF1001E69DA /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
 		D7E9E56A550482EC07A7ACD6 /* Pods-TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.release.xcconfig"; path = "Target Support Files/Pods-TimerTests/Pods-TimerTests.release.xcconfig"; sourceTree = "<group>"; };
 		E235AAB326B2235AD4C1C2A5 /* Pods_TimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AF209B3CB78224724D4250 /* Pods_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,6 +244,8 @@
 		C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C5E5C62625065CF1001E69DA /* NSString+Extras.h */,
+				C5E5C62725065CF1001E69DA /* NSString+Extras.m */,
 				C5C67C6624FE5059000A26B8 /* UIView+Measure.h */,
 				C5C67C6724FE5059000A26B8 /* UIView+Measure.m */,
 				C572A2F924FE043E000A1687 /* TimerManager */,
@@ -566,6 +571,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E5C62825065CF2001E69DA /* NSString+Extras.m in Sources */,
 				C5C67C6E24FF4A80000A26B8 /* MovieCountDown.m in Sources */,
 				C5C67C4D24FE3978000A26B8 /* UIButton+CountDownBtn.m in Sources */,
 				C572A2CB24FDFF68000A1687 /* main.m in Sources */,
