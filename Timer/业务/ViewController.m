@@ -15,6 +15,7 @@
 
 @property(nonatomic,strong)NSTimerManager *nsTimerManager;
 @property(nonatomic,strong)UIButton *countDownBtn;
+@property(nonatomic,strong)UIButton *countDownBtn2;
 @property(nonatomic,strong)MovieCountDown *movieCountDown;
 
 @end
@@ -25,14 +26,14 @@
     [super viewDidLoad];
 //    self.view.backgroundColor = [UIColor redColor];
 //    [self makeTimer];
-//    self.countDownBtn.alpha = 1;
-    
+    self.countDownBtn.alpha = 1;
+//    self.countDownBtn2.alpha = 1;
 //    [self.movieCountDown 倒计时放大特效];
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches
           withEvent:(UIEvent *)event{
-    [self.movieCountDown 倒计时放大特效];
+//    [self.movieCountDown 倒计时放大特效];
 }
 
 -(void)makeTimer{
@@ -63,17 +64,37 @@
 
 -(UIButton *)countDownBtn{
     if (!_countDownBtn) {
-        _countDownBtn = UIButton.new;
+        _countDownBtn = [[UIButton alloc] initWithType:CountDownBtnType_countDown];
+        
+        _countDownBtn.titleBeginStr = @"发送验证码";
         _countDownBtn.titleRuningStr = @"重新发送";
-        _countDownBtn.titleBeginStr = @"重新发送";
-        _countDownBtn.titleColor = [UIColor blueColor];
-        _countDownBtn.bgCountDownColor = [UIColor redColor];;
-        _countDownBtn.bgEndColor = [UIColor blueColor];;
+        _countDownBtn.titleEndStr = @"重新发送";
+        _countDownBtn.backgroundColor = [UIColor blueColor];
+        _countDownBtn.titleColor = [UIColor whiteColor];
+        _countDownBtn.bgCountDownColor = [UIColor redColor];//倒计时的时候此btn的背景色
+        _countDownBtn.bgEndColor = [UIColor blueColor];//倒计时完全结束后的背景色
         _countDownBtn.layerCornerRadius = 6;
-        [_countDownBtn timeFailBeginFrom:5];//
+        _countDownBtn.showTimeType = ShowTimeType_MMSS;
+        [_countDownBtn timeFailBeginFrom:5];
+//        @weakify(self)
+        [_countDownBtn actionCountDownClickEventBlock:^(id data) {
+//            @strongify(self)
+            NSLog(@"MMP");
+        }];
+        
         [self.view addSubview:_countDownBtn];
         _countDownBtn.frame = CGRectMake(100, 100, 100, 100);
     }return _countDownBtn;
+}
+
+-(UIButton *)countDownBtn2{
+    if (!_countDownBtn2) {
+        _countDownBtn2 = UIButton.new;
+        [_countDownBtn2 setTitle:@"1234" forState:UIControlStateNormal];
+        _countDownBtn2.backgroundColor = [UIColor redColor];
+        [self.view addSubview:_countDownBtn2];
+        _countDownBtn2.frame = CGRectMake(100, 300, 100, 100);
+    }return _countDownBtn2;
 }
 
 -(MovieCountDown *)movieCountDown{
