@@ -11,9 +11,11 @@
 
 #import "AABlock.h"
 #import "UIView+Measure.h"
+#import "UIView+Extras.h"
+#import "NSString+Extras.h"
+
 #import "TimerManager.h"
 #import "WGradientProgress.h"
-
-#import "NSString+Extras.h"
+#import "WGradientProgressView.h"
 
 #endif /* Manual_Add_ThirdParty_h */
