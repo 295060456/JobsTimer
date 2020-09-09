@@ -25,6 +25,7 @@
 		C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6724FE5059000A26B8 /* UIView+Measure.m */; };
 		C5C67C6E24FF4A80000A26B8 /* MovieCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */; };
 		C5E5C62825065CF2001E69DA /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C62725065CF1001E69DA /* NSString+Extras.m */; };
+		C5E5C65F25088EF4001E69DA /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C65D25088EF4001E69DA /* WGradientProgress.m */; };
 		CD33AB0A067A6FE9AA09DFF2 /* Pods_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AF209B3CB78224724D4250 /* Pods_Timer.framework */; };
 		FEE83C41D65071720FC5369D /* Pods_Timer_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641383732AC358E7A2BDCDF5 /* Pods_Timer_TimerUITests.framework */; };
 		FF684147520F90C4783DFE8B /* Pods_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E235AAB326B2235AD4C1C2A5 /* Pods_TimerTests.framework */; };
@@ -96,6 +97,8 @@
 		C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCountDown.m; sourceTree = "<group>"; };
 		C5E5C62625065CF1001E69DA /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
 		C5E5C62725065CF1001E69DA /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
+		C5E5C65D25088EF4001E69DA /* WGradientProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGradientProgress.m; sourceTree = "<group>"; };
+		C5E5C65E25088EF4001E69DA /* WGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgress.h; sourceTree = "<group>"; };
 		D7E9E56A550482EC07A7ACD6 /* Pods-TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.release.xcconfig"; path = "Target Support Files/Pods-TimerTests/Pods-TimerTests.release.xcconfig"; sourceTree = "<group>"; };
 		E235AAB326B2235AD4C1C2A5 /* Pods_TimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AF209B3CB78224724D4250 /* Pods_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,6 +236,7 @@
 		C572A2F124FE006B000A1687 /* 业务 */ = {
 			isa = PBXGroup;
 			children = (
+				C5E5C65C25088EED001E69DA /* 水平进度条 */,
 				C5C67C6B24FF4A32000A26B8 /* 电影倒计时特效 */,
 				C5C67C4A24FE3951000A26B8 /* 验证码按钮 */,
 				C572A2BB24FDFF66000A1687 /* ViewController.h */,
@@ -331,6 +335,15 @@
 				C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */,
 			);
 			path = "电影倒计时特效";
+			sourceTree = "<group>";
+		};
+		C5E5C65C25088EED001E69DA /* 水平进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				C5E5C65E25088EF4001E69DA /* WGradientProgress.h */,
+				C5E5C65D25088EF4001E69DA /* WGradientProgress.m */,
+			);
+			path = "水平进度条";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -583,6 +596,7 @@
 				C572A30224FE1D14000A1687 /* GCD_TimerManager.m in Sources */,
 				C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */,
 				C572A30C24FE1D5D000A1687 /* CADisplayLink_TimerManager.m in Sources */,
+				C5E5C65F25088EF4001E69DA /* WGradientProgress.m in Sources */,
 				C572A2FF24FE1CFD000A1687 /* NSTimerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

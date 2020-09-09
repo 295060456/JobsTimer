@@ -12,6 +12,7 @@
 #import "AABlock.h"
 #import "UIView+Measure.h"
 #import "TimerManager.h"
+#import "WGradientProgress.h"
 
 #import "NSString+Extras.h"
 
