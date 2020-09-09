@@ -37,10 +37,10 @@
 }
 
 -(void)makeTimer{
-    //创建方式——1
+    //启动方式——1
     //    [NSTimerManager nsTimeStart:self.nsTimerManager.nsTimer
     //                    withRunLoop:nil];
-    //创建方式——2
+    //启动方式——2
     [self.nsTimerManager nsTimeStartSysAutoInRunLoop];
 }
 
