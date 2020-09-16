@@ -12,6 +12,7 @@
 #import <objc/runtime.h>
 
 #define StringFormat(format,...) [NSString stringWithFormat:format, ##__VA_ARGS__]
+#define PrintRetainCount(obj) printf("Retain Count = %ld\n",CFGetRetainCount((__bridge CFTypeRef)(obj)));
 
 #pragma mark ======================================== 色彩相关 ========================================
 #define kTableViewBackgroundColor HEXCOLOR(0xf6f5fa)
