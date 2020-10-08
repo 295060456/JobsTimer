@@ -30,7 +30,6 @@
 		0DF5FF09E2E4794241762355C9B1BA42 /* UIGestureRecognizer+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625B61E3A94BA5C9FF28AD9757E8562 /* UIGestureRecognizer+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E9497530DB6F920C43DDC1B0153AD0B /* RACSubscriber+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 546AB9136EC6ADA1644565D7F6257C6C /* RACSubscriber+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		0F7FABFE75B973ADFE4383EBE352D788 /* NSString+RACKeyPathUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA14C43C2787C1D56002D87ED263AD7 /* NSString+RACKeyPathUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		109720147C738087C30A7F40D512F48F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		11EC48B70A676385849271E67A84D474 /* UIImagePickerController+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5C2C84F717B45062298922D18EB72 /* UIImagePickerController+RACSignalSupport.m */; };
 		1218E55A21A583689F065C9E60E21E85 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C3905EB2A9AE6B5364A5F1E1452FADCD /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		129CA3F6618B9E87FBD1B0E2BEEC7147 /* UITableViewHeaderFooterView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B90316B7AEF89D0261EE11B7AD2A67A /* UITableViewHeaderFooterView+RACSignalSupport.m */; };
@@ -51,6 +50,7 @@
 		2174B76468C4476C572485CD228AD09A /* RACKVOTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D64787A827A68AFB85D3056C8F87A3 /* RACKVOTrampoline.m */; };
 		22F534202F1669607531DEB59A1509EF /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 214934F9C5AF5470DB7400EB068BDC13 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2356FDEF19EA2B1964FC73BBAD983458 /* NSObject+RACDeallocating.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D57110D03555785DAD6B1C83DEBC3A /* NSObject+RACDeallocating.m */; };
+		2488769311A7105A8A9DBBCAD2744A4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		24A70592C17CC72B46042FA7D4690D0F /* RACKVOChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = B7371ED491AAC95B7617665D81B1B504 /* RACKVOChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24CD7F98BF2422F938DFA1B4D109F7A3 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C421070561B20A726FB8143D549B7 /* MJRefreshStateHeader.m */; };
 		25C157D58F58CFF49F3169B471EB2943 /* RACErrorSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7728905006DD39753E2B2B7E86F83C /* RACErrorSignal.m */; };
@@ -88,7 +88,6 @@
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 2734659849BDC1E7DC551B429DA9EFED /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DEA3C54C916FD2D95A8B82D666F96DD /* RACSubscriptingAssignmentTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ED1387250A7543A9E36752B2D079A8 /* RACSubscriptingAssignmentTrampoline.m */; };
 		3FC42E4CBD50BCAF2F4436F22D4532CA /* RACSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 065BCF181D624493239FED4F0B41D87D /* RACSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FE8915CA23BFC0FD31970376221475F /* Pods-TimerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A62E8DEEB020B749CDB2CC293C373 /* Pods-TimerTests-dummy.m */; };
 		408E9C978B63B67E8F12FB6F6E3C5307 /* RACSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 528BDA7BB58087874CF2D25D97AD70D2 /* RACSubject.m */; };
 		41BBD20F99D3D0EFD9D38337503D4C1F /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7DBC71F93CDC97B30317FCF5680A4A4 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		443D54C104B9D9B6DCD81B6A4062CBDA /* RACKVOProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EB5D0353D4D9ED2F58A7D71EE6B429 /* RACKVOProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -103,6 +102,7 @@
 		4B3CF3EC896DCD429E03288F8FBADA15 /* UITextField+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = A556F23E809F740416D81F1F59A9F65E /* UITextField+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BAE6450B819454F69E791FCD0B88114 /* NSInvocation+RACTypeParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 738BB7B95C368919553882C399DFFBFB /* NSInvocation+RACTypeParsing.m */; };
 		4C432B389802242037B7FDE012A84B16 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B4ADEB17EB76EF09BBE12782D8DB /* MJRefreshBackStateFooter.m */; };
+		4D26CB9913ED69B5748E19191C97F259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		4D66320923329E392483B4A8722C1410 /* RACTargetQueueScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA4D583D7CFAD7C0A0974840C65C134 /* RACTargetQueueScheduler.m */; };
 		4DB426AE8F6A7872EA9980675937860C /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDECBB787E5A2914F9EC2CD020055CC /* MJRefreshNormalHeader.m */; };
 		4DD980529B5B35D61746A081C82E6C55 /* RACScopedDisposable.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D4CDE00CFCF33C85A2F94718131E46 /* RACScopedDisposable.m */; };
@@ -117,7 +117,6 @@
 		50B050628D32A2A97B30D11E727C9968 /* RACTupleSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C88E0F486123D9599CC2A95271F246 /* RACTupleSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5133331821D9D576A546B6ACF9A49829 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5386339174E53D65A492A85BAE138DE8 /* UIScrollView+MJExtension.m */; };
 		51E7A17D617310CE81444F5D315EAEF0 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E5AB1F0ECF5B60B191E7C0465C0FB8FE /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52DB8DEFA640C773E674D86BA9770724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		54868DF9450C0AE135218D6020E1EDA1 /* UICollectionReusableView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E50105777FF042D745E75DE328F2B7 /* UICollectionReusableView+RACSignalSupport.m */; };
 		55C0AA01EFB38DB3E99E12871EAAA0CA /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A87D6FF6BB7A1379290A64B64986F86 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56CEC5DF2FE9B53D14EA697B3920812E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
@@ -127,7 +126,6 @@
 		5A20F0DFE31B2960BEE3037EB82C1A1A /* UIControl+RACSignalSupportPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED86E37CB84CEB837D75ECC6F93902A /* UIControl+RACSignalSupportPrivate.m */; };
 		5A50694CE7F1E3C752613E5A8C00647C /* RACMulticastConnection+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8DD4C02D18418B6E556C1DBE5FC2C9 /* RACMulticastConnection+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5ADEF612FBC45EA75515ABFC1ADAB266 /* RACCompoundDisposableProvider.d in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E9BC247BFBB9CB984392158410BB7 /* RACCompoundDisposableProvider.d */; };
-		5B2A7642760AF8A6AA160E3147B8BDDC /* Pods-Timer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7732284E5BD81D16ECB5D29AA44A4E21 /* Pods-Timer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C8B9C211A9C8803D370534DF6C1B48B /* UIActionSheet+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C08664C1EBAAC8F18D1585A15D958DB /* UIActionSheet+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D44AD365A156B2EC77E04D98B2E35E6 /* UIStepper+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 25EFCA4618DAC3D77C031C4B0DD23164 /* UIStepper+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EC637D20307DCA7D6AA19E8FC1207B5 /* UIStepper+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE419ACD02686CB798494B7BC2B6ED /* UIStepper+RACSignalSupport.m */; };
@@ -136,11 +134,13 @@
 		6160FF22FEAD9C6054BFD3EEC03DFB86 /* UIRefreshControl+RACCommandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F156D43F32F10B8007D32786C82E56 /* UIRefreshControl+RACCommandSupport.m */; };
 		641C5BA36F053D84B02C50358C18E543 /* RACEXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = DA41D98E4CA5EA019C93DCD1A02D91C9 /* RACEXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65AE514CA6D730DBFFB5C7EA8A28C6CD /* RACTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E1D780F7D17446A4DBB28D5733307 /* RACTuple.m */; };
+		65D96CF82AA9C1BC45824C669B9E5448 /* Pods-Timer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E873DFFFC76088382C4C5A463D19CBD7 /* Pods-Timer-dummy.m */; };
 		664C3215EC6A30B8F6E9C0F99A7B890D /* RACUnarySequence.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ABEA9DFCF8728DB45F52BD5D4B741D /* RACUnarySequence.m */; };
 		66C7EC1172DC0377CFBB3C1100AB42C7 /* RACPassthroughSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = A6047E9EAEF7D00AF7022246DEED6906 /* RACPassthroughSubscriber.m */; };
 		671650B5306AC075C470A221F076DED0 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 729A68B46299614DE6D075852672212D /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		690EE7585AA3E8C4E74A82CF61F8C653 /* NSObject+RACDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = E10CAFF5847FAA2E9197121B481B3BC8 /* NSObject+RACDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6932C89B7DD062663881A1F664D21C89 /* UIRefreshControl+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3D5D975247F9465A88E1F4972045D5 /* UIRefreshControl+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A3468660B2EFB15A4A7019B3EC36F68 /* Pods-Timer-TimerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC763D4D33652EB07080913B97955047 /* Pods-Timer-TimerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB2D02C36205ED53B4F50AE98AD04A1 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AC5CD01A71D4A631EAFAFA101B49773 /* NSIndexSet+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7D561922D854C7991B0C42BA67EBE0 /* NSIndexSet+RACSequenceAdditions.m */; };
 		6B15CB962DD6909799721040AC731E63 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 418F709FF02A8C438B83DE4A4B549659 /* MJRefreshAutoFooter.m */; };
@@ -160,7 +160,6 @@
 		7471DFA3116644F90375629CA497F4B1 /* RACIndexSetSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F61062A1DFCEAC219CCC2388071B4A /* RACIndexSetSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75F599A0810D049551460FD48BDDC63D /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE211DB2DB19DA608480DC816EF70E92 /* MJRefreshGifHeader.m */; };
 		76E419867163F12EAF454F15F77E4085 /* UIImagePickerController+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 46765127823AC6AE6C4937B48345C345 /* UIImagePickerController+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78A5480B16DEAB47604EA45BCA093CC2 /* Pods-TimerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBEB058BB6DAA455BBD8F76E4212EFC /* Pods-TimerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBBD142C068513951D4722D735D7582 /* MASConstraintMaker.m */; };
 		7BE71B62F38458AC771581F60006F9CE /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F1BE8AFECB7994AC1D901F5032094A /* NSObject+MJCoding.m */; };
 		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F716F69BFD213AB8144FA18B38196720 /* MASCompositeConstraint.m */; };
@@ -174,6 +173,7 @@
 		87D4F7A8A5417682AEE9425E0EE4FAC6 /* UISwitch+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7F05917AD14385F69F1ED45BCE97EA /* UISwitch+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89571D88C5771FE779A596670560A768 /* UIButton+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = F84FAD4ADCB3723DA00F9993E09B26EF /* UIButton+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A2E1E487FBFC3DF55C12C056BFA36A1 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = C760921C203EC0874E364E1426D3CBA7 /* MJPropertyType.m */; };
+		8B3996419188DB75EBE14E926B82B072 /* Pods-Timer-TimerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A87D5E399405CA0D5FA878F621489DC /* Pods-Timer-TimerUITests-dummy.m */; };
 		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0ECA06EA432A94B4BDCA337D266E85 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C3A78CEAB3F62956CF5D2FCD3A3AF5E /* MJRefreshNormalTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42D762F5E221E4ECE888CF9F4D15DE /* MJRefreshNormalTrailer.m */; };
 		8CA07162D1392BDC0CC0C5139258D52C /* RACEmptySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D65586C0390C7666AAA9A4589D3F772 /* RACEmptySequence.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -198,6 +198,7 @@
 		9874599375FD7E0438A58E287661A4B9 /* RACTargetQueueScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = EE603528DD97B8200083C666F5527176 /* RACTargetQueueScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98C2B79309B6085E799B58D43DC0D464 /* RACSubscriber.m in Sources */ = {isa = PBXBuildFile; fileRef = 15853358F557E6D47CC39E79BC3AC883 /* RACSubscriber.m */; };
 		99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF5EA3DBFB142D5B85FD4ACC45A2E56 /* NSObject+MJKeyValue.m */; };
+		9A4707C20523C679DEF7758F036E4282 /* Pods-Timer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7732284E5BD81D16ECB5D29AA44A4E21 /* Pods-Timer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BD306FB9CBE9BAA89AAD8661E36E2FF /* RACScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EB36FAD3EAFFECE2F9304F09250233 /* RACScheduler.m */; };
 		9BE0BF265B893EF3A61083CA356D29C8 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5797705FCADCCED7454C9EA61F6CA125 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C573BE5B3031FF021B89C4843843859 /* MKAnnotationView+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E78AB63F78AD440ACBDB76F24DB3DB1C /* MKAnnotationView+RACSignalSupport.m */; };
@@ -205,6 +206,7 @@
 		9D338AE9E763C921A42609256DB10165 /* NSString+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A909CED503BD0B15903D60D30E927708 /* NSString+RACSequenceAdditions.m */; };
 		9D42D470A15A3BF2C4E5D7EFEB106505 /* RACMulticastConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8751019A24E8A07E6478E233787AC1 /* RACMulticastConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F213CC104D927D7DBC15B868E64243 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D581456CE63248098A011E5D7B05280 /* Pods-TimerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEBEB058BB6DAA455BBD8F76E4212EFC /* Pods-TimerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FC45432A44F7C37663E5C671DE60974 /* NSString+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B079118F2AEC43E0FA23190366DFCC /* NSString+RACSupport.m */; };
 		9FF0D195891E169480D05DECE61B4610 /* RACEmptySignal.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBC51104E483F65FF2DE65FE89D77AD /* RACEmptySignal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A0BEE7B1B8A8F4CD7A6761F7D2BCB31C /* UIBarButtonItem+RACCommandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D40457D04CF122F301AC7E0144CB1569 /* UIBarButtonItem+RACCommandSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -240,7 +242,6 @@
 		BB929C01186A00CAB07E86E9D734E9E5 /* NSArray+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B160C339FCE8DE4C3A7381F2C755E27D /* NSArray+RACSequenceAdditions.m */; };
 		BCC29F5835E86F7030BFDA3429939A6D /* RACIndexSetSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = D62D006ECF8807EE6571268F6EDEEB2F /* RACIndexSetSequence.m */; };
 		BD348DAA2205166E952A62E0EE1025A2 /* RACScheduler+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E47149865AA7456465A8490E07EE596 /* RACScheduler+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD7EE9C7083D7F246351485F06A27DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		BE37A2FA57DEF1DFAB7E3C10EDBCA0A5 /* NSDictionary+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7A0A4CA393ADA8416752C48A550CD8 /* NSDictionary+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF659B71B5A58084930FC865B0403876 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32714319CA933ED5704C247B4C93C1EB /* MJRefreshBackNormalFooter.m */; };
 		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C22180C39F07548A6D5C8069593FB63 /* NSLayoutConstraint+MASDebugAdditions.m */; };
@@ -251,7 +252,6 @@
 		C645156CECE161CABA63AEE39C07C88D /* RACDynamicSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 645C1D3FF062341C03B3058E99220B4C /* RACDynamicSequence.m */; };
 		C702D0363C7EFD0A07E4A26F0A77F76A /* UITableViewCell+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F60D79F558E5D239A5225D4E7CC069E /* UITableViewCell+RACSignalSupport.m */; };
 		C8CF42F53F5A6D7243DDE4156A1AD9DF /* RACUnarySequence.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC3725109A1104EB5E229B005F797FD /* RACUnarySequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA6DAEE7653BC46B0F3386C3F5805459 /* Pods-Timer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E873DFFFC76088382C4C5A463D19CBD7 /* Pods-Timer-dummy.m */; };
 		CAD2539BE3C4AB2F1FD1DF30D7629238 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA1637116F36A6DB741F48026B1756B /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB846025CFEBB415E38A1AD99986D6A6 /* UIControl+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F892F9BE4541308CDE422F2B3D097E /* UIControl+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE0CAF3ED2B4E96B21342BD5E721BF25 /* RACGroupedSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8C4D14D4102DC1102E4115FEF9B5E2 /* RACGroupedSignal.m */; };
@@ -261,12 +261,12 @@
 		D08F06F98F38A7359EA8A0E00E28DA1F /* RACQueueScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF20F4578DE82683C50281A60554D8C /* RACQueueScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0CF29AED61534A42F5FD0B83255E277 /* UISegmentedControl+RACSignalSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 99988CB9752BBB3584CAC0AF19ACE2C4 /* UISegmentedControl+RACSignalSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2899C863459763D3F8A13C7DBDF23B0 /* RACEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 318A82653263D839EAA3804870AFF4E3 /* RACEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32040189BD2A3337224E75D611A63B1 /* Pods-TimerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2A62E8DEEB020B749CDB2CC293C373 /* Pods-TimerTests-dummy.m */; };
 		D4032EF8D3DEC3210718FAEEA81BF2E5 /* RACReplaySubject.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EEBF673DC3247C20DFDFF5223378CF /* RACReplaySubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D43D1A4BBA78C8903043B026328C8DD0 /* RACEagerSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = E395387F9138B79F63DA890626DC131D /* RACEagerSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4F48D8BA737BA8F9F7F566A89BF1333 /* RACAnnotations.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B10B54552DB069A23CE84C7D6873DB /* RACAnnotations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5835C64FB069B716E620B19DA27824E /* UIActionSheet+RACSignalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7751C96485011151F2AAAC54112A40E6 /* UIActionSheet+RACSignalSupport.m */; };
 		D6100629659E2F82EA374461F4C3E54D /* RACDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3663646C096C8C37C5C520A729581871 /* RACDelegateProxy.m */; };
-		D6A6AA1C35C517B04B5DF8FDEC4D6963 /* Pods-Timer-TimerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A87D5E399405CA0D5FA878F621489DC /* Pods-Timer-TimerUITests-dummy.m */; };
 		D84202B886E0ABE8C743A3F6E7FCEFA8 /* RACStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD7194E2A6A77610E8B52031AF20F0A /* RACStream.m */; };
 		D9785C7021E6C4E23702768F9055F120 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 138B2DDE2C4392ACBB0B8284B8331F9A /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA2DF4C54D6C21E70E730DF2FE2B2095 /* RACScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E94DC837436A50CCC39533D0627850 /* RACScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -296,7 +296,7 @@
 		EAE6D06B344B2FB840F6A9FE256F0F17 /* RACSubscriptingAssignmentTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5397ADB10E5177A92C0FC3435E8FA0 /* RACSubscriptingAssignmentTrampoline.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5729FCA23EBF7B8261149916B54280 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC3809F26A94C3FEC701B162A5B054F6 /* NSNotificationCenter+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF63A4AF030924F64FA673D7833F4D5 /* NSNotificationCenter+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE8250669C04EFCB298D0F688180F62F /* Pods-Timer-TimerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC763D4D33652EB07080913B97955047 /* Pods-Timer-TimerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFF1F6CB63B36ABA59BE45DA43F41B38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 		F0EF96DAB145D1B2247C01B3517B54FE /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = D3FE1A3088A81F99F8063CC89701E46C /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1300E68D1AC449C227DCEC7404C9900 /* RACUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BDCE8FBBD2088091FDEF4B76C81E00 /* RACUnit.m */; };
 		F2322B939CB5FCFA4A58DC2AFD1EC0F0 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FE82BEA494ABB2E8A94DE7C4560437 /* MJRefresh-dummy.m */; };
@@ -315,68 +315,68 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07118239E45D0F81078A57771F0686B8 /* PBXContainerItemProxy */ = {
+		2D073813B3FA264EF6F08293CFE711AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		3BDDFD21393FF248E00B23761AD0E05C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
+			remoteInfo = MJRefresh;
+		};
+		541B428B2E0A673B705AFC13671BD6A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		08BB8EA2047038CB04416B4BC86E973B /* PBXContainerItemProxy */ = {
+		6F47FC073ED93C26BADA46CB1F513D9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		733732ED2A8A0B9B82937D1C1A496021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
+			remoteInfo = MJRefresh;
+		};
+		9D5B483A0779FB5433547E2B6B3C10DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 438B238ACC7DF1178D1BCE1A31983146;
 			remoteInfo = ReactiveObjC;
 		};
-		44FE41ACDD463FE31F18FD64031C061E /* PBXContainerItemProxy */ = {
+		CD177455AE19E75AEE519C7574F33611 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
-			remoteInfo = MJRefresh;
+			remoteGlobalIDString = 438B238ACC7DF1178D1BCE1A31983146;
+			remoteInfo = ReactiveObjC;
 		};
-		45ADE681DF4344C973A0BD5F34D00F24 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
-			remoteInfo = MJRefresh;
-		};
-		588C97032E7E6E74419EC82E93EB405B /* PBXContainerItemProxy */ = {
+		E223F23198A48428573ABD45960617FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 51AB9636063F03C08C38AD8937B42606;
 			remoteInfo = "Pods-Timer";
 		};
-		65F88DFC4A89CCA58FA1A350551B730F /* PBXContainerItemProxy */ = {
+		EF9D1A001D05CE436D43D0F04C847CDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
-		};
-		98C07CD27AB542B2BA3E6D914D250C97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
-			remoteInfo = MJExtension;
-		};
-		B15012C4611F474EEDE2F1C7C3B7A894 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 438B238ACC7DF1178D1BCE1A31983146;
-			remoteInfo = ReactiveObjC;
-		};
-		DECF3F3F819074D0DD55F38874CB1E19 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
-			remoteInfo = MJExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -731,11 +731,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C8422258C9E32B0E43E484A448973C8 /* Frameworks */ = {
+		2F77044B91B160C2569B41BA1CD4AE55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DB8DEFA640C773E674D86BA9770724 /* Foundation.framework in Frameworks */,
+				EFF1F6CB63B36ABA59BE45DA43F41B38 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,11 +764,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D194E87EDBF57AD7C8F741E2CC25471 /* Frameworks */ = {
+		A673AB984BA8322C4656CEECD80C6C2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD7EE9C7083D7F246351485F06A27DF3 /* Foundation.framework in Frameworks */,
+				4D26CB9913ED69B5748E19191C97F259 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94BED7AA2CE6D5A12D389B445ADAC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2488769311A7105A8A9DBBCAD2744A4D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,14 +785,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC29E832DDAB80383225B6835060BA1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F451989957890C66C06588504938CE4D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				109720147C738087C30A7F40D512F48F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1294,19 +1294,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1F0B5FEB55990E71C2679C8D44D02563 /* Headers */ = {
+		49547E38BEAE8CBA1C70523A7A7836F9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2A7642760AF8A6AA160E3147B8BDDC /* Pods-Timer-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E91AD5909576BCB436CB75720E89DC7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78A5480B16DEAB47604EA45BCA093CC2 /* Pods-TimerTests-umbrella.h in Headers */,
+				9D581456CE63248098A011E5D7B05280 /* Pods-TimerTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1362,14 +1354,6 @@
 				2F44236F240D213E02C4BD3445600A18 /* UIScrollView+MJExtension.h in Headers */,
 				55C0AA01EFB38DB3E99E12871EAAA0CA /* UIScrollView+MJRefresh.h in Headers */,
 				945A9BE25F8E6ABADEA3F04A7DDE9B08 /* UIView+MJExtension.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABD9FFBBA5175E93156FD658E96AB06D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE8250669C04EFCB298D0F688180F62F /* Pods-Timer-TimerUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1499,6 +1483,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF891C8E15748279E7BD52A0581B6FF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4707C20523C679DEF7758F036E4282 /* Pods-Timer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAFAF10FF8862CCDA35C710D6293A81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3468660B2EFB15A4A7019B3EC36F68 /* Pods-Timer-TimerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1540,20 +1540,20 @@
 		};
 		51AB9636063F03C08C38AD8937B42606 /* Pods-Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2383069B9FF1FFB2F62480DB1FD53EEB /* Build configuration list for PBXNativeTarget "Pods-Timer" */;
+			buildConfigurationList = D3D0F14FAC7B4F0F0E6D7C32972B41B6 /* Build configuration list for PBXNativeTarget "Pods-Timer" */;
 			buildPhases = (
-				1F0B5FEB55990E71C2679C8D44D02563 /* Headers */,
-				FB0DB2D394528F55EDE1FDEBF991BC9C /* Sources */,
-				9D194E87EDBF57AD7C8F741E2CC25471 /* Frameworks */,
-				5FEA8FAB18E5D53CDE6F052B3EFBAA91 /* Resources */,
+				DF891C8E15748279E7BD52A0581B6FF4 /* Headers */,
+				7BCC453E9B111305EB9947DB13466113 /* Sources */,
+				2F77044B91B160C2569B41BA1CD4AE55 /* Frameworks */,
+				521CAA65B730C479A853E441F73E7A8D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D6AAFB2AA220BDC535172725EDD6CBAC /* PBXTargetDependency */,
-				07EA8EEBDB7D5E451CFD2B7AEA290D49 /* PBXTargetDependency */,
-				80C6F71A6D69AB23616815B42F2A8FC3 /* PBXTargetDependency */,
-				D35F9C6A64CC366865C1BF8EFA7F8E1D /* PBXTargetDependency */,
+				450A2461DDDA70C50545FE9B805A399F /* PBXTargetDependency */,
+				E97096D13A85B5EAA06662099374C4AD /* PBXTargetDependency */,
+				B88A6FC0758E4F30750E1B6301307C53 /* PBXTargetDependency */,
+				1F1F97CD59A7611F956554B122F55FA7 /* PBXTargetDependency */,
 			);
 			name = "Pods-Timer";
 			productName = "Pods-Timer";
@@ -1598,17 +1598,17 @@
 		};
 		C5DFD3D568E917385DE29C7E77D5303E /* Pods-TimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F9A3E8B3F1D38532D9B0DC948FC443B /* Build configuration list for PBXNativeTarget "Pods-TimerTests" */;
+			buildConfigurationList = 040CF6EEA8E5A5C1DF9D3B04674F5F06 /* Build configuration list for PBXNativeTarget "Pods-TimerTests" */;
 			buildPhases = (
-				4E91AD5909576BCB436CB75720E89DC7 /* Headers */,
-				C0146D36EB49D1D0C1D95B4E8DCD97E1 /* Sources */,
-				4C8422258C9E32B0E43E484A448973C8 /* Frameworks */,
-				9F82CA4E4223461E50B5C31A582B89C1 /* Resources */,
+				49547E38BEAE8CBA1C70523A7A7836F9 /* Headers */,
+				A0A1238A62BA03F97C0287FC4C2B5F8B /* Sources */,
+				B94BED7AA2CE6D5A12D389B445ADAC04 /* Frameworks */,
+				E0541F2A3589100656CE6D5822B201B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				424BA5A065C0112814740237B6BF283E /* PBXTargetDependency */,
+				126C3ECCAC907DCF954EFAD92735D41E /* PBXTargetDependency */,
 			);
 			name = "Pods-TimerTests";
 			productName = "Pods-TimerTests";
@@ -1617,20 +1617,20 @@
 		};
 		EDF2C71B03F8FD85BA0C857DF4631EAA /* Pods-Timer-TimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58445C763B9906D83B1D794DEF5B15E4 /* Build configuration list for PBXNativeTarget "Pods-Timer-TimerUITests" */;
+			buildConfigurationList = DA6167BD41DB97869B5CAF67BF5A7A2D /* Build configuration list for PBXNativeTarget "Pods-Timer-TimerUITests" */;
 			buildPhases = (
-				ABD9FFBBA5175E93156FD658E96AB06D /* Headers */,
-				BF0DBA380A5CB3531E643151F2F5C9DF /* Sources */,
-				F451989957890C66C06588504938CE4D /* Frameworks */,
-				005575E43A1E570E91B14183D2A0ED77 /* Resources */,
+				EDAFAF10FF8862CCDA35C710D6293A81 /* Headers */,
+				18651983967CA4F84D24096CA6C84EF2 /* Sources */,
+				A673AB984BA8322C4656CEECD80C6C2B /* Frameworks */,
+				6E26C0B3142F66F33B7A05D6DECF54BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49632167A7E40312950952374548180F /* PBXTargetDependency */,
-				8DD94B75D1C875FB746A9A5BB23F4897 /* PBXTargetDependency */,
-				BAE1670B51A0DA417390907217645EC3 /* PBXTargetDependency */,
-				9CAD6313B14408EAF4E0BC61EDBF26F0 /* PBXTargetDependency */,
+				D41A7EC53E76113EBE672C30DDB86B10 /* PBXTargetDependency */,
+				08C5264CB0C5A5F810618B94B7872106 /* PBXTargetDependency */,
+				38E735A5D9C96EF614A1D1AE132E8EEF /* PBXTargetDependency */,
+				8439382B188B1B0CD4A029B268AE911F /* PBXTargetDependency */,
 			);
 			name = "Pods-Timer-TimerUITests";
 			productName = "Pods-Timer-TimerUITests";
@@ -1671,7 +1671,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		005575E43A1E570E91B14183D2A0ED77 /* Resources */ = {
+		521CAA65B730C479A853E441F73E7A8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1693,7 +1693,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FEA8FAB18E5D53CDE6F052B3EFBAA91 /* Resources */ = {
+		6E26C0B3142F66F33B7A05D6DECF54BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1707,14 +1707,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F82CA4E4223461E50B5C31A582B89C1 /* Resources */ = {
+		C24D85925630BF2FC637DB8BE7ACBFC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C24D85925630BF2FC637DB8BE7ACBFC1 /* Resources */ = {
+		E0541F2A3589100656CE6D5822B201B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1742,6 +1742,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18651983967CA4F84D24096CA6C84EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3996419188DB75EBE14E926B82B072 /* Pods-Timer-TimerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7062CDA8FD11E2E9D19A9A40021C44AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1757,6 +1765,14 @@
 				99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */,
 				07288680C9E7EDC1E240E0E3C50EE65C /* NSObject+MJProperty.m in Sources */,
 				E6775033B3F0080B56E29AB395A08867 /* NSString+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCC453E9B111305EB9947DB13466113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D96CF82AA9C1BC45824C669B9E5448 /* Pods-Timer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1791,19 +1807,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF0DBA380A5CB3531E643151F2F5C9DF /* Sources */ = {
+		A0A1238A62BA03F97C0287FC4C2B5F8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A6AA1C35C517B04B5DF8FDEC4D6963 /* Pods-Timer-TimerUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C0146D36EB49D1D0C1D95B4E8DCD97E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FE8915CA23BFC0FD31970376221475F /* Pods-TimerTests-dummy.m in Sources */,
+				D32040189BD2A3337224E75D611A63B1 /* Pods-TimerTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1905,74 +1913,105 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB0DB2D394528F55EDE1FDEBF991BC9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA6DAEE7653BC46B0F3386C3F5805459 /* Pods-Timer-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07EA8EEBDB7D5E451CFD2B7AEA290D49 /* PBXTargetDependency */ = {
+		08C5264CB0C5A5F810618B94B7872106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
 			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
-			targetProxy = 44FE41ACDD463FE31F18FD64031C061E /* PBXContainerItemProxy */;
+			targetProxy = 733732ED2A8A0B9B82937D1C1A496021 /* PBXContainerItemProxy */;
 		};
-		424BA5A065C0112814740237B6BF283E /* PBXTargetDependency */ = {
+		126C3ECCAC907DCF954EFAD92735D41E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Timer";
 			target = 51AB9636063F03C08C38AD8937B42606 /* Pods-Timer */;
-			targetProxy = 588C97032E7E6E74419EC82E93EB405B /* PBXContainerItemProxy */;
+			targetProxy = E223F23198A48428573ABD45960617FF /* PBXContainerItemProxy */;
 		};
-		49632167A7E40312950952374548180F /* PBXTargetDependency */ = {
+		1F1F97CD59A7611F956554B122F55FA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MJExtension;
-			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
-			targetProxy = DECF3F3F819074D0DD55F38874CB1E19 /* PBXContainerItemProxy */;
+			name = ReactiveObjC;
+			target = 438B238ACC7DF1178D1BCE1A31983146 /* ReactiveObjC */;
+			targetProxy = 9D5B483A0779FB5433547E2B6B3C10DF /* PBXContainerItemProxy */;
 		};
-		80C6F71A6D69AB23616815B42F2A8FC3 /* PBXTargetDependency */ = {
+		38E735A5D9C96EF614A1D1AE132E8EEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 65F88DFC4A89CCA58FA1A350551B730F /* PBXContainerItemProxy */;
+			targetProxy = 541B428B2E0A673B705AFC13671BD6A1 /* PBXContainerItemProxy */;
 		};
-		8DD94B75D1C875FB746A9A5BB23F4897 /* PBXTargetDependency */ = {
+		450A2461DDDA70C50545FE9B805A399F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = 2D073813B3FA264EF6F08293CFE711AA /* PBXContainerItemProxy */;
+		};
+		8439382B188B1B0CD4A029B268AE911F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveObjC;
+			target = 438B238ACC7DF1178D1BCE1A31983146 /* ReactiveObjC */;
+			targetProxy = CD177455AE19E75AEE519C7574F33611 /* PBXContainerItemProxy */;
+		};
+		B88A6FC0758E4F30750E1B6301307C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = EF9D1A001D05CE436D43D0F04C847CDA /* PBXContainerItemProxy */;
+		};
+		D41A7EC53E76113EBE672C30DDB86B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = 6F47FC073ED93C26BADA46CB1F513D9E /* PBXContainerItemProxy */;
+		};
+		E97096D13A85B5EAA06662099374C4AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
 			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
-			targetProxy = 45ADE681DF4344C973A0BD5F34D00F24 /* PBXContainerItemProxy */;
-		};
-		9CAD6313B14408EAF4E0BC61EDBF26F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ReactiveObjC;
-			target = 438B238ACC7DF1178D1BCE1A31983146 /* ReactiveObjC */;
-			targetProxy = B15012C4611F474EEDE2F1C7C3B7A894 /* PBXContainerItemProxy */;
-		};
-		BAE1670B51A0DA417390907217645EC3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 07118239E45D0F81078A57771F0686B8 /* PBXContainerItemProxy */;
-		};
-		D35F9C6A64CC366865C1BF8EFA7F8E1D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ReactiveObjC;
-			target = 438B238ACC7DF1178D1BCE1A31983146 /* ReactiveObjC */;
-			targetProxy = 08BB8EA2047038CB04416B4BC86E973B /* PBXContainerItemProxy */;
-		};
-		D6AAFB2AA220BDC535172725EDD6CBAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MJExtension;
-			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
-			targetProxy = 98C07CD27AB542B2BA3E6D914D250C97 /* PBXContainerItemProxy */;
+			targetProxy = 3BDDFD21393FF248E00B23761AD0E05C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0065F12F0BC35FBD22C74EE04C699838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D4D1F4E6B9B14FFC389BE4ACA25955 /* Pods-Timer-TimerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2037,9 +2076,9 @@
 			};
 			name = Debug;
 		};
-		18667B30A6DC43934ED3557146B173E1 /* Debug */ = {
+		15C49B557A63D3722F1C2DCFD615D0AE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54D6E0A80563A30C4EB98E48B46938A3 /* Pods-TimerTests.debug.xcconfig */;
+			baseConfigurationReference = E309FF4ACB14EB8C5465AA9A8DCE80CF /* Pods-TimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2070,10 +2109,50 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		2E63FCF5EE2CB27C67DED322DD86D727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47559A7AF4A7A07D53A6FD56CC351D9 /* Pods-Timer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Timer/Pods-Timer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Timer/Pods-Timer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		333203B8DD95FBBE699A2099ABD53526 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2108,45 +2187,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		48DB92BF1DC0B456E2460E7053467A32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3D4D1F4E6B9B14FFC389BE4ACA25955 /* Pods-Timer-TimerUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		52542F7B931490A1CBD2314E564B072E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2252,6 +2292,120 @@
 			};
 			name = Release;
 		};
+		5F75335B4FFE378E81CEF7B5EB949BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705571E03A6D4447CAD531D2A0F0C9DB /* Pods-Timer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Timer/Pods-Timer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Timer/Pods-Timer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CF5AEE4E5A596FDFF5386096E4F80F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D6E0A80563A30C4EB98E48B46938A3 /* Pods-TimerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimerTests/Pods-TimerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimerTests/Pods-TimerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707C967C5270F3F1EB70AEBF6E619B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556229F3096D70C5BFAC90EA47174604 /* Pods-Timer-TimerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2312,83 +2466,6 @@
 			};
 			name = Release;
 		};
-		8ADC6E99882684ECDCB160E1DD575B38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 556229F3096D70C5BFAC90EA47174604 /* Pods-Timer-TimerUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		922A0CB6734943D109D8341C3F58DFEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E309FF4ACB14EB8C5465AA9A8DCE80CF /* Pods-TimerTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TimerTests/Pods-TimerTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TimerTests/Pods-TimerTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		933C252AC1697174177192BE69B419F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68B8A056E01948562DF4F11F2766483A /* Masonry.debug.xcconfig */;
@@ -2417,44 +2494,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9A4EE9D467715E0DE851BEC4A450AF87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 705571E03A6D4447CAD531D2A0F0C9DB /* Pods-Timer.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Timer/Pods-Timer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Timer/Pods-Timer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2565,45 +2604,6 @@
 			};
 			name = Release;
 		};
-		F1F586174111FF6E38C23F40F6A8FB89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E47559A7AF4A7A07D53A6FD56CC351D9 /* Pods-Timer.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Timer/Pods-Timer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Timer/Pods-Timer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2612,6 +2612,15 @@
 			buildConfigurations = (
 				5F42E8BE23D838F95BE2E1C92C9848D2 /* Debug */,
 				52542F7B931490A1CBD2314E564B072E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040CF6EEA8E5A5C1DF9D3B04674F5F06 /* Build configuration list for PBXNativeTarget "Pods-TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CF5AEE4E5A596FDFF5386096E4F80F2 /* Debug */,
+				15C49B557A63D3722F1C2DCFD615D0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2625,29 +2634,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2383069B9FF1FFB2F62480DB1FD53EEB /* Build configuration list for PBXNativeTarget "Pods-Timer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A4EE9D467715E0DE851BEC4A450AF87 /* Debug */,
-				F1F586174111FF6E38C23F40F6A8FB89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
 				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58445C763B9906D83B1D794DEF5B15E4 /* Build configuration list for PBXNativeTarget "Pods-Timer-TimerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8ADC6E99882684ECDCB160E1DD575B38 /* Debug */,
-				48DB92BF1DC0B456E2460E7053467A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2670,11 +2661,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F9A3E8B3F1D38532D9B0DC948FC443B /* Build configuration list for PBXNativeTarget "Pods-TimerTests" */ = {
+		D3D0F14FAC7B4F0F0E6D7C32972B41B6 /* Build configuration list for PBXNativeTarget "Pods-Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18667B30A6DC43934ED3557146B173E1 /* Debug */,
-				922A0CB6734943D109D8341C3F58DFEA /* Release */,
+				5F75335B4FFE378E81CEF7B5EB949BA5 /* Debug */,
+				2E63FCF5EE2CB27C67DED322DD86D727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6167BD41DB97869B5CAF67BF5A7A2D /* Build configuration list for PBXNativeTarget "Pods-Timer-TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707C967C5270F3F1EB70AEBF6E619B6E /* Debug */,
+				0065F12F0BC35FBD22C74EE04C699838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
