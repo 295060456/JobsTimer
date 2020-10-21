@@ -167,6 +167,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C572791625409991002373D7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C572A2B524FDFF66000A1687 /* AppDelegate.h */,
+				C572A2B624FDFF66000A1687 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C57279172540999A002373D7 /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C572A2B824FDFF66000A1687 /* SceneDelegate.h */,
+				C572A2B924FDFF66000A1687 /* SceneDelegate.m */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
 		C572A2A924FDFF66000A1687 = {
 			isa = PBXGroup;
 			children = (
@@ -236,10 +254,8 @@
 		C572A2F024FE003C000A1687 /* AppDelegate & SceneDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				C572A2B524FDFF66000A1687 /* AppDelegate.h */,
-				C572A2B624FDFF66000A1687 /* AppDelegate.m */,
-				C572A2B824FDFF66000A1687 /* SceneDelegate.h */,
-				C572A2B924FDFF66000A1687 /* SceneDelegate.m */,
+				C572791625409991002373D7 /* AppDelegate */,
+				C57279172540999A002373D7 /* SceneDelegate */,
 			);
 			path = "AppDelegate & SceneDelegate";
 			sourceTree = "<group>";
