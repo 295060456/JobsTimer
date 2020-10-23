@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A12B6A193744A9241B81E83 /* Pods_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C926A1B02EDE2D1577BC858 /* Pods_TimerUITests.framework */; };
 		C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B624FDFF66000A1687 /* AppDelegate.m */; };
 		C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B924FDFF66000A1687 /* SceneDelegate.m */; };
 		C572A2BD24FDFF66000A1687 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2BC24FDFF66000A1687 /* ViewController.m */; };
@@ -31,7 +32,6 @@
 		C5E5C68A2509154A001E69DA /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C6872509154A001E69DA /* WGradientProgress.m */; };
 		C5E5C68B2509154A001E69DA /* WGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C6882509154A001E69DA /* WGradientProgressView.m */; };
 		CD33AB0A067A6FE9AA09DFF2 /* Pods_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AF209B3CB78224724D4250 /* Pods_Timer.framework */; };
-		FEE83C41D65071720FC5369D /* Pods_Timer_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641383732AC358E7A2BDCDF5 /* Pods_Timer_TimerUITests.framework */; };
 		FF684147520F90C4783DFE8B /* Pods_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E235AAB326B2235AD4C1C2A5 /* Pods_TimerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,9 +55,10 @@
 /* Begin PBXFileReference section */
 		0620BE652557EF53F1FCCF01 /* Pods-Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer.release.xcconfig"; path = "Target Support Files/Pods-Timer/Pods-Timer.release.xcconfig"; sourceTree = "<group>"; };
 		10F185F96E2901C1AFDB4ADE /* Pods-Timer-TimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer-TimerUITests.release.xcconfig"; path = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		641383732AC358E7A2BDCDF5 /* Pods_Timer_TimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timer_TimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C926A1B02EDE2D1577BC858 /* Pods_TimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0B57A271C5E1FBCEB115C6 /* Pods-Timer-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9325B00396AF782214E87AC8 /* Pods-TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.debug.xcconfig"; path = "Target Support Files/Pods-TimerTests/Pods-TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABB0F4CC67C7FE43D2A2180C /* Pods-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TimerUITests/Pods-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C572A2B224FDFF66000A1687 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C572A2B524FDFF66000A1687 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C572A2B624FDFF66000A1687 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 		C5E5C6872509154A001E69DA /* WGradientProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGradientProgress.m; sourceTree = "<group>"; };
 		C5E5C6882509154A001E69DA /* WGradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGradientProgressView.m; sourceTree = "<group>"; };
 		D7E9E56A550482EC07A7ACD6 /* Pods-TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.release.xcconfig"; path = "Target Support Files/Pods-TimerTests/Pods-TimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		DABD4B5D560B723ED7EA3A76 /* Pods-TimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerUITests.release.xcconfig"; path = "Target Support Files/Pods-TimerUITests/Pods-TimerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E235AAB326B2235AD4C1C2A5 /* Pods_TimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AF209B3CB78224724D4250 /* Pods_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49195595CCF84A3C202E583 /* Pods-Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer.debug.xcconfig"; path = "Target Support Files/Pods-Timer/Pods-Timer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE83C41D65071720FC5369D /* Pods_Timer_TimerUITests.framework in Frameworks */,
+				0A12B6A193744A9241B81E83 /* Pods_TimerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +155,8 @@
 				10F185F96E2901C1AFDB4ADE /* Pods-Timer-TimerUITests.release.xcconfig */,
 				9325B00396AF782214E87AC8 /* Pods-TimerTests.debug.xcconfig */,
 				D7E9E56A550482EC07A7ACD6 /* Pods-TimerTests.release.xcconfig */,
+				ABB0F4CC67C7FE43D2A2180C /* Pods-TimerUITests.debug.xcconfig */,
+				DABD4B5D560B723ED7EA3A76 /* Pods-TimerUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -161,8 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				E9AF209B3CB78224724D4250 /* Pods_Timer.framework */,
-				641383732AC358E7A2BDCDF5 /* Pods_Timer_TimerUITests.framework */,
 				E235AAB326B2235AD4C1C2A5 /* Pods_TimerTests.framework */,
+				6C926A1B02EDE2D1577BC858 /* Pods_TimerUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -391,7 +395,7 @@
 				C572A2AE24FDFF66000A1687 /* Sources */,
 				C572A2AF24FDFF66000A1687 /* Frameworks */,
 				C572A2B024FDFF66000A1687 /* Resources */,
-				D3BA2A71E0F959C5B91DC868 /* [CP] Embed Pods Frameworks */,
+				F1DF0FEDB32AD5658E4FA29C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -429,7 +433,6 @@
 				C572A2D724FDFF69000A1687 /* Sources */,
 				C572A2D824FDFF69000A1687 /* Frameworks */,
 				C572A2D924FDFF69000A1687 /* Resources */,
-				BCE2B5F8CB1BCBFBAAD8156A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -549,41 +552,22 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Timer-TimerUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TimerUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BCE2B5F8CB1BCBFBAAD8156A /* [CP] Embed Pods Frameworks */ = {
+		F1DF0FEDB32AD5658E4FA29C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D3BA2A71E0F959C5B91DC868 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Timer/Pods-Timer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Timer/Pods-Timer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -878,7 +862,7 @@
 		};
 		C572A2EB24FDFF69000A1687 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E0B57A271C5E1FBCEB115C6 /* Pods-Timer-TimerUITests.debug.xcconfig */;
+			baseConfigurationReference = ABB0F4CC67C7FE43D2A2180C /* Pods-TimerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TimerUITests/Info.plist;
@@ -896,7 +880,7 @@
 		};
 		C572A2EC24FDFF69000A1687 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10F185F96E2901C1AFDB4ADE /* Pods-Timer-TimerUITests.release.xcconfig */;
+			baseConfigurationReference = DABD4B5D560B723ED7EA3A76 /* Pods-TimerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TimerUITests/Info.plist;
