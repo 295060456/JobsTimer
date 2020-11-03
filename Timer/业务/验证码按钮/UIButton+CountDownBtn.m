@@ -262,11 +262,11 @@ static char *UIButton_CountDownBtn_btnRunType = "UIButton_CountDownBtn_btnRunTyp
     return format_time;
 }
 
--(void)actionCountDownClickEventBlock:(MKDataBlock)countDownClickEventBlock{
+-(void)actionCountDownClickEventBlock:(MKDataBlock _Nullable)countDownClickEventBlock{
     self.countDownClickEventBlock = countDownClickEventBlock;
 }
 
--(void)actionCountDownBlock:(MKDataBlock)countDownBlock{
+-(void)actionCountDownBlock:(MKDataBlock _Nullable)countDownBlock{
     self.countDownBlock = countDownBlock;
 }
 #pragma mark SET | GET
