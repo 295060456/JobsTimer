@@ -62,6 +62,7 @@
 		ABB0F4CC67C7FE43D2A2180C /* Pods-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TimerUITests/Pods-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C56202D42553F8EB00FE435F /* UILabel+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RichText.m"; sourceTree = "<group>"; };
 		C56202D52553F8EB00FE435F /* UILabel+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RichText.h"; sourceTree = "<group>"; };
+		C56208872553FFBF00FE435F /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
 		C572A2B224FDFF66000A1687 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C572A2B524FDFF66000A1687 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C572A2B624FDFF66000A1687 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -362,6 +363,7 @@
 		C5C67C4A24FE3951000A26B8 /* 验证码按钮 */ = {
 			isa = PBXGroup;
 			children = (
+				C56208872553FFBF00FE435F /* 验证码按钮单例封装.md */,
 				C5C67C4B24FE3978000A26B8 /* UIButton+CountDownBtn.h */,
 				C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */,
 			);
