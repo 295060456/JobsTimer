@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0A12B6A193744A9241B81E83 /* Pods_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C926A1B02EDE2D1577BC858 /* Pods_TimerUITests.framework */; };
+		C56202D62553F8EB00FE435F /* UILabel+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* UILabel+RichText.m */; };
 		C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B624FDFF66000A1687 /* AppDelegate.m */; };
 		C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B924FDFF66000A1687 /* SceneDelegate.m */; };
 		C572A2BD24FDFF66000A1687 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2BC24FDFF66000A1687 /* ViewController.m */; };
@@ -59,6 +60,8 @@
 		7E0B57A271C5E1FBCEB115C6 /* Pods-Timer-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9325B00396AF782214E87AC8 /* Pods-TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.debug.xcconfig"; path = "Target Support Files/Pods-TimerTests/Pods-TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABB0F4CC67C7FE43D2A2180C /* Pods-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TimerUITests/Pods-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C56202D42553F8EB00FE435F /* UILabel+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RichText.m"; sourceTree = "<group>"; };
+		C56202D52553F8EB00FE435F /* UILabel+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RichText.h"; sourceTree = "<group>"; };
 		C572A2B224FDFF66000A1687 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C572A2B524FDFF66000A1687 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C572A2B624FDFF66000A1687 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -279,6 +282,8 @@
 		C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C56202D52553F8EB00FE435F /* UILabel+RichText.h */,
+				C56202D42553F8EB00FE435F /* UILabel+RichText.m */,
 				C5AEEAF4253841C9000E1C5F /* UIView+Animation.h */,
 				C5AEEAF7253841C9000E1C5F /* UIView+Animation.m */,
 				C5AEEAF6253841C9000E1C5F /* UIView+Extras.h */,
@@ -614,6 +619,7 @@
 				C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */,
 				C5AEEAF9253841C9000E1C5F /* UIView+Animation.m in Sources */,
 				C572A30924FE1D53000A1687 /* Nanosecond_TimerManager.m in Sources */,
+				C56202D62553F8EB00FE435F /* UILabel+RichText.m in Sources */,
 				C572A2C324FDFF66000A1687 /* Timer.xcdatamodeld in Sources */,
 				C572A30224FE1D14000A1687 /* GCD_TimerManager.m in Sources */,
 				C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */,
