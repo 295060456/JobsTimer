@@ -101,6 +101,7 @@
 		C5AEEAF5253841C9000E1C5F /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
 		C5AEEAF6253841C9000E1C5F /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
 		C5AEEAF7253841C9000E1C5F /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		C5C4FD09255A5E18002F407A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C5C67C4B24FE3978000A26B8 /* UIButton+CountDownBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDownBtn.h"; sourceTree = "<group>"; };
 		C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDownBtn.m"; sourceTree = "<group>"; };
 		C5C67C6624FE5059000A26B8 /* UIView+Measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Measure.h"; sourceTree = "<group>"; };
@@ -196,8 +197,10 @@
 		C572A2A924FDFF66000A1687 = {
 			isa = PBXGroup;
 			children = (
-				C572A2F724FE00F7000A1687 /* Macro */,
+				C5C4FD09255A5E18002F407A /* README.md */,
 				C572A2B424FDFF66000A1687 /* Timer */,
+				C572A2D324FDFF69000A1687 /* TimerTests */,
+				C572A2DE24FDFF69000A1687 /* TimerUITests */,
 				73FB7F8AD727623476D33BBB /* Pods */,
 				BD8EDAA26D29B92C26A1A543 /* Frameworks */,
 			);
@@ -217,10 +220,11 @@
 		C572A2B424FDFF66000A1687 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				C572A2F724FE00F7000A1687 /* 🌹Macro */,
 				C572A2F024FE003C000A1687 /* AppDelegate & SceneDelegate */,
 				C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */,
 				C572A2F124FE006B000A1687 /* 业务 */,
-				C572A2EF24FE000B000A1687 /* Other */,
+				C572A2EF24FE000B000A1687 /* Others */,
 				C572A2C924FDFF68000A1687 /* Info.plist */,
 			);
 			path = Timer;
@@ -244,7 +248,7 @@
 			path = TimerUITests;
 			sourceTree = "<group>";
 		};
-		C572A2EF24FE000B000A1687 /* Other */ = {
+		C572A2EF24FE000B000A1687 /* Others */ = {
 			isa = PBXGroup;
 			children = (
 				C572A2BE24FDFF66000A1687 /* Main.storyboard */,
@@ -253,10 +257,8 @@
 				C572A2CA24FDFF68000A1687 /* main.m */,
 				C572A2C124FDFF66000A1687 /* Timer.xcdatamodeld */,
 				C572A2B324FDFF66000A1687 /* Products */,
-				C572A2D324FDFF69000A1687 /* TimerTests */,
-				C572A2DE24FDFF69000A1687 /* TimerUITests */,
 			);
-			path = Other;
+			path = Others;
 			sourceTree = "<group>";
 		};
 		C572A2F024FE003C000A1687 /* AppDelegate & SceneDelegate */ = {
@@ -298,7 +300,7 @@
 			path = "Manual_Add_ThirdParty ";
 			sourceTree = "<group>";
 		};
-		C572A2F724FE00F7000A1687 /* Macro */ = {
+		C572A2F724FE00F7000A1687 /* 🌹Macro */ = {
 			isa = PBXGroup;
 			children = (
 				C572A2F324FE00EC000A1687 /* PrefixHeader.pch */,
@@ -308,7 +310,7 @@
 				C572A2ED24FDFFFC000A1687 /* AABlock.h */,
 				C572A2F824FE0261000A1687 /* Other.h */,
 			);
-			path = Macro;
+			path = "🌹Macro";
 			sourceTree = "<group>";
 		};
 		C572A2F924FE043E000A1687 /* TimerManager */ = {
@@ -798,7 +800,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Macro/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = Timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -816,7 +818,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Macro/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = Timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
