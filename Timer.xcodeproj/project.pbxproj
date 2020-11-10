@@ -459,6 +459,7 @@
 		C572A2AA24FDFF66000A1687 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Timer;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = Jobs;
 				TargetAttributes = {
