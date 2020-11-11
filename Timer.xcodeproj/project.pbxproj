@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0A12B6A193744A9241B81E83 /* Pods_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C926A1B02EDE2D1577BC858 /* Pods_TimerUITests.framework */; };
+		C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569697255BFD01005C1361 /* NSString+Extras.m */; };
+		C556969E255BFD01005C1361 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569698255BFD01005C1361 /* TimeModel.m */; };
+		C556969F255BFD01005C1361 /* NSString+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C556969C255BFD01005C1361 /* NSString+Time.m */; };
 		C56202D62553F8EB00FE435F /* UILabel+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* UILabel+RichText.m */; };
 		C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B624FDFF66000A1687 /* AppDelegate.m */; };
 		C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B924FDFF66000A1687 /* SceneDelegate.m */; };
@@ -28,7 +31,6 @@
 		C5C67C4D24FE3978000A26B8 /* UIButton+CountDownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */; };
 		C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6724FE5059000A26B8 /* UIView+Measure.m */; };
 		C5C67C6E24FF4A80000A26B8 /* MovieCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */; };
-		C5E5C62825065CF2001E69DA /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C62725065CF1001E69DA /* NSString+Extras.m */; };
 		C5E5C6892509154A001E69DA /* 水平进度条.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E5C6842509154A001E69DA /* 水平进度条.png */; };
 		C5E5C68A2509154A001E69DA /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C6872509154A001E69DA /* WGradientProgress.m */; };
 		C5E5C68B2509154A001E69DA /* WGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C6882509154A001E69DA /* WGradientProgressView.m */; };
@@ -60,6 +62,12 @@
 		7E0B57A271C5E1FBCEB115C6 /* Pods-Timer-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9325B00396AF782214E87AC8 /* Pods-TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.debug.xcconfig"; path = "Target Support Files/Pods-TimerTests/Pods-TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABB0F4CC67C7FE43D2A2180C /* Pods-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TimerUITests/Pods-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5569697255BFD01005C1361 /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
+		C5569698255BFD01005C1361 /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		C5569699255BFD01005C1361 /* NSString+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Time.h"; sourceTree = "<group>"; };
+		C556969A255BFD01005C1361 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		C556969B255BFD01005C1361 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
+		C556969C255BFD01005C1361 /* NSString+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Time.m"; sourceTree = "<group>"; };
 		C56202D42553F8EB00FE435F /* UILabel+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RichText.m"; sourceTree = "<group>"; };
 		C56202D52553F8EB00FE435F /* UILabel+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RichText.h"; sourceTree = "<group>"; };
 		C56208872553FFBF00FE435F /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
@@ -109,8 +117,6 @@
 		C5C67C6924FE7671000A26B8 /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
 		C5C67C6C24FF4A80000A26B8 /* MovieCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCountDown.h; sourceTree = "<group>"; };
 		C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCountDown.m; sourceTree = "<group>"; };
-		C5E5C62625065CF1001E69DA /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
-		C5E5C62725065CF1001E69DA /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
 		C5E5C6842509154A001E69DA /* 水平进度条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水平进度条.png"; sourceTree = "<group>"; };
 		C5E5C6852509154A001E69DA /* WGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgressView.h; sourceTree = "<group>"; };
 		C5E5C6862509154A001E69DA /* WGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgress.h; sourceTree = "<group>"; };
@@ -174,6 +180,41 @@
 				6C926A1B02EDE2D1577BC858 /* Pods_TimerUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5569696255BFD01005C1361 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				C5569697255BFD01005C1361 /* NSString+Extras.m */,
+				C5569698255BFD01005C1361 /* TimeModel.m */,
+				C5569699255BFD01005C1361 /* NSString+Time.h */,
+				C556969A255BFD01005C1361 /* TimeModel.h */,
+				C556969B255BFD01005C1361 /* NSString+Extras.h */,
+				C556969C255BFD01005C1361 /* NSString+Time.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		C55696A3255BFD05005C1361 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C5AEEAF4253841C9000E1C5F /* UIView+Animation.h */,
+				C5AEEAF7253841C9000E1C5F /* UIView+Animation.m */,
+				C5AEEAF6253841C9000E1C5F /* UIView+Extras.h */,
+				C5AEEAF5253841C9000E1C5F /* UIView+Extras.m */,
+				C5C67C6624FE5059000A26B8 /* UIView+Measure.h */,
+				C5C67C6724FE5059000A26B8 /* UIView+Measure.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		C55696A4255BFD10005C1361 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				C56202D52553F8EB00FE435F /* UILabel+RichText.h */,
+				C56202D42553F8EB00FE435F /* UILabel+RichText.m */,
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 		C572791625409991002373D7 /* AppDelegate */ = {
@@ -285,16 +326,9 @@
 		C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
-				C56202D52553F8EB00FE435F /* UILabel+RichText.h */,
-				C56202D42553F8EB00FE435F /* UILabel+RichText.m */,
-				C5AEEAF4253841C9000E1C5F /* UIView+Animation.h */,
-				C5AEEAF7253841C9000E1C5F /* UIView+Animation.m */,
-				C5AEEAF6253841C9000E1C5F /* UIView+Extras.h */,
-				C5AEEAF5253841C9000E1C5F /* UIView+Extras.m */,
-				C5E5C62625065CF1001E69DA /* NSString+Extras.h */,
-				C5E5C62725065CF1001E69DA /* NSString+Extras.m */,
-				C5C67C6624FE5059000A26B8 /* UIView+Measure.h */,
-				C5C67C6724FE5059000A26B8 /* UIView+Measure.m */,
+				C55696A4255BFD10005C1361 /* UILabel */,
+				C55696A3255BFD05005C1361 /* UIView */,
+				C5569696255BFD01005C1361 /* NSString */,
 				C572A2F924FE043E000A1687 /* TimerManager */,
 			);
 			path = "Manual_Add_ThirdParty ";
@@ -613,12 +647,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E5C62825065CF2001E69DA /* NSString+Extras.m in Sources */,
 				C5C67C6E24FF4A80000A26B8 /* MovieCountDown.m in Sources */,
 				C5C67C4D24FE3978000A26B8 /* UIButton+CountDownBtn.m in Sources */,
 				C572A2CB24FDFF68000A1687 /* main.m in Sources */,
 				C572A2BD24FDFF66000A1687 /* ViewController.m in Sources */,
 				C5AEEAF8253841C9000E1C5F /* UIView+Extras.m in Sources */,
+				C556969E255BFD01005C1361 /* TimeModel.m in Sources */,
 				C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */,
 				C5E5C68B2509154A001E69DA /* WGradientProgressView.m in Sources */,
 				C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */,
@@ -628,6 +662,8 @@
 				C572A2C324FDFF66000A1687 /* Timer.xcdatamodeld in Sources */,
 				C572A30224FE1D14000A1687 /* GCD_TimerManager.m in Sources */,
 				C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */,
+				C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */,
+				C556969F255BFD01005C1361 /* NSString+Time.m in Sources */,
 				C572A30C24FE1D5D000A1687 /* CADisplayLink_TimerManager.m in Sources */,
 				C5E5C68A2509154A001E69DA /* WGradientProgress.m in Sources */,
 				C572A2FF24FE1CFD000A1687 /* NSTimerManager.m in Sources */,
