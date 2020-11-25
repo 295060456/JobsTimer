@@ -11,7 +11,7 @@
 		C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569697255BFD01005C1361 /* NSString+Extras.m */; };
 		C556969E255BFD01005C1361 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569698255BFD01005C1361 /* TimeModel.m */; };
 		C556969F255BFD01005C1361 /* NSString+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C556969C255BFD01005C1361 /* NSString+Time.m */; };
-		C56202D62553F8EB00FE435F /* UILabel+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* UILabel+RichText.m */; };
+		C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* NSObject+RichText.m */; };
 		C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B624FDFF66000A1687 /* AppDelegate.m */; };
 		C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B924FDFF66000A1687 /* SceneDelegate.m */; };
 		C572A2BD24FDFF66000A1687 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2BC24FDFF66000A1687 /* ViewController.m */; };
@@ -68,8 +68,8 @@
 		C556969A255BFD01005C1361 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
 		C556969B255BFD01005C1361 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
 		C556969C255BFD01005C1361 /* NSString+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Time.m"; sourceTree = "<group>"; };
-		C56202D42553F8EB00FE435F /* UILabel+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RichText.m"; sourceTree = "<group>"; };
-		C56202D52553F8EB00FE435F /* UILabel+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RichText.h"; sourceTree = "<group>"; };
+		C56202D42553F8EB00FE435F /* NSObject+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RichText.m"; sourceTree = "<group>"; };
+		C56202D52553F8EB00FE435F /* NSObject+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RichText.h"; sourceTree = "<group>"; };
 		C56208872553FFBF00FE435F /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
 		C572A2B224FDFF66000A1687 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C572A2B524FDFF66000A1687 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -208,13 +208,13 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		C55696A4255BFD10005C1361 /* UILabel */ = {
+		C55696A4255BFD10005C1361 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				C56202D52553F8EB00FE435F /* UILabel+RichText.h */,
-				C56202D42553F8EB00FE435F /* UILabel+RichText.m */,
+				C56202D52553F8EB00FE435F /* NSObject+RichText.h */,
+				C56202D42553F8EB00FE435F /* NSObject+RichText.m */,
 			);
-			path = UILabel;
+			path = NSObject;
 			sourceTree = "<group>";
 		};
 		C572791625409991002373D7 /* AppDelegate */ = {
@@ -326,7 +326,7 @@
 				C5E5C65C25088EED001E69DA /* 水平进度条 */,
 				C5C67C6B24FF4A32000A26B8 /* 电影倒计时特效 */,
 				C5C67C4A24FE3951000A26B8 /* 验证码按钮 */,
-				C55696A4255BFD10005C1361 /* UILabel */,
+				C55696A4255BFD10005C1361 /* NSObject */,
 				C55696A3255BFD05005C1361 /* UIView */,
 				C5569696255BFD01005C1361 /* NSString */,
 				C572A2F924FE043E000A1687 /* TimerManager */,
@@ -658,7 +658,7 @@
 				C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */,
 				C5AEEAF9253841C9000E1C5F /* UIView+Animation.m in Sources */,
 				C572A30924FE1D53000A1687 /* Nanosecond_TimerManager.m in Sources */,
-				C56202D62553F8EB00FE435F /* UILabel+RichText.m in Sources */,
+				C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */,
 				C572A2C324FDFF66000A1687 /* Timer.xcdatamodeld in Sources */,
 				C572A30224FE1D14000A1687 /* GCD_TimerManager.m in Sources */,
 				C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */,
