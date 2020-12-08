@@ -323,13 +323,13 @@
 		C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
-				C5E5C65C25088EED001E69DA /* 水平进度条 */,
 				C5C67C6B24FF4A32000A26B8 /* 电影倒计时特效 */,
+				C5E5C65C25088EED001E69DA /* 水平进度条 */,
 				C5C67C4A24FE3951000A26B8 /* 验证码按钮 */,
 				C55696A4255BFD10005C1361 /* NSObject */,
-				C55696A3255BFD05005C1361 /* UIView */,
 				C5569696255BFD01005C1361 /* NSString */,
 				C572A2F924FE043E000A1687 /* TimerManager */,
+				C55696A3255BFD05005C1361 /* UIView */,
 			);
 			path = "Manual_Add_ThirdParty ";
 			sourceTree = "<group>";
