@@ -185,12 +185,12 @@
 		C5569696255BFD01005C1361 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				C5569697255BFD01005C1361 /* NSString+Extras.m */,
-				C5569698255BFD01005C1361 /* TimeModel.m */,
-				C5569699255BFD01005C1361 /* NSString+Time.h */,
-				C556969A255BFD01005C1361 /* TimeModel.h */,
 				C556969B255BFD01005C1361 /* NSString+Extras.h */,
+				C5569697255BFD01005C1361 /* NSString+Extras.m */,
+				C5569699255BFD01005C1361 /* NSString+Time.h */,
 				C556969C255BFD01005C1361 /* NSString+Time.m */,
+				C556969A255BFD01005C1361 /* TimeModel.h */,
+				C5569698255BFD01005C1361 /* TimeModel.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -350,12 +350,12 @@
 		C572A2F924FE043E000A1687 /* TimerManager */ = {
 			isa = PBXGroup;
 			children = (
-				C572A2FA24FE0473000A1687 /* TimerManager.h */,
-				C5C67C6924FE7671000A26B8 /* TimerManager_DefineStructure.h */,
-				C572A30324FE1D1A000A1687 /* NSTimerManager */,
 				C572A30524FE1D31000A1687 /* CADisplayLink_TimerManager */,
 				C572A30424FE1D22000A1687 /* GCD_TimerManager(未完) */,
 				C572A30624FE1D45000A1687 /* Nanosecond_TimerManager */,
+				C572A30324FE1D1A000A1687 /* NSTimerManager */,
+				C5C67C6924FE7671000A26B8 /* TimerManager_DefineStructure.h */,
+				C572A2FA24FE0473000A1687 /* TimerManager.h */,
 			);
 			path = TimerManager;
 			sourceTree = "<group>";
