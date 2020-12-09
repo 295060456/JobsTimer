@@ -182,6 +182,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C55567C52580A5E6004DB33A /* TimeModel */ = {
+			isa = PBXGroup;
+			children = (
+				C556969A255BFD01005C1361 /* TimeModel.h */,
+				C5569698255BFD01005C1361 /* TimeModel.m */,
+			);
+			path = TimeModel;
+			sourceTree = "<group>";
+		};
+		C55567C62580A5EF004DB33A /* NSObject+Others */ = {
+			isa = PBXGroup;
+			children = (
+				C56202D52553F8EB00FE435F /* NSObject+RichText.h */,
+				C56202D42553F8EB00FE435F /* NSObject+RichText.m */,
+			);
+			path = "NSObject+Others";
+			sourceTree = "<group>";
+		};
 		C5569696255BFD01005C1361 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,8 +207,6 @@
 				C5569697255BFD01005C1361 /* NSString+Extras.m */,
 				C5569699255BFD01005C1361 /* NSString+Time.h */,
 				C556969C255BFD01005C1361 /* NSString+Time.m */,
-				C556969A255BFD01005C1361 /* TimeModel.h */,
-				C5569698255BFD01005C1361 /* TimeModel.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -211,8 +227,8 @@
 		C55696A4255BFD10005C1361 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				C56202D52553F8EB00FE435F /* NSObject+RichText.h */,
-				C56202D42553F8EB00FE435F /* NSObject+RichText.m */,
+				C55567C62580A5EF004DB33A /* NSObject+Others */,
+				C55567C52580A5E6004DB33A /* TimeModel */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
