@@ -13,7 +13,7 @@
 #import "UIView+Measure.h"
 #import "UIView+Extras.h"
 #import "NSString+Extras.h"
-
+#import "NSObject+Time.h"
 #import "TimerManager.h"
 #import "WGradientProgress.h"
 #import "WGradientProgressView.h"

@@ -219,10 +219,10 @@ static char *UIButton_CountDownBtn_isCanBeClickWhenTimerCycle = "UIButton_CountD
     self.count = timeCount;
     self.enabled = NO;
     
-    //启动方式——1
-//    [NSTimerManager nsTimeStart:self.nsTimerManager.nsTimer
+    //启动方式——1 定时器启动 手动添加定时器到RunLoop
+//    [NSTimerManager nsTimeStart:self.nsTimerManager
 //                    withRunLoop:nil];
-    //启动方式——2
+    //启动方式——2 定时器启动 系统自动添加到RunLoop
     [self.nsTimerManager nsTimeStartSysAutoInRunLoop];
 }
 //
