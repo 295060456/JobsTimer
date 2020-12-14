@@ -201,12 +201,9 @@
 		C55696A3255BFD05005C1361 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C5AEEAF4253841C9000E1C5F /* UIView+Animation.h */,
-				C5AEEAF7253841C9000E1C5F /* UIView+Animation.m */,
-				C5AEEAF6253841C9000E1C5F /* UIView+Extras.h */,
-				C5AEEAF5253841C9000E1C5F /* UIView+Extras.m */,
-				C5C67C6624FE5059000A26B8 /* UIView+Measure.h */,
-				C5C67C6724FE5059000A26B8 /* UIView+Measure.m */,
+				C595BE9E258642D1002A4531 /* UIView+Animation */,
+				C595BE9F258642D7002A4531 /* UIView+Extras */,
+				C595BEA0258642DD002A4531 /* UIView+Measure */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -389,6 +386,33 @@
 				C572A30824FE1D53000A1687 /* Nanosecond_TimerManager.m */,
 			);
 			path = Nanosecond_TimerManager;
+			sourceTree = "<group>";
+		};
+		C595BE9E258642D1002A4531 /* UIView+Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C5AEEAF4253841C9000E1C5F /* UIView+Animation.h */,
+				C5AEEAF7253841C9000E1C5F /* UIView+Animation.m */,
+			);
+			path = "UIView+Animation";
+			sourceTree = "<group>";
+		};
+		C595BE9F258642D7002A4531 /* UIView+Extras */ = {
+			isa = PBXGroup;
+			children = (
+				C5AEEAF6253841C9000E1C5F /* UIView+Extras.h */,
+				C5AEEAF5253841C9000E1C5F /* UIView+Extras.m */,
+			);
+			path = "UIView+Extras";
+			sourceTree = "<group>";
+		};
+		C595BEA0258642DD002A4531 /* UIView+Measure */ = {
+			isa = PBXGroup;
+			children = (
+				C5C67C6624FE5059000A26B8 /* UIView+Measure.h */,
+				C5C67C6724FE5059000A26B8 /* UIView+Measure.m */,
+			);
+			path = "UIView+Measure";
 			sourceTree = "<group>";
 		};
 		C5C67C4A24FE3951000A26B8 /* 验证码按钮 */ = {
