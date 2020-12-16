@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A12B6A193744A9241B81E83 /* Pods_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C926A1B02EDE2D1577BC858 /* Pods_TimerUITests.framework */; };
+		C526800D258A4E2F0095A681 /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C526800C258A4E2F0095A681 /* NSObject+Time.m */; };
 		C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569697255BFD01005C1361 /* NSString+Extras.m */; };
 		C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* NSObject+RichText.m */; };
 		C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B624FDFF66000A1687 /* AppDelegate.m */; };
@@ -29,7 +30,6 @@
 		C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6724FE5059000A26B8 /* UIView+Measure.m */; };
 		C5C67C6E24FF4A80000A26B8 /* MovieCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */; };
 		C5D6DD1625860F8E00029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DD1125860F8E00029AFF /* TimeModel.m */; };
-		C5D6DD1725860F8E00029AFF /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DD1525860F8E00029AFF /* NSObject+Time.m */; };
 		C5D6DD2125860F9A00029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DD2025860F9A00029AFF /* NSTimerManager.m */; };
 		C5E5C6892509154A001E69DA /* 水平进度条.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E5C6842509154A001E69DA /* 水平进度条.png */; };
 		C5E5C68A2509154A001E69DA /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C6872509154A001E69DA /* WGradientProgress.m */; };
@@ -62,8 +62,12 @@
 		7E0B57A271C5E1FBCEB115C6 /* Pods-Timer-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9325B00396AF782214E87AC8 /* Pods-TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerTests.debug.xcconfig"; path = "Target Support Files/Pods-TimerTests/Pods-TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABB0F4CC67C7FE43D2A2180C /* Pods-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TimerUITests/Pods-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C526800B258A4E2F0095A681 /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
+		C526800C258A4E2F0095A681 /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		C5569697255BFD01005C1361 /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
 		C556969B255BFD01005C1361 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
+		C558063B258A470A0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
+		C558F465258A32BB0078DB8F /* Timer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timer-Bridging-Header.h"; sourceTree = "<group>"; };
 		C56202D42553F8EB00FE435F /* NSObject+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RichText.m"; sourceTree = "<group>"; };
 		C56202D52553F8EB00FE435F /* NSObject+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RichText.h"; sourceTree = "<group>"; };
 		C56208872553FFBF00FE435F /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
@@ -113,8 +117,6 @@
 		C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCountDown.m; sourceTree = "<group>"; };
 		C5D6DD1125860F8E00029AFF /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
 		C5D6DD1225860F8E00029AFF /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
-		C5D6DD1425860F8E00029AFF /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
-		C5D6DD1525860F8E00029AFF /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		C5D6DD1F25860F9A00029AFF /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
 		C5D6DD2025860F9A00029AFF /* NSTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerManager.m; sourceTree = "<group>"; };
 		C5E5C6842509154A001E69DA /* 水平进度条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水平进度条.png"; sourceTree = "<group>"; };
@@ -182,6 +184,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C526800A258A4E2F0095A681 /* NSObject+Time */ = {
+			isa = PBXGroup;
+			children = (
+				C526800B258A4E2F0095A681 /* NSObject+Time.h */,
+				C526800C258A4E2F0095A681 /* NSObject+Time.m */,
+			);
+			name = "NSObject+Time";
+			path = "../../../../../Shooting/Shooting/3rd/BaseCustomizeUIKit/NSObject/NSObject+Time";
+			sourceTree = "<group>";
+		};
 		C55567C62580A5EF004DB33A /* NSObject+Others */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,11 +223,96 @@
 		C55696A4255BFD10005C1361 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				C526800A258A4E2F0095A681 /* NSObject+Time */,
 				C5D6DD1025860F8E00029AFF /* NSObject (Time) */,
-				C5D6DD1325860F8E00029AFF /* NSObject+Time */,
 				C55567C62580A5EF004DB33A /* NSObject+Others */,
 			);
 			path = NSObject;
+			sourceTree = "<group>";
+		};
+		C5580639258A46CE0078DB8F /* PodsManual */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PodsManual;
+			sourceTree = "<group>";
+		};
+		C558F45E258A32500078DB8F /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */,
+				C558F45F258A32560078DB8F /* BaseCustomizeUIKit */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		C558F45F258A32560078DB8F /* BaseCustomizeUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C55696A4255BFD10005C1361 /* NSObject */,
+				C5569696255BFD01005C1361 /* NSString */,
+				C55696A3255BFD05005C1361 /* UIView */,
+			);
+			path = BaseCustomizeUIKit;
+			sourceTree = "<group>";
+		};
+		C558F460258A327A0078DB8F /* 其他杂项 */ = {
+			isa = PBXGroup;
+			children = (
+				C572A2F824FE0261000A1687 /* Other.h */,
+			);
+			path = "其他杂项";
+			sourceTree = "<group>";
+		};
+		C558F461258A32880078DB8F /* 第三方头文件管理 */ = {
+			isa = PBXGroup;
+			children = (
+				C558F463258A32970078DB8F /* Pods */,
+				C558F462258A32900078DB8F /* 手动导入的第三方 */,
+			);
+			path = "第三方头文件管理";
+			sourceTree = "<group>";
+		};
+		C558F462258A32900078DB8F /* 手动导入的第三方 */ = {
+			isa = PBXGroup;
+			children = (
+				C572A2F424FE00EC000A1687 /* Manual_Add_ThirdParty.h */,
+			);
+			path = "手动导入的第三方";
+			sourceTree = "<group>";
+		};
+		C558F463258A32970078DB8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C572A2F524FE00EC000A1687 /* Pods.h */,
+				C558063B258A470A0078DB8F /* PodsManual.h */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C558F464258A32AA0078DB8F /* Swift-OC桥接头文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C558F465258A32BB0078DB8F /* Timer-Bridging-Header.h */,
+			);
+			path = "Swift-OC桥接头文件";
+			sourceTree = "<group>";
+		};
+		C558F4B8258A32E60078DB8F /* 各项全局定义 */ = {
+			isa = PBXGroup;
+			children = (
+				C558F4B9258A32EF0078DB8F /* 其他的一些全局定义文件 */,
+			);
+			path = "各项全局定义";
+			sourceTree = "<group>";
+		};
+		C558F4B9258A32EF0078DB8F /* 其他的一些全局定义文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C572A2F624FE00EC000A1687 /* DefineStructure.h */,
+				C572A2ED24FDFFFC000A1687 /* AABlock.h */,
+			);
+			path = "其他的一些全局定义文件";
 			sourceTree = "<group>";
 		};
 		C572791625409991002373D7 /* AppDelegate */ = {
@@ -239,12 +336,13 @@
 		C572A2A924FDFF66000A1687 = {
 			isa = PBXGroup;
 			children = (
-				C5C4FD09255A5E18002F407A /* README.md */,
 				C572A2B424FDFF66000A1687 /* Timer */,
 				C572A2D324FDFF69000A1687 /* TimerTests */,
 				C572A2DE24FDFF69000A1687 /* TimerUITests */,
-				73FB7F8AD727623476D33BBB /* Pods */,
 				BD8EDAA26D29B92C26A1A543 /* Frameworks */,
+				73FB7F8AD727623476D33BBB /* Pods */,
+				C5580639258A46CE0078DB8F /* PodsManual */,
+				C5C4FD09255A5E18002F407A /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -262,12 +360,12 @@
 		C572A2B424FDFF66000A1687 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				C572A2C924FDFF68000A1687 /* Info.plist */,
 				C572A2F724FE00F7000A1687 /* 🌹Macro */,
 				C572A2F024FE003C000A1687 /* AppDelegate & SceneDelegate */,
-				C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */,
+				C558F45E258A32500078DB8F /* 3rd */,
 				C572A2F124FE006B000A1687 /* 业务 */,
 				C572A2EF24FE000B000A1687 /* Others */,
-				C572A2C924FDFF68000A1687 /* Info.plist */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -327,10 +425,7 @@
 				C5C67C6B24FF4A32000A26B8 /* 电影倒计时特效 */,
 				C5E5C65C25088EED001E69DA /* 水平进度条 */,
 				C5C67C4A24FE3951000A26B8 /* 验证码按钮 */,
-				C55696A4255BFD10005C1361 /* NSObject */,
-				C5569696255BFD01005C1361 /* NSString */,
 				C572A2F924FE043E000A1687 /* TimerManager */,
-				C55696A3255BFD05005C1361 /* UIView */,
 			);
 			path = "Manual_Add_ThirdParty ";
 			sourceTree = "<group>";
@@ -339,11 +434,10 @@
 			isa = PBXGroup;
 			children = (
 				C572A2F324FE00EC000A1687 /* PrefixHeader.pch */,
-				C572A2F624FE00EC000A1687 /* DefineStructure.h */,
-				C572A2F424FE00EC000A1687 /* Manual_Add_ThirdParty.h */,
-				C572A2F524FE00EC000A1687 /* Pods.h */,
-				C572A2ED24FDFFFC000A1687 /* AABlock.h */,
-				C572A2F824FE0261000A1687 /* Other.h */,
+				C558F461258A32880078DB8F /* 第三方头文件管理 */,
+				C558F4B8258A32E60078DB8F /* 各项全局定义 */,
+				C558F460258A327A0078DB8F /* 其他杂项 */,
+				C558F464258A32AA0078DB8F /* Swift-OC桥接头文件 */,
 			);
 			path = "🌹Macro";
 			sourceTree = "<group>";
@@ -461,16 +555,6 @@
 			path = "NSObject (Time)";
 			sourceTree = "<group>";
 		};
-		C5D6DD1325860F8E00029AFF /* NSObject+Time */ = {
-			isa = PBXGroup;
-			children = (
-				C5D6DD1425860F8E00029AFF /* NSObject+Time.h */,
-				C5D6DD1525860F8E00029AFF /* NSObject+Time.m */,
-			);
-			name = "NSObject+Time";
-			path = "../../../../JobsBitsMonitor/JobsBitsMonitor/BaseCustomizeUIKit/NSObject/NSObject+Time";
-			sourceTree = "<group>";
-		};
 		C5D6DD1E25860F9A00029AFF /* NSTimerManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -564,6 +648,7 @@
 				TargetAttributes = {
 					C572A2B124FDFF66000A1687 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1230;
 					};
 					C572A2CF24FDFF69000A1687 = {
 						CreatedOnToolsVersion = 11.6;
@@ -716,7 +801,7 @@
 				C5C67C4D24FE3978000A26B8 /* UIButton+CountDownBtn.m in Sources */,
 				C572A2CB24FDFF68000A1687 /* main.m in Sources */,
 				C572A2BD24FDFF66000A1687 /* ViewController.m in Sources */,
-				C5D6DD1725860F8E00029AFF /* NSObject+Time.m in Sources */,
+				C526800D258A4E2F0095A681 /* NSObject+Time.m in Sources */,
 				C5AEEAF8253841C9000E1C5F /* UIView+Extras.m in Sources */,
 				C5D6DD1625860F8E00029AFF /* TimeModel.m in Sources */,
 				C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */,
@@ -901,6 +986,7 @@
 			baseConfigurationReference = F49195595CCF84A3C202E583 /* Pods-Timer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = Timer/Info.plist;
@@ -910,6 +996,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MonkeyKingVideo.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Timer/🌹Macro/Swift-OC桥接头文件/Timer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -919,6 +1008,7 @@
 			baseConfigurationReference = 0620BE652557EF53F1FCCF01 /* Pods-Timer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = Timer/Info.plist;
@@ -928,6 +1018,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MonkeyKingVideo.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Timer/🌹Macro/Swift-OC桥接头文件/Timer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
