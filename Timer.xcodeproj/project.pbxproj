@@ -29,6 +29,7 @@
 		C5C67C4D24FE3978000A26B8 /* UIButton+CountDownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */; };
 		C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6724FE5059000A26B8 /* UIView+Measure.m */; };
 		C5C67C6E24FF4A80000A26B8 /* MovieCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */; };
+		C5D1C15F258B215400784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1C15D258B215400784D2F /* UIView+EmptyData.m */; };
 		C5D6DD1625860F8E00029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DD1125860F8E00029AFF /* TimeModel.m */; };
 		C5D6DD2125860F9A00029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DD2025860F9A00029AFF /* NSTimerManager.m */; };
 		C5E5C6892509154A001E69DA /* 水平进度条.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E5C6842509154A001E69DA /* 水平进度条.png */; };
@@ -115,6 +116,8 @@
 		C5C67C6924FE7671000A26B8 /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
 		C5C67C6C24FF4A80000A26B8 /* MovieCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCountDown.h; sourceTree = "<group>"; };
 		C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCountDown.m; sourceTree = "<group>"; };
+		C5D1C15D258B215400784D2F /* UIView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyData.m"; sourceTree = "<group>"; };
+		C5D1C15E258B215400784D2F /* UIView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyData.h"; sourceTree = "<group>"; };
 		C5D6DD1125860F8E00029AFF /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
 		C5D6DD1225860F8E00029AFF /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
 		C5D6DD1F25860F9A00029AFF /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
@@ -213,6 +216,7 @@
 		C55696A3255BFD05005C1361 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				C5D1C15C258B215400784D2F /* UIView+EmptyData */,
 				C595BE9E258642D1002A4531 /* UIView+Animation */,
 				C595BE9F258642D7002A4531 /* UIView+Extras */,
 				C595BEA0258642DD002A4531 /* UIView+Measure */,
@@ -528,6 +532,15 @@
 			path = "电影倒计时特效";
 			sourceTree = "<group>";
 		};
+		C5D1C15C258B215400784D2F /* UIView+EmptyData */ = {
+			isa = PBXGroup;
+			children = (
+				C5D1C15D258B215400784D2F /* UIView+EmptyData.m */,
+				C5D1C15E258B215400784D2F /* UIView+EmptyData.h */,
+			);
+			path = "UIView+EmptyData";
+			sourceTree = "<group>";
+		};
 		C5D6CA852585F4E600029AFF /* NSString+Extras */ = {
 			isa = PBXGroup;
 			children = (
@@ -805,6 +818,7 @@
 				C5AEEAF8253841C9000E1C5F /* UIView+Extras.m in Sources */,
 				C5D6DD1625860F8E00029AFF /* TimeModel.m in Sources */,
 				C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */,
+				C5D1C15F258B215400784D2F /* UIView+EmptyData.m in Sources */,
 				C5E5C68B2509154A001E69DA /* WGradientProgressView.m in Sources */,
 				C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */,
 				C5AEEAF9253841C9000E1C5F /* UIView+Animation.m in Sources */,
