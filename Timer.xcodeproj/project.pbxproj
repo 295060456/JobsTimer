@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A12B6A193744A9241B81E83 /* Pods_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C926A1B02EDE2D1577BC858 /* Pods_TimerUITests.framework */; };
 		C526800D258A4E2F0095A681 /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C526800C258A4E2F0095A681 /* NSObject+Time.m */; };
+		C5461072258C901A0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461070258C901A0008928C /* UIView+AOP.m */; };
 		C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569697255BFD01005C1361 /* NSString+Extras.m */; };
 		C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* NSObject+RichText.m */; };
 		C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B624FDFF66000A1687 /* AppDelegate.m */; };
@@ -65,6 +66,8 @@
 		ABB0F4CC67C7FE43D2A2180C /* Pods-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TimerUITests/Pods-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C526800B258A4E2F0095A681 /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
 		C526800C258A4E2F0095A681 /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
+		C5461070258C901A0008928C /* UIView+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOP.m"; sourceTree = "<group>"; };
+		C5461071258C901A0008928C /* UIView+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOP.h"; sourceTree = "<group>"; };
 		C5569697255BFD01005C1361 /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
 		C556969B255BFD01005C1361 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
 		C558063B258A470A0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
@@ -197,6 +200,15 @@
 			path = "../../../../../Shooting/Shooting/3rd/BaseCustomizeUIKit/NSObject/NSObject+Time";
 			sourceTree = "<group>";
 		};
+		C546106F258C901A0008928C /* UIView+AOP */ = {
+			isa = PBXGroup;
+			children = (
+				C5461070258C901A0008928C /* UIView+AOP.m */,
+				C5461071258C901A0008928C /* UIView+AOP.h */,
+			);
+			path = "UIView+AOP";
+			sourceTree = "<group>";
+		};
 		C55567C62580A5EF004DB33A /* NSObject+Others */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,8 +228,9 @@
 		C55696A3255BFD05005C1361 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C5D1C15C258B215400784D2F /* UIView+EmptyData */,
+				C546106F258C901A0008928C /* UIView+AOP */,
 				C595BE9E258642D1002A4531 /* UIView+Animation */,
+				C5D1C15C258B215400784D2F /* UIView+EmptyData */,
 				C595BE9F258642D7002A4531 /* UIView+Extras */,
 				C595BEA0258642DD002A4531 /* UIView+Measure */,
 			);
@@ -831,6 +844,7 @@
 				C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */,
 				C572A30C24FE1D5D000A1687 /* CADisplayLink_TimerManager.m in Sources */,
 				C5E5C68A2509154A001E69DA /* WGradientProgress.m in Sources */,
+				C5461072258C901A0008928C /* UIView+AOP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

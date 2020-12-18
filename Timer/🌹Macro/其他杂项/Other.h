@@ -10,24 +10,92 @@
 #define Other_h
 
 #import <objc/runtime.h>
+#import "SceneDelegate.h"
+#import "AppDelegate.h"
 
+// http://ww1.fuckingclangwarnings.com/
+//#pragma clang diagnostic push
+//#pragma clang diagnostic ignored "-Wobjc-designated-initializers"
+//#pragma clang diagnostic ignored "-Wundeclared-selector"
+//#pragma clang diagnostic ignored "-Wincompatible-pointer-types"
+//#pragma clang diagnostic ignored "-Wincomplete-implementation"
+//#pragma clang diagnostic ignored "-Wdeprecated-implementations"
+//#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+//#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+//#pragma clang diagnostic ignored "-Wobjc-protocol-method-implementation"
+//#pragma clang diagnostic pop
 //警告处理⚠️
-#define SuppressPerformSelectorLeakWarning(Stuff) \
+#define SuppressWobjcProtocolMethodImplementationWarning(Stuff) \
+    do { \
+        _Pragma("clang diagnostic push") \
+        _Pragma("clang diagnostic ignored \"-Wobjc-protocol-method-implementation\"") \
+        Stuff; \
+        _Pragma("clang diagnostic pop") \
+} while (0)
+
+#define SuppressDesignatedInitializersWarning(Stuff) \
+    do { \
+        _Pragma("clang diagnostic push") \
+        _Pragma("clang diagnostic ignored \"-Wobjc-designated-initializers\"") \
+        Stuff; \
+        _Pragma("clang diagnostic pop") \
+} while (0)
+
+#define SuppressWundeclaredSelectorWarning(Stuff) \
+    do { \
+        _Pragma("clang diagnostic push") \
+        _Pragma("clang diagnostic ignored \"-Wundeclared-selector\"") \
+        Stuff; \
+        _Pragma("clang diagnostic pop") \
+} while (0)
+
+#define SuppressWincompatiblePointerTypesWarning(Stuff) \
+    do { \
+        _Pragma("clang diagnostic push") \
+        _Pragma("clang diagnostic ignored \"-Wincompatible-pointer-types\"") \
+        Stuff; \
+        _Pragma("clang diagnostic pop") \
+} while (0)
+
+#define SuppressWincompatiblePointerTypesWarning(Stuff) \
+    do { \
+        _Pragma("clang diagnostic push") \
+        _Pragma("clang diagnostic ignored \"-Wincompatible-pointer-types\"") \
+        Stuff; \
+        _Pragma("clang diagnostic pop") \
+} while (0)
+
+#define SuppressWincompleteImplementationWarning(Stuff) \
+    do { \
+        _Pragma("clang diagnostic push") \
+        _Pragma("clang diagnostic ignored \"-Wincomplete-implementation\"") \
+        Stuff; \
+        _Pragma("clang diagnostic pop") \
+} while (0)
+
+#define SuppressWdeprecatedImplementationsWarning(Stuff) \
+    do { \
+        _Pragma("clang diagnostic push") \
+        _Pragma("clang diagnostic ignored \"-Wdeprecated-implementations\"") \
+        Stuff; \
+        _Pragma("clang diagnostic pop") \
+} while (0)
+//
+#define SuppressWdeprecatedDeclarationsWarning(Stuff) \
+    do { \
+        _Pragma("clang diagnostic push") \
+        _Pragma("clang diagnostic ignored \"-Wdeprecated-declarations\"") \
+        Stuff; \
+        _Pragma("clang diagnostic pop") \
+} while (0)
+
+#define SuppressWarcPerformSelectorLeaksWarning(Stuff) \
     do { \
         _Pragma("clang diagnostic push") \
         _Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
         Stuff; \
         _Pragma("clang diagnostic pop") \
 } while (0)
-
-//#pragma clang diagnostic push
-//#pragma clang diagnostic ignored "-Wobjc-designated-initializers"
-//#pragma clang diagnostic ignored "-Wundeclared-selector"
-//#pragma clang diagnostic ignored "-Wincompatible-pointer-types"
-//#pragma clang diagnostic ignored "-Wincomplete-implementation"
-//#pragma clang diagnostic ignored "-Wdeprecated-declarations"
-//#pragma clang diagnostic ignored "-Warc-performSelector-leaks" [targetVC performSelector:NSSelectorFromString([NSString ensureNonnullString:alertBtnActionArr[i] ReplaceStr:@"defaultFunc"]) withObject:Nil];
-//#pragma clang diagnostic pop
 
 #define StringFormat(format,...) [NSString stringWithFormat:format, ##__VA_ARGS__]
 #define PrintRetainCount(obj) printf("Retain Count = %ld\n",CFGetRetainCount((__bridge CFTypeRef)(obj)));
