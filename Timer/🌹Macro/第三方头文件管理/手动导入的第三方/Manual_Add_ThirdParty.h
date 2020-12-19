@@ -18,5 +18,6 @@
 #import "TimerManager.h"
 #import "WGradientProgress.h"
 #import "WGradientProgressView.h"
+#import "UserDefaultManager.h"
 
 #endif /* Manual_Add_ThirdParty_h */

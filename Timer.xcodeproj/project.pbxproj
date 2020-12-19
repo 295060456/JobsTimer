@@ -25,6 +25,8 @@
 		C572A30224FE1D14000A1687 /* GCD_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A30124FE1D14000A1687 /* GCD_TimerManager.m */; };
 		C572A30924FE1D53000A1687 /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A30824FE1D53000A1687 /* Nanosecond_TimerManager.m */; };
 		C572A30C24FE1D5D000A1687 /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A30B24FE1D5D000A1687 /* CADisplayLink_TimerManager.m */; };
+		C59A3F2E258DD262005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3F2C258DD262005F6260 /* UserDefaultModel.m */; };
+		C59A3F2F258DD262005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3F2D258DD262005F6260 /* UserDefaultManager.m */; };
 		C5AEEAF8253841C9000E1C5F /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEEAF5253841C9000E1C5F /* UIView+Extras.m */; };
 		C5AEEAF9253841C9000E1C5F /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEEAF7253841C9000E1C5F /* UIView+Animation.m */; };
 		C5C67C4D24FE3978000A26B8 /* UIButton+CountDownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */; };
@@ -107,6 +109,10 @@
 		C572A30824FE1D53000A1687 /* Nanosecond_TimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nanosecond_TimerManager.m; sourceTree = "<group>"; };
 		C572A30A24FE1D5D000A1687 /* CADisplayLink_TimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADisplayLink_TimerManager.h; sourceTree = "<group>"; };
 		C572A30B24FE1D5D000A1687 /* CADisplayLink_TimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLink_TimerManager.m; sourceTree = "<group>"; };
+		C59A3F2A258DD262005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
+		C59A3F2B258DD262005F6260 /* UserDefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultModel.h; sourceTree = "<group>"; };
+		C59A3F2C258DD262005F6260 /* UserDefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultModel.m; sourceTree = "<group>"; };
+		C59A3F2D258DD262005F6260 /* UserDefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultManager.m; sourceTree = "<group>"; };
 		C5AEEAF4253841C9000E1C5F /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
 		C5AEEAF5253841C9000E1C5F /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
 		C5AEEAF6253841C9000E1C5F /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
@@ -439,6 +445,7 @@
 		C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C59A3F29258DD262005F6260 /* UserDefaultManager */,
 				C5C67C6B24FF4A32000A26B8 /* 电影倒计时特效 */,
 				C5E5C65C25088EED001E69DA /* 水平进度条 */,
 				C5C67C4A24FE3951000A26B8 /* 验证码按钮 */,
@@ -524,6 +531,17 @@
 				C5C67C6724FE5059000A26B8 /* UIView+Measure.m */,
 			);
 			path = "UIView+Measure";
+			sourceTree = "<group>";
+		};
+		C59A3F29258DD262005F6260 /* UserDefaultManager */ = {
+			isa = PBXGroup;
+			children = (
+				C59A3F2A258DD262005F6260 /* UserDefaultManager.h */,
+				C59A3F2B258DD262005F6260 /* UserDefaultModel.h */,
+				C59A3F2C258DD262005F6260 /* UserDefaultModel.m */,
+				C59A3F2D258DD262005F6260 /* UserDefaultManager.m */,
+			);
+			path = UserDefaultManager;
 			sourceTree = "<group>";
 		};
 		C5C67C4A24FE3951000A26B8 /* 验证码按钮 */ = {
@@ -829,6 +847,7 @@
 				C572A2BD24FDFF66000A1687 /* ViewController.m in Sources */,
 				C526800D258A4E2F0095A681 /* NSObject+Time.m in Sources */,
 				C5AEEAF8253841C9000E1C5F /* UIView+Extras.m in Sources */,
+				C59A3F2F258DD262005F6260 /* UserDefaultManager.m in Sources */,
 				C5D6DD1625860F8E00029AFF /* TimeModel.m in Sources */,
 				C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */,
 				C5D1C15F258B215400784D2F /* UIView+EmptyData.m in Sources */,
@@ -839,6 +858,7 @@
 				C5D6DD2125860F9A00029AFF /* NSTimerManager.m in Sources */,
 				C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */,
 				C572A2C324FDFF66000A1687 /* Timer.xcdatamodeld in Sources */,
+				C59A3F2E258DD262005F6260 /* UserDefaultModel.m in Sources */,
 				C572A30224FE1D14000A1687 /* GCD_TimerManager.m in Sources */,
 				C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */,
 				C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */,
