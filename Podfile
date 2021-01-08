@@ -22,6 +22,9 @@ def func
   pod 'ReactiveObjC'
   pod 'MJRefresh'
   pod 'MJExtension'
+  pod 'GKPhotoBrowser' # https://github.com/QuintGao/GKPhotoBrowser iOS仿微信、今日头条等图片浏览器
+  pod 'SDWebImage'
+  pod 'YYImage'
   end
 
 # 基础的公共配置

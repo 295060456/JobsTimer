@@ -7,54 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46EB2E000001B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E000001A0 /* Foundation.framework */; };
-		46EB2E00000220 /* Pods-Timer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* Pods-Timer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000270 /* Pods-Timer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000260 /* Pods-Timer-dummy.m */; };
-		46EB2E00000310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E000001A0 /* Foundation.framework */; };
-		46EB2E00000380 /* Pods-TimerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000370 /* Pods-TimerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000003C0 /* Pods-TimerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003B0 /* Pods-TimerTests-dummy.m */; };
-		46EB2E00000460 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E000001A0 /* Foundation.framework */; };
-		46EB2E000004D0 /* Pods-TimerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004C0 /* Pods-TimerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000510 /* Pods-TimerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000500 /* Pods-TimerUITests-dummy.m */; };
+		46EB2E000001E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E000001D0 /* Foundation.framework */; };
+		46EB2E00000250 /* Pods-Timer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000240 /* Pods-Timer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000002A0 /* Pods-Timer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000290 /* Pods-Timer-dummy.m */; };
+		46EB2E00000340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E000001D0 /* Foundation.framework */; };
+		46EB2E000003B0 /* Pods-TimerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000003A0 /* Pods-TimerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000003F0 /* Pods-TimerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000003E0 /* Pods-TimerTests-dummy.m */; };
+		46EB2E00000490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E000001D0 /* Foundation.framework */; };
+		46EB2E00000500 /* Pods-TimerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000004F0 /* Pods-TimerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000540 /* Pods-TimerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000530 /* Pods-TimerUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46EB2E00000520 /* PBXContainerItemProxy */ = {
+		46EB2E00000550 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E000000C0 /* MJExtension.xcodeproj */;
+			containerPortal = 46EB2E000000C0 /* GKPhotoBrowser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 173C9E933A74D8E07549755C70734C10;
+			remoteInfo = GKPhotoBrowser;
+		};
+		46EB2E00000570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E000000D0 /* MJExtension.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 7DCB41C64D8AA20B24D05162BE708C8F;
 			remoteInfo = MJExtension;
 		};
-		46EB2E00000540 /* PBXContainerItemProxy */ = {
+		46EB2E00000590 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E000000D0 /* MJRefresh.xcodeproj */;
+			containerPortal = 46EB2E000000E0 /* MJRefresh.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = E94AEF767442EDAAAAB2129CDFA2C2ED;
 			remoteInfo = MJRefresh;
 		};
-		46EB2E00000560 /* PBXContainerItemProxy */ = {
+		46EB2E000005B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E000000E0 /* Masonry.xcodeproj */;
+			containerPortal = 46EB2E000000F0 /* Masonry.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = C0965FF775F51458AD4A8E41ABAB7D1E;
 			remoteInfo = Masonry;
 		};
-		46EB2E00000580 /* PBXContainerItemProxy */ = {
+		46EB2E000005D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46EB2E000000F0 /* ReactiveObjC.xcodeproj */;
+			containerPortal = 46EB2E00000100 /* ReactiveObjC.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 58630A911E82956281CDF1C822E7FC41;
 			remoteInfo = ReactiveObjC;
 		};
-		46EB2E000005A0 /* PBXContainerItemProxy */ = {
+		46EB2E000005F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000110 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECF4E662EEBE4FA58102FF984D920CC;
+			remoteInfo = SDWebImage;
+		};
+		46EB2E00000610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46EB2E00000120 /* YYImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A687989E871964747CED931C10657C;
+			remoteInfo = YYImage;
+		};
+		46EB2E00000630 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 51AB9636063F03C08C38AD8937B42606;
 			remoteInfo = "Pods-Timer";
 		};
-		46EB2E000005C0 /* PBXContainerItemProxy */ = {
+		46EB2E00000650 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
@@ -65,63 +86,66 @@
 
 /* Begin PBXFileReference section */
 		46EB2E000000B0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E000000C0 /* MJExtension */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJExtension; path = MJExtension.xcodeproj; sourceTree = "<group>"; };
-		46EB2E000000D0 /* MJRefresh */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJRefresh; path = MJRefresh.xcodeproj; sourceTree = "<group>"; };
-		46EB2E000000E0 /* Masonry */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Masonry; path = Masonry.xcodeproj; sourceTree = "<group>"; };
-		46EB2E000000F0 /* ReactiveObjC */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveObjC; path = ReactiveObjC.xcodeproj; sourceTree = "<group>"; };
-		46EB2E000001A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		46EB2E000001D0 /* Pods-Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Timer.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000001E0 /* Pods-Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Timer.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000001F0 /* Pods-Timer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Timer-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000200 /* Pods-Timer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Timer.modulemap"; sourceTree = "<group>"; };
-		46EB2E00000210 /* Pods-Timer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Timer-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000230 /* Pods-Timer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Timer-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00000240 /* Pods-Timer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Timer-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00000250 /* Pods-Timer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Timer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00000260 /* Pods-Timer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Timer-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000330 /* Pods-TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerTests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000340 /* Pods-TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000350 /* Pods-TimerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimerTests-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000360 /* Pods-TimerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimerTests.modulemap"; sourceTree = "<group>"; };
-		46EB2E00000370 /* Pods-TimerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerTests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000390 /* Pods-TimerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E000003A0 /* Pods-TimerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E000003B0 /* Pods-TimerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimerTests-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000480 /* Pods-TimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000490 /* Pods-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000004A0 /* Pods-TimerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimerUITests-Info.plist"; sourceTree = "<group>"; };
-		46EB2E000004B0 /* Pods-TimerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimerUITests.modulemap"; sourceTree = "<group>"; };
-		46EB2E000004C0 /* Pods-TimerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerUITests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E000004E0 /* Pods-TimerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E000004F0 /* Pods-TimerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00000500 /* Pods-TimerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimerUITests-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000000C0 /* GKPhotoBrowser */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GKPhotoBrowser; path = GKPhotoBrowser.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000000D0 /* MJExtension */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJExtension; path = MJExtension.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000000E0 /* MJRefresh */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJRefresh; path = MJRefresh.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000000F0 /* Masonry */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Masonry; path = Masonry.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000100 /* ReactiveObjC */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveObjC; path = ReactiveObjC.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000110 /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage; path = SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		46EB2E00000120 /* YYImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYImage; path = YYImage.xcodeproj; sourceTree = "<group>"; };
+		46EB2E000001D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46EB2E00000200 /* Pods-Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Timer.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000210 /* Pods-Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Timer.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000220 /* Pods-Timer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Timer-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000230 /* Pods-Timer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Timer.modulemap"; sourceTree = "<group>"; };
+		46EB2E00000240 /* Pods-Timer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Timer-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000260 /* Pods-Timer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Timer-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E00000270 /* Pods-Timer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Timer-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000280 /* Pods-Timer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Timer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000290 /* Pods-Timer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Timer-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000360 /* Pods-TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000370 /* Pods-TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000380 /* Pods-TimerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimerTests-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000390 /* Pods-TimerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimerTests.modulemap"; sourceTree = "<group>"; };
+		46EB2E000003A0 /* Pods-TimerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerTests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E000003C0 /* Pods-TimerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E000003D0 /* Pods-TimerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E000003E0 /* Pods-TimerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimerTests-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000004B0 /* Pods-TimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000004C0 /* Pods-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000004D0 /* Pods-TimerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimerUITests-Info.plist"; sourceTree = "<group>"; };
+		46EB2E000004E0 /* Pods-TimerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimerUITests.modulemap"; sourceTree = "<group>"; };
+		46EB2E000004F0 /* Pods-TimerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimerUITests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000510 /* Pods-TimerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000520 /* Pods-TimerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000530 /* Pods-TimerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimerUITests-dummy.m"; sourceTree = "<group>"; };
 		84651108813C0093C0FE78A7F82025FF /* Pods_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Timer.framework; path = "Pods-Timer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D9867C3610CB684D5CB9EE1069C35D /* Pods_TimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimerUITests.framework; path = "Pods-TimerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00F57E6C9FB2BDD178C27E2AF6F0C67 /* Pods_TimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimerTests.framework; path = "Pods-TimerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46EB2E00000170 /* Frameworks */ = {
+		46EB2E000001A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000001B0 /* Foundation.framework in Frameworks */,
+				46EB2E000001E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000002F0 /* Frameworks */ = {
+		46EB2E00000320 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000310 /* Foundation.framework in Frameworks */,
+				46EB2E00000340 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000440 /* Frameworks */ = {
+		46EB2E00000470 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000460 /* Foundation.framework in Frameworks */,
+				46EB2E00000490 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +176,7 @@
 		46EB2E00000060 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000190 /* iOS */,
+				46EB2E000001C0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,9 +184,9 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000001C0 /* Pods-Timer */,
-				46EB2E00000320 /* Pods-TimerTests */,
-				46EB2E00000470 /* Pods-TimerUITests */,
+				46EB2E000001F0 /* Pods-Timer */,
+				46EB2E00000350 /* Pods-TimerTests */,
+				46EB2E000004A0 /* Pods-TimerUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -170,66 +194,69 @@
 		46EB2E00000080 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000000E0 /* Masonry */,
-				46EB2E000000C0 /* MJExtension */,
-				46EB2E000000D0 /* MJRefresh */,
-				46EB2E000000F0 /* ReactiveObjC */,
+				46EB2E000000C0 /* GKPhotoBrowser */,
+				46EB2E000000F0 /* Masonry */,
+				46EB2E000000D0 /* MJExtension */,
+				46EB2E000000E0 /* MJRefresh */,
+				46EB2E00000100 /* ReactiveObjC */,
+				46EB2E00000110 /* SDWebImage */,
+				46EB2E00000120 /* YYImage */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		46EB2E00000190 /* iOS */ = {
+		46EB2E000001C0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000001A0 /* Foundation.framework */,
+				46EB2E000001D0 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		46EB2E000001C0 /* Pods-Timer */ = {
+		46EB2E000001F0 /* Pods-Timer */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000200 /* Pods-Timer.modulemap */,
-				46EB2E00000250 /* Pods-Timer-acknowledgements.markdown */,
-				46EB2E00000240 /* Pods-Timer-acknowledgements.plist */,
-				46EB2E00000260 /* Pods-Timer-dummy.m */,
-				46EB2E00000230 /* Pods-Timer-frameworks.sh */,
-				46EB2E000001F0 /* Pods-Timer-Info.plist */,
-				46EB2E00000210 /* Pods-Timer-umbrella.h */,
-				46EB2E000001E0 /* Pods-Timer.debug.xcconfig */,
-				46EB2E000001D0 /* Pods-Timer.release.xcconfig */,
+				46EB2E00000230 /* Pods-Timer.modulemap */,
+				46EB2E00000280 /* Pods-Timer-acknowledgements.markdown */,
+				46EB2E00000270 /* Pods-Timer-acknowledgements.plist */,
+				46EB2E00000290 /* Pods-Timer-dummy.m */,
+				46EB2E00000260 /* Pods-Timer-frameworks.sh */,
+				46EB2E00000220 /* Pods-Timer-Info.plist */,
+				46EB2E00000240 /* Pods-Timer-umbrella.h */,
+				46EB2E00000210 /* Pods-Timer.debug.xcconfig */,
+				46EB2E00000200 /* Pods-Timer.release.xcconfig */,
 			);
 			name = "Pods-Timer";
 			path = "Target Support Files/Pods-Timer";
 			sourceTree = "<group>";
 		};
-		46EB2E00000320 /* Pods-TimerTests */ = {
+		46EB2E00000350 /* Pods-TimerTests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000360 /* Pods-TimerTests.modulemap */,
-				46EB2E000003A0 /* Pods-TimerTests-acknowledgements.markdown */,
-				46EB2E00000390 /* Pods-TimerTests-acknowledgements.plist */,
-				46EB2E000003B0 /* Pods-TimerTests-dummy.m */,
-				46EB2E00000350 /* Pods-TimerTests-Info.plist */,
-				46EB2E00000370 /* Pods-TimerTests-umbrella.h */,
-				46EB2E00000340 /* Pods-TimerTests.debug.xcconfig */,
-				46EB2E00000330 /* Pods-TimerTests.release.xcconfig */,
+				46EB2E00000390 /* Pods-TimerTests.modulemap */,
+				46EB2E000003D0 /* Pods-TimerTests-acknowledgements.markdown */,
+				46EB2E000003C0 /* Pods-TimerTests-acknowledgements.plist */,
+				46EB2E000003E0 /* Pods-TimerTests-dummy.m */,
+				46EB2E00000380 /* Pods-TimerTests-Info.plist */,
+				46EB2E000003A0 /* Pods-TimerTests-umbrella.h */,
+				46EB2E00000370 /* Pods-TimerTests.debug.xcconfig */,
+				46EB2E00000360 /* Pods-TimerTests.release.xcconfig */,
 			);
 			name = "Pods-TimerTests";
 			path = "Target Support Files/Pods-TimerTests";
 			sourceTree = "<group>";
 		};
-		46EB2E00000470 /* Pods-TimerUITests */ = {
+		46EB2E000004A0 /* Pods-TimerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000004B0 /* Pods-TimerUITests.modulemap */,
-				46EB2E000004F0 /* Pods-TimerUITests-acknowledgements.markdown */,
-				46EB2E000004E0 /* Pods-TimerUITests-acknowledgements.plist */,
-				46EB2E00000500 /* Pods-TimerUITests-dummy.m */,
-				46EB2E000004A0 /* Pods-TimerUITests-Info.plist */,
-				46EB2E000004C0 /* Pods-TimerUITests-umbrella.h */,
-				46EB2E00000490 /* Pods-TimerUITests.debug.xcconfig */,
-				46EB2E00000480 /* Pods-TimerUITests.release.xcconfig */,
+				46EB2E000004E0 /* Pods-TimerUITests.modulemap */,
+				46EB2E00000520 /* Pods-TimerUITests-acknowledgements.markdown */,
+				46EB2E00000510 /* Pods-TimerUITests-acknowledgements.plist */,
+				46EB2E00000530 /* Pods-TimerUITests-dummy.m */,
+				46EB2E000004D0 /* Pods-TimerUITests-Info.plist */,
+				46EB2E000004F0 /* Pods-TimerUITests-umbrella.h */,
+				46EB2E000004C0 /* Pods-TimerUITests.debug.xcconfig */,
+				46EB2E000004B0 /* Pods-TimerUITests.release.xcconfig */,
 			);
 			name = "Pods-TimerUITests";
 			path = "Target Support Files/Pods-TimerUITests";
@@ -238,27 +265,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46EB2E00000150 /* Headers */ = {
+		46EB2E00000180 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000220 /* Pods-Timer-umbrella.h in Headers */,
+				46EB2E00000250 /* Pods-Timer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000002D0 /* Headers */ = {
+		46EB2E00000300 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000380 /* Pods-TimerTests-umbrella.h in Headers */,
+				46EB2E000003B0 /* Pods-TimerTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000420 /* Headers */ = {
+		46EB2E00000450 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000004D0 /* Pods-TimerUITests-umbrella.h in Headers */,
+				46EB2E00000500 /* Pods-TimerUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,20 +294,23 @@
 /* Begin PBXNativeTarget section */
 		51AB9636063F03C08C38AD8937B42606 /* Pods-Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000110 /* Build configuration list for PBXNativeTarget "Pods-Timer" */;
+			buildConfigurationList = 46EB2E00000140 /* Build configuration list for PBXNativeTarget "Pods-Timer" */;
 			buildPhases = (
-				46EB2E00000150 /* Headers */,
-				46EB2E00000160 /* Sources */,
-				46EB2E00000170 /* Frameworks */,
-				46EB2E00000180 /* Resources */,
+				46EB2E00000180 /* Headers */,
+				46EB2E00000190 /* Sources */,
+				46EB2E000001A0 /* Frameworks */,
+				46EB2E000001B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00000530 /* PBXTargetDependency */,
-				46EB2E00000550 /* PBXTargetDependency */,
-				46EB2E00000570 /* PBXTargetDependency */,
-				46EB2E00000590 /* PBXTargetDependency */,
+				46EB2E00000560 /* PBXTargetDependency */,
+				46EB2E00000580 /* PBXTargetDependency */,
+				46EB2E000005A0 /* PBXTargetDependency */,
+				46EB2E000005C0 /* PBXTargetDependency */,
+				46EB2E000005E0 /* PBXTargetDependency */,
+				46EB2E00000600 /* PBXTargetDependency */,
+				46EB2E00000620 /* PBXTargetDependency */,
 			);
 			name = "Pods-Timer";
 			productName = "Pods-Timer";
@@ -289,17 +319,17 @@
 		};
 		7F8BCA4491CD1EB027724CCD117BF75C /* Pods-TimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000003E0 /* Build configuration list for PBXNativeTarget "Pods-TimerUITests" */;
+			buildConfigurationList = 46EB2E00000410 /* Build configuration list for PBXNativeTarget "Pods-TimerUITests" */;
 			buildPhases = (
-				46EB2E00000420 /* Headers */,
-				46EB2E00000430 /* Sources */,
-				46EB2E00000440 /* Frameworks */,
-				46EB2E00000450 /* Resources */,
+				46EB2E00000450 /* Headers */,
+				46EB2E00000460 /* Sources */,
+				46EB2E00000470 /* Frameworks */,
+				46EB2E00000480 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E000005D0 /* PBXTargetDependency */,
+				46EB2E00000660 /* PBXTargetDependency */,
 			);
 			name = "Pods-TimerUITests";
 			productName = "Pods-TimerUITests";
@@ -308,17 +338,17 @@
 		};
 		C5DFD3D568E917385DE29C7E77D5303E /* Pods-TimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000290 /* Build configuration list for PBXNativeTarget "Pods-TimerTests" */;
+			buildConfigurationList = 46EB2E000002C0 /* Build configuration list for PBXNativeTarget "Pods-TimerTests" */;
 			buildPhases = (
-				46EB2E000002D0 /* Headers */,
-				46EB2E000002E0 /* Sources */,
-				46EB2E000002F0 /* Frameworks */,
-				46EB2E00000300 /* Resources */,
+				46EB2E00000300 /* Headers */,
+				46EB2E00000310 /* Sources */,
+				46EB2E00000320 /* Frameworks */,
+				46EB2E00000330 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E000005B0 /* PBXTargetDependency */,
+				46EB2E00000640 /* PBXTargetDependency */,
 			);
 			name = "Pods-TimerTests";
 			productName = "Pods-TimerTests";
@@ -347,16 +377,25 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = 46EB2E000000C0 /* MJExtension */;
+					ProjectRef = 46EB2E000000C0 /* GKPhotoBrowser */;
 				},
 				{
-					ProjectRef = 46EB2E000000D0 /* MJRefresh */;
+					ProjectRef = 46EB2E000000D0 /* MJExtension */;
 				},
 				{
-					ProjectRef = 46EB2E000000E0 /* Masonry */;
+					ProjectRef = 46EB2E000000E0 /* MJRefresh */;
 				},
 				{
-					ProjectRef = 46EB2E000000F0 /* ReactiveObjC */;
+					ProjectRef = 46EB2E000000F0 /* Masonry */;
+				},
+				{
+					ProjectRef = 46EB2E00000100 /* ReactiveObjC */;
+				},
+				{
+					ProjectRef = 46EB2E00000110 /* SDWebImage */;
+				},
+				{
+					ProjectRef = 46EB2E00000120 /* YYImage */;
 				},
 			);
 			projectRoot = "";
@@ -369,21 +408,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46EB2E00000180 /* Resources */ = {
+		46EB2E000001B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000300 /* Resources */ = {
+		46EB2E00000330 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000450 /* Resources */ = {
+		46EB2E00000480 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,64 +432,79 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46EB2E00000160 /* Sources */ = {
+		46EB2E00000190 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000270 /* Pods-Timer-dummy.m in Sources */,
+				46EB2E000002A0 /* Pods-Timer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000002E0 /* Sources */ = {
+		46EB2E00000310 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000003C0 /* Pods-TimerTests-dummy.m in Sources */,
+				46EB2E000003F0 /* Pods-TimerTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000430 /* Sources */ = {
+		46EB2E00000460 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000510 /* Pods-TimerUITests-dummy.m in Sources */,
+				46EB2E00000540 /* Pods-TimerUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46EB2E00000530 /* PBXTargetDependency */ = {
+		46EB2E00000560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GKPhotoBrowser;
+			targetProxy = 46EB2E00000550 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000580 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJExtension;
-			targetProxy = 46EB2E00000520 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000570 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000550 /* PBXTargetDependency */ = {
+		46EB2E000005A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJRefresh;
-			targetProxy = 46EB2E00000540 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000590 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000570 /* PBXTargetDependency */ = {
+		46EB2E000005C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			targetProxy = 46EB2E00000560 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E000005B0 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000590 /* PBXTargetDependency */ = {
+		46EB2E000005E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReactiveObjC;
-			targetProxy = 46EB2E00000580 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E000005D0 /* PBXContainerItemProxy */;
 		};
-		46EB2E000005B0 /* PBXTargetDependency */ = {
+		46EB2E00000600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = 46EB2E000005F0 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYImage;
+			targetProxy = 46EB2E00000610 /* PBXContainerItemProxy */;
+		};
+		46EB2E00000640 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Timer";
 			target = 51AB9636063F03C08C38AD8937B42606 /* Pods-Timer */;
-			targetProxy = 46EB2E000005A0 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000630 /* PBXContainerItemProxy */;
 		};
-		46EB2E000005D0 /* PBXTargetDependency */ = {
+		46EB2E00000660 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Timer";
 			target = 51AB9636063F03C08C38AD8937B42606 /* Pods-Timer */;
-			targetProxy = 46EB2E000005C0 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000650 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -583,9 +637,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000120 /* Release */ = {
+		46EB2E00000150 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000001D0 /* Pods-Timer.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000200 /* Pods-Timer.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -620,9 +674,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000130 /* Debug */ = {
+		46EB2E00000160 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000001E0 /* Pods-Timer.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000210 /* Pods-Timer.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -656,9 +710,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E000002A0 /* Release */ = {
+		46EB2E000002D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000330 /* Pods-TimerTests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000360 /* Pods-TimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -693,9 +747,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000002B0 /* Debug */ = {
+		46EB2E000002E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000340 /* Pods-TimerTests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000370 /* Pods-TimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -729,9 +783,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E000003F0 /* Release */ = {
+		46EB2E00000420 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000480 /* Pods-TimerUITests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000004B0 /* Pods-TimerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -766,9 +820,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000400 /* Debug */ = {
+		46EB2E00000430 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000490 /* Pods-TimerUITests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000004C0 /* Pods-TimerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -814,29 +868,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000110 /* Build configuration list for PBXNativeTarget "Pods-Timer" */ = {
+		46EB2E00000140 /* Build configuration list for PBXNativeTarget "Pods-Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000130 /* Debug */,
-				46EB2E00000120 /* Release */,
+				46EB2E00000160 /* Debug */,
+				46EB2E00000150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000290 /* Build configuration list for PBXNativeTarget "Pods-TimerTests" */ = {
+		46EB2E000002C0 /* Build configuration list for PBXNativeTarget "Pods-TimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000002B0 /* Debug */,
-				46EB2E000002A0 /* Release */,
+				46EB2E000002E0 /* Debug */,
+				46EB2E000002D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000003E0 /* Build configuration list for PBXNativeTarget "Pods-TimerUITests" */ = {
+		46EB2E00000410 /* Build configuration list for PBXNativeTarget "Pods-TimerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000400 /* Debug */,
-				46EB2E000003F0 /* Release */,
+				46EB2E00000430 /* Debug */,
+				46EB2E00000420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -33,4 +33,22 @@
 #import "MJRefresh.h"
 #endif
 
+#if __has_include(<GKPhotoBrowser/GKPhotoBrowser.h>)
+#import <GKPhotoBrowser/GKPhotoBrowser.h>
+#else
+#import "GKPhotoBrowser.h"
+#endif
+
+#if __has_include(<SDWebImage/SDWebImage.h>)
+#import <SDWebImage/SDWebImage.h>
+#else
+#import "SDWebImage.h"
+#endif
+
+#if __has_include(<YYImage/YYImage.h>)
+#import <YYImage/YYImage.h>
+#else
+#import "YYImage.h"
+#endif
+
 #endif /* Pods_h */

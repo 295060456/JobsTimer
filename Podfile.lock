@@ -1,28 +1,49 @@
 PODS:
+  - GKPhotoBrowser (2.1.4):
+    - GKPhotoBrowser/SD (= 2.1.4)
+  - GKPhotoBrowser/Core (2.1.4)
+  - GKPhotoBrowser/SD (2.1.4):
+    - GKPhotoBrowser/Core
+    - SDWebImage (~> 5.0)
   - Masonry (1.1.0)
   - MJExtension (3.2.2)
   - MJRefresh (3.5.0)
   - ReactiveObjC (3.1.1)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
+  - GKPhotoBrowser
   - Masonry
   - MJExtension
   - MJRefresh
   - ReactiveObjC
+  - SDWebImage
+  - YYImage
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - GKPhotoBrowser
     - Masonry
     - MJExtension
     - MJRefresh
     - ReactiveObjC
+    - SDWebImage
+    - YYImage
 
 SPEC CHECKSUMS:
+  GKPhotoBrowser: 1f7c0bdd21fc617f1c7cd18d15f26488abf0f973
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: b409c8ab385f23eaf9f9a851ee19df3d4aa1170b
+PODFILE CHECKSUM: 7ec6f21b459b28a024ca0da4a0e3c08672025ab9
 
 COCOAPODS: 1.10.0
