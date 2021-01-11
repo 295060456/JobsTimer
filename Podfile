@@ -23,8 +23,12 @@ def func
   pod 'MJRefresh'
   pod 'MJExtension'
   pod 'GKPhotoBrowser' # https://github.com/QuintGao/GKPhotoBrowser iOS仿微信、今日头条等图片浏览器
+  pod 'JXCategoryView'
+  pod 'JXPagingView/Pager' # https://github.com/pujiaxin33/JXPagingView NO_SMP
   pod 'SDWebImage'
   pod 'YYImage'
+  pod 'FLAnimatedImageView+RGWrapper'
+  pod 'WHToast' # https://github.com/remember17/WHToast 一个轻量级的提示控件，没有任何依赖
   end
 
 # 基础的公共配置

@@ -10,10 +10,12 @@
 #define Manual_Add_ThirdParty_h
 
 #import "AABlock.h"
+#import "LoadingImage.h"
 #import "UIView+Measure.h"
 #import "UIView+Extras.h"
 #import "UIView+EmptyData.h"
 #import "NSString+Extras.h"
+#import "NSObject+Extras.h"
 #import "NSObject+Time.h"
 #import "TimerManager.h"
 #import "WGradientProgress.h"

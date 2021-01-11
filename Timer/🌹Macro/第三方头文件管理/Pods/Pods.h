@@ -51,4 +51,22 @@
 #import "YYImage.h"
 #endif
 
+#if __has_include(<JXCategoryView/JXCategoryView.h>)
+#import <JXCategoryView/JXCategoryView.h>
+#else
+#import "JXCategoryView.h"
+#endif
+
+#if __has_include(<JXPagingView/JXPagerView.h>)
+#import <JXPagingView/JXPagerView.h>
+#else
+#import "JXPagerView.h"
+#endif
+
+#if __has_include(<WHToast/WHToast.h>)
+#import <WHToast/WHToast.h>
+#else
+#import "WHToast.h"
+#endif
+
 #endif /* Pods_h */
