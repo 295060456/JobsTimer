@@ -100,6 +100,7 @@
 		C5C67C4D24FE3978000A26B8 /* UIButton+CountDownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */; };
 		C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6724FE5059000A26B8 /* UIView+Measure.m */; };
 		C5C67C6E24FF4A80000A26B8 /* MovieCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */; };
+		C5CF18EF25AC805F00381935 /* LYLUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF18EC25AC805F00381935 /* LYLUnicode.m */; };
 		C5D1C15F258B215400784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1C15D258B215400784D2F /* UIView+EmptyData.m */; };
 		C5D6DD1625860F8E00029AFF /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DD1125860F8E00029AFF /* TimeModel.m */; };
 		C5D6DD2125860F9A00029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DD2025860F9A00029AFF /* NSTimerManager.m */; };
@@ -308,6 +309,9 @@
 		C5C67C6924FE7671000A26B8 /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
 		C5C67C6C24FF4A80000A26B8 /* MovieCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCountDown.h; sourceTree = "<group>"; };
 		C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCountDown.m; sourceTree = "<group>"; };
+		C5CF18EC25AC805F00381935 /* LYLUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLUnicode.m; sourceTree = "<group>"; };
+		C5CF18ED25AC805F00381935 /* 解决打印日志对于Unicode编码不能正常显示中文的问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "解决打印日志对于Unicode编码不能正常显示中文的问题"; sourceTree = "<group>"; };
+		C5CF18EE25AC805F00381935 /* LYLUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLUnicode.h; sourceTree = "<group>"; };
 		C5D1C15D258B215400784D2F /* UIView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyData.m"; sourceTree = "<group>"; };
 		C5D1C15E258B215400784D2F /* UIView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyData.h"; sourceTree = "<group>"; };
 		C5D6DD1125860F8E00029AFF /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
@@ -632,12 +636,13 @@
 		C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
-				C5A43BC625AAF91D000F0CD2 /* 手势滑动返回 */,
-				C59A3F29258DD262005F6260 /* UserDefaultManager */,
 				C5C67C6B24FF4A32000A26B8 /* 电影倒计时特效 */,
+				C5A43BC625AAF91D000F0CD2 /* 手势滑动返回 */,
 				C5E5C65C25088EED001E69DA /* 水平进度条 */,
 				C5C67C4A24FE3951000A26B8 /* 验证码按钮 */,
+				C5CF18EB25AC805F00381935 /* LYLUnicode */,
 				C572A2F924FE043E000A1687 /* TimerManager */,
+				C59A3F29258DD262005F6260 /* UserDefaultManager */,
 			);
 			path = "Manual_Add_ThirdParty ";
 			sourceTree = "<group>";
@@ -967,6 +972,16 @@
 			path = "电影倒计时特效";
 			sourceTree = "<group>";
 		};
+		C5CF18EB25AC805F00381935 /* LYLUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				C5CF18ED25AC805F00381935 /* 解决打印日志对于Unicode编码不能正常显示中文的问题 */,
+				C5CF18EE25AC805F00381935 /* LYLUnicode.h */,
+				C5CF18EC25AC805F00381935 /* LYLUnicode.m */,
+			);
+			path = LYLUnicode;
+			sourceTree = "<group>";
+		};
 		C5D1C15C258B215400784D2F /* UIView+EmptyData */ = {
 			isa = PBXGroup;
 			children = (
@@ -1287,6 +1302,7 @@
 				C5A43BCC25AAF91D000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C5A445B925ABFC99000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */,
 				C572A2BD24FDFF66000A1687 /* ViewController.m in Sources */,
+				C5CF18EF25AC805F00381935 /* LYLUnicode.m in Sources */,
 				C5C65617259DFA4200FD2F99 /* ECPrivacyCheckCamera.m in Sources */,
 				C526800D258A4E2F0095A681 /* NSObject+Time.m in Sources */,
 				C5A445CB25ABFC99000F0CD2 /* XHLaunchAdImageManager.m in Sources */,
