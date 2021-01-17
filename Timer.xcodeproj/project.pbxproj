@@ -11,6 +11,7 @@
 		C526800D258A4E2F0095A681 /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C526800C258A4E2F0095A681 /* NSObject+Time.m */; };
 		C5461072258C901A0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461070258C901A0008928C /* UIView+AOP.m */; };
 		C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569697255BFD01005C1361 /* NSString+Extras.m */; };
+		C55FED0925B428BC00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */; };
 		C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* NSObject+RichText.m */; };
 		C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B624FDFF66000A1687 /* AppDelegate.m */; };
 		C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B924FDFF66000A1687 /* SceneDelegate.m */; };
@@ -146,6 +147,8 @@
 		C556969B255BFD01005C1361 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
 		C558063B258A470A0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C558F465258A32BB0078DB8F /* Timer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timer-Bridging-Header.h"; sourceTree = "<group>"; };
+		C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
+		C55FED0825B428BC00D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
 		C56202D42553F8EB00FE435F /* NSObject+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RichText.m"; sourceTree = "<group>"; };
 		C56202D52553F8EB00FE435F /* NSObject+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RichText.h"; sourceTree = "<group>"; };
 		C56208872553FFBF00FE435F /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
@@ -419,11 +422,12 @@
 		C55696A3255BFD05005C1361 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C546106F258C901A0008928C /* UIView+AOP */,
 				C595BE9E258642D1002A4531 /* UIView+Animation */,
+				C546106F258C901A0008928C /* UIView+AOP */,
 				C5D1C15C258B215400784D2F /* UIView+EmptyData */,
 				C595BE9F258642D7002A4531 /* UIView+Extras */,
 				C595BEA0258642DD002A4531 /* UIView+Measure */,
+				C55FED0625B428BC00D8C30D /* UIView+MJRefresh */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -527,6 +531,15 @@
 				C572A2ED24FDFFFC000A1687 /* AABlock.h */,
 			);
 			path = "其他的一些全局定义文件";
+			sourceTree = "<group>";
+		};
+		C55FED0625B428BC00D8C30D /* UIView+MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C55FED0825B428BC00D8C30D /* UIView+MJRefresh.h */,
+				C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */,
+			);
+			path = "UIView+MJRefresh";
 			sourceTree = "<group>";
 		};
 		C572791625409991002373D7 /* AppDelegate */ = {
@@ -1311,6 +1324,7 @@
 				C59A3F2F258DD262005F6260 /* UserDefaultManager.m in Sources */,
 				C5A445C125ABFC99000F0CD2 /* XHLaunchAdButton.m in Sources */,
 				C5C6561B259DFA4200FD2F99 /* ECPrivacyCheckSpeechRecognition.m in Sources */,
+				C55FED0925B428BC00D8C30D /* UIView+MJRefresh.m in Sources */,
 				C5D6DD1625860F8E00029AFF /* TimeModel.m in Sources */,
 				C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */,
 				C5C65618259DFA4200FD2F99 /* ECPrivacyCheckLocationServices.m in Sources */,
