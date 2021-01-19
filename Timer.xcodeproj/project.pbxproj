@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3327A205FA24CF68DD5F899 /* Pods_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A713E5389A8E8410D4DC9AE /* Pods_TimerTests.framework */; };
+		C50C915625B6F4FE00C6588F /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C50C915525B6F4FE00C6588F /* NSObject+Time.m */; };
 		C5461072258C901A0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461070258C901A0008928C /* UIView+AOP.m */; };
 		C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569697255BFD01005C1361 /* NSString+Extras.m */; };
 		C55FED0925B428BC00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */; };
@@ -138,6 +139,8 @@
 		7351C453049CD4CBA3C5B8FB /* Pods-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TimerUITests/Pods-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E0B57A271C5E1FBCEB115C6 /* Pods-Timer-TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Timer-TimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Timer-TimerUITests/Pods-Timer-TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D318D63F522C9720B7C3528 /* Pods-TimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimerUITests.release.xcconfig"; path = "Target Support Files/Pods-TimerUITests/Pods-TimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C50C915425B6F4FD00C6588F /* NSObject+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Time.h"; sourceTree = "<group>"; };
+		C50C915525B6F4FE00C6588F /* NSObject+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Time.m"; sourceTree = "<group>"; };
 		C5461070258C901A0008928C /* UIView+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOP.m"; sourceTree = "<group>"; };
 		C5461071258C901A0008928C /* UIView+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOP.h"; sourceTree = "<group>"; };
 		C5569697255BFD01005C1361 /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
@@ -738,6 +741,8 @@
 		C5968F0E25B5A769003E67A1 /* NSObject+Time */ = {
 			isa = PBXGroup;
 			children = (
+				C50C915425B6F4FD00C6588F /* NSObject+Time.h */,
+				C50C915525B6F4FE00C6588F /* NSObject+Time.m */,
 			);
 			path = "NSObject+Time";
 			sourceTree = "<group>";
@@ -1359,6 +1364,7 @@
 				C5A445BB25ABFC99000F0CD2 /* JXCategoryTitleBackgroundView.m in Sources */,
 				C5461072258C901A0008928C /* UIView+AOP.m in Sources */,
 				C5A445BF25ABFC99000F0CD2 /* GKPhotoBrowser+SaveBtn.m in Sources */,
+				C50C915625B6F4FE00C6588F /* NSObject+Time.m in Sources */,
 				C5C65640259DFA4200FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
