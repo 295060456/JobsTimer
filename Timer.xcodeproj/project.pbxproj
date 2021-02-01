@@ -13,6 +13,7 @@
 		C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569697255BFD01005C1361 /* NSString+Extras.m */; };
 		C55FED0925B428BC00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */; };
 		C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* NSObject+RichText.m */; };
+		C562DF1625C7C5A3004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */; };
 		C572985A25BB0AAE00726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572985825BB0AAE00726419 /* UIView+BackgroundImage.m */; };
 		C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B624FDFF66000A1687 /* AppDelegate.m */; };
 		C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B924FDFF66000A1687 /* SceneDelegate.m */; };
@@ -153,6 +154,8 @@
 		C56202D42553F8EB00FE435F /* NSObject+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RichText.m"; sourceTree = "<group>"; };
 		C56202D52553F8EB00FE435F /* NSObject+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RichText.h"; sourceTree = "<group>"; };
 		C56208872553FFBF00FE435F /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
+		C562DF1425C7C5A3004D1AEA /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
 		C572985825BB0AAE00726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
 		C572985925BB0AAE00726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
 		C572A2B224FDFF66000A1687 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -415,6 +418,7 @@
 		C55696A3255BFD05005C1361 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				C562DF0D25C7C59C004D1AEA /* UIView+ViewController */,
 				C595BE9E258642D1002A4531 /* UIView+Animation */,
 				C546106F258C901A0008928C /* UIView+AOP */,
 				C572985725BB0AAE00726419 /* UIView+BackgroundImage */,
@@ -534,6 +538,15 @@
 				C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */,
 			);
 			path = "UIView+MJRefresh";
+			sourceTree = "<group>";
+		};
+		C562DF0D25C7C59C004D1AEA /* UIView+ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C562DF1425C7C5A3004D1AEA /* UIView+ViewController.h */,
+				C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */,
+			);
+			path = "UIView+ViewController";
 			sourceTree = "<group>";
 		};
 		C572791625409991002373D7 /* AppDelegate */ = {
@@ -1344,6 +1357,7 @@
 				C5A445BA25ABFC99000F0CD2 /* JXCategoryTitleBackgroundCell.m in Sources */,
 				C5C65619259DFA4200FD2F99 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C5A445BD25ABFC99000F0CD2 /* JXCategoryTimelineCellModel.m in Sources */,
+				C562DF1625C7C5A3004D1AEA /* UIView+ViewController.m in Sources */,
 				C5A445C625ABFC99000F0CD2 /* XHLaunchAdController.m in Sources */,
 				C5E5C68B2509154A001E69DA /* WGradientProgressView.m in Sources */,
 				C5C65620259DFA4200FD2F99 /* ECPrivacyCheckHealth.m in Sources */,

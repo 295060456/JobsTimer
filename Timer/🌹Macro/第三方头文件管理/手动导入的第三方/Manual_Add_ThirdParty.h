@@ -16,6 +16,7 @@
 #import "UIView+Extras.h"
 #import "UIView+MJRefresh.h"
 #import "UIView+EmptyData.h"
+#import "UIView+ViewController.h"
 
 #import "NSString+Extras.h"
 #import "NSObject+Extras.h"
