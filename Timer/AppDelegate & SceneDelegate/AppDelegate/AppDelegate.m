@@ -17,6 +17,15 @@
 
 @implementation AppDelegate
 
+static AppDelegate *static_appDelegate = nil;
++(instancetype)sharedInstance{
+    @synchronized(self){
+        if (!static_appDelegate) {
+            static_appDelegate = AppDelegate.new;
+        }
+    }return static_appDelegate;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;

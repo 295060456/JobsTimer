@@ -12,6 +12,16 @@
 #import "SceneDelegate.h"
 #import "AppDelegate.h"
 
+static inline UIWindow * getMainWindow(){
+    UIWindow *window = nil;
+    if (@available(iOS 13.0, *)) {
+        window = [AppDelegate sharedInstance].window;
+    }else{
+        window = UIApplication.sharedApplication.delegate.window;
+//        [UIApplication sharedApplication].keyWindow
+    }return window;
+}
+
 // http://ww1.fuckingclangwarnings.com/
 //#pragma clang diagnostic push
 //#pragma clang diagnostic ignored "-Wobjc-designated-initializers"
