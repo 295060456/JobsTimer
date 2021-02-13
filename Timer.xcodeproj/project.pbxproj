@@ -14,6 +14,7 @@
 		C55FED0925B428BC00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */; };
 		C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* NSObject+RichText.m */; };
 		C562DF1625C7C5A3004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */; };
+		C56737B325D77C49008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56737B125D77C49008ABAF9 /* BaseView.m */; };
 		C572985A25BB0AAE00726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572985825BB0AAE00726419 /* UIView+BackgroundImage.m */; };
 		C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B624FDFF66000A1687 /* AppDelegate.m */; };
 		C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B924FDFF66000A1687 /* SceneDelegate.m */; };
@@ -156,6 +157,8 @@
 		C56208872553FFBF00FE435F /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
 		C562DF1425C7C5A3004D1AEA /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		C56737B125D77C49008ABAF9 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		C56737B225D77C49008ABAF9 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		C572985825BB0AAE00726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
 		C572985925BB0AAE00726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
 		C572A2B224FDFF66000A1687 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -418,14 +421,8 @@
 		C55696A3255BFD05005C1361 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C562DF0D25C7C59C004D1AEA /* UIView+ViewController */,
-				C595BE9E258642D1002A4531 /* UIView+Animation */,
-				C546106F258C901A0008928C /* UIView+AOP */,
-				C572985725BB0AAE00726419 /* UIView+BackgroundImage */,
-				C5D1C15C258B215400784D2F /* UIView+EmptyData */,
-				C595BE9F258642D7002A4531 /* UIView+Extras */,
-				C595BEA0258642DD002A4531 /* UIView+Measure */,
-				C55FED0625B428BC00D8C30D /* UIView+MJRefresh */,
+				C56737B025D77C43008ABAF9 /* BaseView */,
+				C56737A625D77C38008ABAF9 /* UIView+Category */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -547,6 +544,30 @@
 				C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */,
 			);
 			path = "UIView+ViewController";
+			sourceTree = "<group>";
+		};
+		C56737A625D77C38008ABAF9 /* UIView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C562DF0D25C7C59C004D1AEA /* UIView+ViewController */,
+				C595BE9E258642D1002A4531 /* UIView+Animation */,
+				C546106F258C901A0008928C /* UIView+AOP */,
+				C572985725BB0AAE00726419 /* UIView+BackgroundImage */,
+				C5D1C15C258B215400784D2F /* UIView+EmptyData */,
+				C595BE9F258642D7002A4531 /* UIView+Extras */,
+				C595BEA0258642DD002A4531 /* UIView+Measure */,
+				C55FED0625B428BC00D8C30D /* UIView+MJRefresh */,
+			);
+			path = "UIView+Category";
+			sourceTree = "<group>";
+		};
+		C56737B025D77C43008ABAF9 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				C56737B225D77C49008ABAF9 /* BaseView.h */,
+				C56737B125D77C49008ABAF9 /* BaseView.m */,
+			);
+			path = BaseView;
 			sourceTree = "<group>";
 		};
 		C572791625409991002373D7 /* AppDelegate */ = {
@@ -1340,6 +1361,7 @@
 				C5A43BCC25AAF91D000F0CD2 /* UIScrollView+FDFullscreenPopGesture.m in Sources */,
 				C5A445B925ABFC99000F0CD2 /* JXCategoryTitleBackgroundCellModel.m in Sources */,
 				C59689D325B580D0003E67A1 /* TimeModel.m in Sources */,
+				C56737B325D77C49008ABAF9 /* BaseView.m in Sources */,
 				C572A2BD24FDFF66000A1687 /* ViewController.m in Sources */,
 				C5CF18EF25AC805F00381935 /* LYLUnicode.m in Sources */,
 				C5C65617259DFA4200FD2F99 /* ECPrivacyCheckCamera.m in Sources */,
