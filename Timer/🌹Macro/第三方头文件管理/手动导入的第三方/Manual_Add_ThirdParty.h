@@ -11,15 +11,21 @@
 
 #import "AABlock.h"
 
+#pragma mark —— UIView
 #import "LoadingImage.h"
-// UIView+Category
+/// UIView+Category
 #import "UIView+Measure.h"
 #import "UIView+Extras.h"
 #import "UIView+MJRefresh.h"
 #import "UIView+EmptyData.h"
 #import "UIView+ViewController.h"
-// BaseView
+/// BaseView
 #import "BaseView.h"
+#pragma mark —— UIImageView
+/// BaseImageView
+#import "BaseImageView.h"
+/// UIImageView+Category
+#import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
 
 #import "NSString+Extras.h"
 #import "NSObject+Extras.h"

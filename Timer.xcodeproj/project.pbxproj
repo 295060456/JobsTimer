@@ -29,6 +29,8 @@
 		C572A30224FE1D14000A1687 /* GCD_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A30124FE1D14000A1687 /* GCD_TimerManager.m */; };
 		C572A30924FE1D53000A1687 /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A30824FE1D53000A1687 /* Nanosecond_TimerManager.m */; };
 		C572A30C24FE1D5D000A1687 /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A30B24FE1D5D000A1687 /* CADisplayLink_TimerManager.m */; };
+		C583BB4425E4B3BE0054FD6E /* BaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C583BB3F25E4B3BE0054FD6E /* BaseImageView.m */; };
+		C583BB4525E4B3BE0054FD6E /* UIImageView+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C583BB4225E4B3BE0054FD6E /* UIImageView+GIF.m */; };
 		C59689D325B580D0003E67A1 /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59689D125B580D0003E67A1 /* TimeModel.m */; };
 		C59A3F2E258DD262005F6260 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3F2C258DD262005F6260 /* UserDefaultModel.m */; };
 		C59A3F2F258DD262005F6260 /* UserDefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59A3F2D258DD262005F6260 /* UserDefaultManager.m */; };
@@ -193,6 +195,10 @@
 		C572A30824FE1D53000A1687 /* Nanosecond_TimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nanosecond_TimerManager.m; sourceTree = "<group>"; };
 		C572A30A24FE1D5D000A1687 /* CADisplayLink_TimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADisplayLink_TimerManager.h; sourceTree = "<group>"; };
 		C572A30B24FE1D5D000A1687 /* CADisplayLink_TimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADisplayLink_TimerManager.m; sourceTree = "<group>"; };
+		C583BB3F25E4B3BE0054FD6E /* BaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseImageView.m; sourceTree = "<group>"; };
+		C583BB4025E4B3BE0054FD6E /* BaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseImageView.h; sourceTree = "<group>"; };
+		C583BB4225E4B3BE0054FD6E /* UIImageView+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GIF.m"; sourceTree = "<group>"; };
+		C583BB4325E4B3BE0054FD6E /* UIImageView+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GIF.h"; sourceTree = "<group>"; };
 		C59689D125B580D0003E67A1 /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
 		C59689D225B580D0003E67A1 /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
 		C59A3F2A258DD262005F6260 /* UserDefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultManager.h; sourceTree = "<group>"; };
@@ -461,9 +467,10 @@
 		C558F45F258A32560078DB8F /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				C5A458AD25AC14D5000F0CD2 /* UIImage */,
 				C55696A4255BFD10005C1361 /* NSObject */,
 				C5569696255BFD01005C1361 /* NSString */,
+				C5A458AD25AC14D5000F0CD2 /* UIImage */,
+				C583BB3D25E4B3BE0054FD6E /* UIImageView */,
 				C55696A3255BFD05005C1361 /* UIView */,
 			);
 			path = BaseCustomizeUIKit;
@@ -747,6 +754,33 @@
 				C572A30824FE1D53000A1687 /* Nanosecond_TimerManager.m */,
 			);
 			path = Nanosecond_TimerManager;
+			sourceTree = "<group>";
+		};
+		C583BB3D25E4B3BE0054FD6E /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C583BB3E25E4B3BE0054FD6E /* BaseImageView */,
+				C583BB4125E4B3BE0054FD6E /* UIImageView+Category */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		C583BB3E25E4B3BE0054FD6E /* BaseImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C583BB3F25E4B3BE0054FD6E /* BaseImageView.m */,
+				C583BB4025E4B3BE0054FD6E /* BaseImageView.h */,
+			);
+			path = BaseImageView;
+			sourceTree = "<group>";
+		};
+		C583BB4125E4B3BE0054FD6E /* UIImageView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C583BB4225E4B3BE0054FD6E /* UIImageView+GIF.m */,
+				C583BB4325E4B3BE0054FD6E /* UIImageView+GIF.h */,
+			);
+			path = "UIImageView+Category";
 			sourceTree = "<group>";
 		};
 		C595BE9E258642D1002A4531 /* UIView+Animation */ = {
@@ -1400,8 +1434,10 @@
 				C5A43BCE25AAF91D000F0CD2 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */,
 				C5A445CA25ABFC99000F0CD2 /* XHLaunchAdCache.m in Sources */,
+				C583BB4425E4B3BE0054FD6E /* BaseImageView.m in Sources */,
 				C572A30C24FE1D5D000A1687 /* CADisplayLink_TimerManager.m in Sources */,
 				C5A445C025ABFC99000F0CD2 /* XHLaunchAdView.m in Sources */,
+				C583BB4525E4B3BE0054FD6E /* UIImageView+GIF.m in Sources */,
 				C5C6561E259DFA4200FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
 				C5A445C925ABFC99000F0CD2 /* XHLaunchAdConfiguration.m in Sources */,
 				C5A458B325AC14F7000F0CD2 /* NSObject+Extras.m in Sources */,
