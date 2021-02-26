@@ -15,6 +15,7 @@
 		C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* NSObject+RichText.m */; };
 		C562DF1625C7C5A3004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */; };
 		C56737B325D77C49008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56737B125D77C49008ABAF9 /* BaseView.m */; };
+		C56BBD5725E90827001E1E69 /* UIView+CallBackInfoByBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C56BBD5625E90827001E1E69 /* UIView+CallBackInfoByBlock.m */; };
 		C572985A25BB0AAE00726419 /* UIView+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C572985825BB0AAE00726419 /* UIView+BackgroundImage.m */; };
 		C572A2B724FDFF66000A1687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B624FDFF66000A1687 /* AppDelegate.m */; };
 		C572A2BA24FDFF66000A1687 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C572A2B924FDFF66000A1687 /* SceneDelegate.m */; };
@@ -162,6 +163,8 @@
 		C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
 		C56737B125D77C49008ABAF9 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		C56737B225D77C49008ABAF9 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		C56BBD5525E90827001E1E69 /* UIView+CallBackInfoByBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CallBackInfoByBlock.h"; sourceTree = "<group>"; };
+		C56BBD5625E90827001E1E69 /* UIView+CallBackInfoByBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CallBackInfoByBlock.m"; sourceTree = "<group>"; };
 		C572985825BB0AAE00726419 /* UIView+BackgroundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BackgroundImage.m"; sourceTree = "<group>"; };
 		C572985925BB0AAE00726419 /* UIView+BackgroundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BackgroundImage.h"; sourceTree = "<group>"; };
 		C572A2B224FDFF66000A1687 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -561,14 +564,15 @@
 		C56737A625D77C38008ABAF9 /* UIView+Category */ = {
 			isa = PBXGroup;
 			children = (
-				C562DF0D25C7C59C004D1AEA /* UIView+ViewController */,
 				C595BE9E258642D1002A4531 /* UIView+Animation */,
 				C546106F258C901A0008928C /* UIView+AOP */,
 				C572985725BB0AAE00726419 /* UIView+BackgroundImage */,
+				C56BBD5425E90827001E1E69 /* UIView+CallBackInfoByBlock */,
 				C5D1C15C258B215400784D2F /* UIView+EmptyData */,
 				C595BE9F258642D7002A4531 /* UIView+Extras */,
 				C595BEA0258642DD002A4531 /* UIView+Measure */,
 				C55FED0625B428BC00D8C30D /* UIView+MJRefresh */,
+				C562DF0D25C7C59C004D1AEA /* UIView+ViewController */,
 			);
 			path = "UIView+Category";
 			sourceTree = "<group>";
@@ -580,6 +584,15 @@
 				C56737B125D77C49008ABAF9 /* BaseView.m */,
 			);
 			path = BaseView;
+			sourceTree = "<group>";
+		};
+		C56BBD5425E90827001E1E69 /* UIView+CallBackInfoByBlock */ = {
+			isa = PBXGroup;
+			children = (
+				C56BBD5525E90827001E1E69 /* UIView+CallBackInfoByBlock.h */,
+				C56BBD5625E90827001E1E69 /* UIView+CallBackInfoByBlock.m */,
+			);
+			path = "UIView+CallBackInfoByBlock";
 			sourceTree = "<group>";
 		};
 		C572791625409991002373D7 /* AppDelegate */ = {
@@ -1467,6 +1480,7 @@
 				C5461072258C901A0008928C /* UIView+AOP.m in Sources */,
 				C5A445BF25ABFC99000F0CD2 /* GKPhotoBrowser+SaveBtn.m in Sources */,
 				C50C915625B6F4FE00C6588F /* NSObject+Time.m in Sources */,
+				C56BBD5725E90827001E1E69 /* UIView+CallBackInfoByBlock.m in Sources */,
 				C5C65640259DFA4200FD2F99 /* ECPrivacyCheckGatherTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

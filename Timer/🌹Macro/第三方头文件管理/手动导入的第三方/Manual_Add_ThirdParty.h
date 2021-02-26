@@ -19,6 +19,7 @@
 #import "UIView+MJRefresh.h"
 #import "UIView+EmptyData.h"
 #import "UIView+ViewController.h"
+#import "UIView+CallBackInfoByBlock.h"
 /// BaseView
 #import "BaseView.h"
 #pragma mark —— UIImageView
