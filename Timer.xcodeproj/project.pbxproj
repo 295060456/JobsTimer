@@ -405,6 +405,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C542D76B25EB7C5900D776D8 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				C594358925E7AB3E003BCA91 /* UITextView+IndicateWordLimit */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
 		C546106F258C901A0008928C /* UIView+AOP */ = {
 			isa = PBXGroup;
 			children = (
@@ -475,11 +483,11 @@
 		C558F45F258A32560078DB8F /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C542D76B25EB7C5900D776D8 /* UITextView */,
 				C55696A4255BFD10005C1361 /* NSObject */,
 				C5569696255BFD01005C1361 /* NSString */,
 				C5A458AD25AC14D5000F0CD2 /* UIImage */,
 				C583BB3D25E4B3BE0054FD6E /* UIImageView */,
-				C594358925E7AB3E003BCA91 /* UITextView+IndicateWordLimit */,
 				C55696A3255BFD05005C1361 /* UIView */,
 			);
 			path = BaseCustomizeUIKit;
