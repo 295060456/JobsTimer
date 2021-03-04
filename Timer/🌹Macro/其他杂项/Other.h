@@ -230,9 +230,9 @@ static inline UIWindow * getMainWindow(){
 */
 #define KLightTextColor [UIColor lightTextColor]
 #define KDarkTextColor [UIColor darkTextColor]
-/* groupTableViewBackgroundColor is now the same as systemGroupedBackgroundColor.
+/* systemGroupedBackgroundColor is now the same as systemGroupedBackgroundColor.
 */
-#define KGroupTableViewBackgroundColor [UIColor groupTableViewBackgroundColor]
+#define KSystemGroupedBackgroundColor [UIColor systemGroupedBackgroundColor]
 #define KViewFlipsideBackgroundColor [UIColor viewFlipsideBackgroundColor]
 #define KScrollViewTexturedBackgroundColor [UIColor scrollViewTexturedBackgroundColor]
 #define KUnderPageBackgroundColor [UIColor underPageBackgroundColor]
