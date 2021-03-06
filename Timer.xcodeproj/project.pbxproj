@@ -10,6 +10,7 @@
 		A3327A205FA24CF68DD5F899 /* Pods_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A713E5389A8E8410D4DC9AE /* Pods_TimerTests.framework */; };
 		C50C915625B6F4FE00C6588F /* NSObject+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C50C915525B6F4FE00C6588F /* NSObject+Time.m */; };
 		C5461072258C901A0008928C /* UIView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = C5461070258C901A0008928C /* UIView+AOP.m */; };
+		C5542E0A25F32528002D1CA6 /* CheckMemFreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5542E0925F32528002D1CA6 /* CheckMemFreeVC.m */; };
 		C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569697255BFD01005C1361 /* NSString+Extras.m */; };
 		C55FED0925B428BC00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */; };
 		C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* NSObject+RichText.m */; };
@@ -151,6 +152,8 @@
 		C5461070258C901A0008928C /* UIView+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOP.m"; sourceTree = "<group>"; };
 		C5461071258C901A0008928C /* UIView+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOP.h"; sourceTree = "<group>"; };
 		C54C646E25EFC333007DD043 /* DDCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCacheTool.h; sourceTree = "<group>"; };
+		C5542E0825F32528002D1CA6 /* CheckMemFreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMemFreeVC.h; sourceTree = "<group>"; };
+		C5542E0925F32528002D1CA6 /* CheckMemFreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMemFreeVC.m; sourceTree = "<group>"; };
 		C5569697255BFD01005C1361 /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
 		C556969B255BFD01005C1361 /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
 		C558063B258A470A0078DB8F /* PodsManual.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
@@ -429,6 +432,15 @@
 				C54C646E25EFC333007DD043 /* DDCacheTool.h */,
 			);
 			path = "清除缓存";
+			sourceTree = "<group>";
+		};
+		C5542E0725F32528002D1CA6 /* CheckMemFreeVC */ = {
+			isa = PBXGroup;
+			children = (
+				C5542E0825F32528002D1CA6 /* CheckMemFreeVC.h */,
+				C5542E0925F32528002D1CA6 /* CheckMemFreeVC.m */,
+			);
+			path = CheckMemFreeVC;
 			sourceTree = "<group>";
 		};
 		C55567C62580A5EF004DB33A /* NSObject+Others */ = {
@@ -728,6 +740,7 @@
 		C572A2F224FE0078000A1687 /* Manual_Add_ThirdParty  */ = {
 			isa = PBXGroup;
 			children = (
+				C5542E0725F32528002D1CA6 /* CheckMemFreeVC */,
 				C54C646D25EFC333007DD043 /* 清除缓存 */,
 				C5C67C6B24FF4A32000A26B8 /* 电影倒计时特效 */,
 				C5A43BC625AAF91D000F0CD2 /* 手势滑动返回 */,
@@ -1488,6 +1501,7 @@
 				C583BB4525E4B3BE0054FD6E /* UIImageView+GIF.m in Sources */,
 				C5C6561E259DFA4200FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
 				C5A445C925ABFC99000F0CD2 /* XHLaunchAdConfiguration.m in Sources */,
+				C5542E0A25F32528002D1CA6 /* CheckMemFreeVC.m in Sources */,
 				C5A458B325AC14F7000F0CD2 /* NSObject+Extras.m in Sources */,
 				C5E5C68A2509154A001E69DA /* WGradientProgress.m in Sources */,
 				C5A445BE25ABFC99000F0CD2 /* JXCategoryTimelineCell.m in Sources */,
