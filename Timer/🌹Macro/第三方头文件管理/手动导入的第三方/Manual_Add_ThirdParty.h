@@ -26,6 +26,10 @@
 #import "BaseImageView.h"
 /// UIImageView+Category
 #import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
+#pragma mark —— UITextView
+/// UITextView+Category
+#import "UITextView+IndicateWordLimit.h"
+#import "UITextView+Extend.h"
 
 #import "NSString+Extras.h"
 #import "NSObject+Extras.h"

@@ -13,6 +13,7 @@
 		C5542E0A25F32528002D1CA6 /* CheckMemFreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5542E0925F32528002D1CA6 /* CheckMemFreeVC.m */; };
 		C556969D255BFD01005C1361 /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C5569697255BFD01005C1361 /* NSString+Extras.m */; };
 		C55FED0925B428BC00D8C30D /* UIView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */; };
+		C561910226008FA500D4546E /* UITextView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C561910126008FA500D4546E /* UITextView+Extend.m */; };
 		C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */ = {isa = PBXBuildFile; fileRef = C56202D42553F8EB00FE435F /* NSObject+RichText.m */; };
 		C562DF1625C7C5A3004D1AEA /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */; };
 		C56737B325D77C49008ABAF9 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56737B125D77C49008ABAF9 /* BaseView.m */; };
@@ -161,6 +162,8 @@
 		C55E2B4325FB28FB00716A9B /* MacroDef_SysWarning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDef_SysWarning.h; sourceTree = "<group>"; };
 		C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJRefresh.m"; sourceTree = "<group>"; };
 		C55FED0825B428BC00D8C30D /* UIView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJRefresh.h"; sourceTree = "<group>"; };
+		C561910026008FA500D4546E /* UITextView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extend.h"; sourceTree = "<group>"; };
+		C561910126008FA500D4546E /* UITextView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extend.m"; sourceTree = "<group>"; };
 		C56202D42553F8EB00FE435F /* NSObject+RichText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RichText.m"; sourceTree = "<group>"; };
 		C56202D52553F8EB00FE435F /* NSObject+RichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RichText.h"; sourceTree = "<group>"; };
 		C56208872553FFBF00FE435F /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
@@ -413,7 +416,7 @@
 		C542D76B25EB7C5900D776D8 /* UITextView */ = {
 			isa = PBXGroup;
 			children = (
-				C594358925E7AB3E003BCA91 /* UITextView+IndicateWordLimit */,
+				C56190FE26008F9F00D4546E /* UITextView+Category */,
 			);
 			path = UITextView;
 			sourceTree = "<group>";
@@ -582,6 +585,24 @@
 				C55FED0725B428BC00D8C30D /* UIView+MJRefresh.m */,
 			);
 			path = "UIView+MJRefresh";
+			sourceTree = "<group>";
+		};
+		C56190FE26008F9F00D4546E /* UITextView+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C594358925E7AB3E003BCA91 /* UITextView+IndicateWordLimit */,
+				C56190FF26008FA500D4546E /* UITextView+Extend */,
+			);
+			path = "UITextView+Category";
+			sourceTree = "<group>";
+		};
+		C56190FF26008FA500D4546E /* UITextView+Extend */ = {
+			isa = PBXGroup;
+			children = (
+				C561910026008FA500D4546E /* UITextView+Extend.h */,
+				C561910126008FA500D4546E /* UITextView+Extend.m */,
+			);
+			path = "UITextView+Extend";
 			sourceTree = "<group>";
 		};
 		C562DF0D25C7C59C004D1AEA /* UIView+ViewController */ = {
@@ -1460,6 +1481,7 @@
 				C56737B325D77C49008ABAF9 /* BaseView.m in Sources */,
 				C572A2BD24FDFF66000A1687 /* ViewController.m in Sources */,
 				C5CF18EF25AC805F00381935 /* LYLUnicode.m in Sources */,
+				C561910226008FA500D4546E /* UITextView+Extend.m in Sources */,
 				C5C65617259DFA4200FD2F99 /* ECPrivacyCheckCamera.m in Sources */,
 				C5A445CB25ABFC99000F0CD2 /* XHLaunchAdImageManager.m in Sources */,
 				C5C65621259DFA4200FD2F99 /* ECPrivacyCheckReminders.m in Sources */,
