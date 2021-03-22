@@ -169,6 +169,9 @@
 		C56208872553FFBF00FE435F /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
 		C562DF1425C7C5A3004D1AEA /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		C563222F26084BAE00822149 /* BaseViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewControllerProtocol.h; sourceTree = "<group>"; };
+		C563223026084BAE00822149 /* BaseCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCellProtocol.h; sourceTree = "<group>"; };
+		C563223126084BAE00822149 /* BaseViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewProtocol.h; sourceTree = "<group>"; };
 		C56737B125D77C49008ABAF9 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		C56737B225D77C49008ABAF9 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		C56BD7FD25E93971001E1E69 /* NSObject+CallBackInfoByBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CallBackInfoByBlock.h"; sourceTree = "<group>"; };
@@ -508,6 +511,7 @@
 		C558F45F258A32560078DB8F /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C563222E26084BAE00822149 /* BaseProtocol */,
 				C542D76B25EB7C5900D776D8 /* UITextView */,
 				C55696A4255BFD10005C1361 /* NSObject */,
 				C5569696255BFD01005C1361 /* NSString */,
@@ -612,6 +616,16 @@
 				C562DF1525C7C5A3004D1AEA /* UIView+ViewController.m */,
 			);
 			path = "UIView+ViewController";
+			sourceTree = "<group>";
+		};
+		C563222E26084BAE00822149 /* BaseProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				C563222F26084BAE00822149 /* BaseViewControllerProtocol.h */,
+				C563223026084BAE00822149 /* BaseCellProtocol.h */,
+				C563223126084BAE00822149 /* BaseViewProtocol.h */,
+			);
+			path = BaseProtocol;
 			sourceTree = "<group>";
 		};
 		C56737A625D77C38008ABAF9 /* UIView+Category */ = {
