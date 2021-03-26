@@ -114,6 +114,8 @@
 		C5CF18EF25AC805F00381935 /* LYLUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF18EC25AC805F00381935 /* LYLUnicode.m */; };
 		C5D1C15F258B215400784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1C15D258B215400784D2F /* UIView+EmptyData.m */; };
 		C5D6DD2125860F9A00029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DD2025860F9A00029AFF /* NSTimerManager.m */; };
+		C5D8D377260CC52600BDAF76 /* toastLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5D8D376260CC52600BDAF76 /* toastLoading.gif */; };
+		C5D8D96D260CC97900BDAF76 /* NSObject+DefConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D8D96B260CC97900BDAF76 /* NSObject+DefConfig.m */; };
 		C5E5C6892509154A001E69DA /* 水平进度条.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E5C6842509154A001E69DA /* 水平进度条.png */; };
 		C5E5C68A2509154A001E69DA /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C6872509154A001E69DA /* WGradientProgress.m */; };
 		C5E5C68B2509154A001E69DA /* WGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C6882509154A001E69DA /* WGradientProgressView.m */; };
@@ -354,6 +356,9 @@
 		C5D1C15E258B215400784D2F /* UIView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyData.h"; sourceTree = "<group>"; };
 		C5D6DD1F25860F9A00029AFF /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
 		C5D6DD2025860F9A00029AFF /* NSTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerManager.m; sourceTree = "<group>"; };
+		C5D8D376260CC52600BDAF76 /* toastLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toastLoading.gif; sourceTree = "<group>"; };
+		C5D8D96B260CC97900BDAF76 /* NSObject+DefConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DefConfig.m"; sourceTree = "<group>"; };
+		C5D8D96C260CC97900BDAF76 /* NSObject+DefConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DefConfig.h"; sourceTree = "<group>"; };
 		C5E5C6842509154A001E69DA /* 水平进度条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水平进度条.png"; sourceTree = "<group>"; };
 		C5E5C6852509154A001E69DA /* WGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgressView.h; sourceTree = "<group>"; };
 		C5E5C6862509154A001E69DA /* WGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgress.h; sourceTree = "<group>"; };
@@ -479,6 +484,7 @@
 		C55696A4255BFD10005C1361 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				C5D8D96A260CC97900BDAF76 /* NSObject+DefConfig */,
 				C59689D025B580D0003E67A1 /* NSObject (Time) */,
 				C56BD7FC25E93971001E1E69 /* NSObject+CallBackInfoByBlock */,
 				C55567C62580A5EF004DB33A /* NSObject+Others */,
@@ -950,6 +956,7 @@
 		C5A4458725ABFC99000F0CD2 /* WHToast */ = {
 			isa = PBXGroup;
 			children = (
+				C5D8D376260CC52600BDAF76 /* toastLoading.gif */,
 				C5A4458825ABFC99000F0CD2 /* WHToast+DDToast.m */,
 				C5A4458925ABFC99000F0CD2 /* WHToast+DDToast.h */,
 			);
@@ -1216,6 +1223,15 @@
 			path = NSTimerManager;
 			sourceTree = "<group>";
 		};
+		C5D8D96A260CC97900BDAF76 /* NSObject+DefConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8D96B260CC97900BDAF76 /* NSObject+DefConfig.m */,
+				C5D8D96C260CC97900BDAF76 /* NSObject+DefConfig.h */,
+			);
+			path = "NSObject+DefConfig";
+			sourceTree = "<group>";
+		};
 		C5E5C65C25088EED001E69DA /* 水平进度条 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1366,6 +1382,7 @@
 				C5C6563B259DFA4200FD2F99 /* 照片@3x.png in Resources */,
 				C5C65624259DFA4200FD2F99 /* 运动与健身@2x.png in Resources */,
 				C5C65626259DFA4200FD2F99 /* 运动与健身@3x.png in Resources */,
+				C5D8D377260CC52600BDAF76 /* toastLoading.gif in Resources */,
 				C5C6562D259DFA4200FD2F99 /* 提醒事项@2x.png in Resources */,
 				C5C65635259DFA4200FD2F99 /* 通讯录@3x.png in Resources */,
 				C5C6563D259DFA4200FD2F99 /* HomeKit@3x.png in Resources */,
@@ -1536,6 +1553,7 @@
 				C583BB4425E4B3BE0054FD6E /* BaseImageView.m in Sources */,
 				C572A30C24FE1D5D000A1687 /* CADisplayLink_TimerManager.m in Sources */,
 				C5A445C025ABFC99000F0CD2 /* XHLaunchAdView.m in Sources */,
+				C5D8D96D260CC97900BDAF76 /* NSObject+DefConfig.m in Sources */,
 				C583BB4525E4B3BE0054FD6E /* UIImageView+GIF.m in Sources */,
 				C5C6561E259DFA4200FD2F99 /* ECPrivacyCheckPhotos.m in Sources */,
 				C5A445C925ABFC99000F0CD2 /* XHLaunchAdConfiguration.m in Sources */,

@@ -35,6 +35,7 @@
 #import "NSObject+Extras.h"
 #import "NSObject+Time.h"
 #import "NSObject+CallBackInfoByBlock.h"
+#import "NSObject+DefConfig.h"
 
 #import "TimerManager.h"
 #import "WGradientProgress.h"
