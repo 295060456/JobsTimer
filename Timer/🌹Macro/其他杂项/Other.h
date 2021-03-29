@@ -9,17 +9,38 @@
 #ifndef Other_h
 #define Other_h
 
-#import "SceneDelegate.h"
 #import "AppDelegate.h"
+#import "SceneDelegate.h"
 
 static inline UIWindow * getMainWindow(){
     UIWindow *window = nil;
+    //以下方法有时候会拿不到window
     if (@available(iOS 13.0, *)) {
-        window = [AppDelegate sharedInstance].window;
-    }else{
+        for (UIWindowScene* windowScene in UIApplication.sharedApplication.connectedScenes){
+            if (windowScene.activationState == UISceneActivationStateForegroundActive){
+                window = windowScene.windows.firstObject;
+                return window;
+            }
+        }
+    }
+    
+    if (AppDelegate.sharedInstance.window) {
+        window = AppDelegate.sharedInstance.window;
+        return window;
+    }
+    
+    if (UIApplication.sharedApplication.delegate.window) {
         window = UIApplication.sharedApplication.delegate.window;
-//        [UIApplication sharedApplication].keyWindow
-    }return window;
+        return window;
+    }
+    
+    SuppressWdeprecatedDeclarationsWarning(
+        if (UIApplication.sharedApplication.keyWindow) {
+        window = UIApplication.sharedApplication.keyWindow;
+        return window;
+    });
+    
+    return window;
 }
 
 #define MainScreen          UIScreen.mainScreen.bounds.size
