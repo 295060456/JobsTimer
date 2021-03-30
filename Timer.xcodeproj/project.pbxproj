@@ -111,11 +111,11 @@
 		C5C67C4D24FE3978000A26B8 /* UIButton+CountDownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C4C24FE3978000A26B8 /* UIButton+CountDownBtn.m */; };
 		C5C67C6824FE5059000A26B8 /* UIView+Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6724FE5059000A26B8 /* UIView+Measure.m */; };
 		C5C67C6E24FF4A80000A26B8 /* MovieCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */; };
-		C5CF18EF25AC805F00381935 /* LYLUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CF18EC25AC805F00381935 /* LYLUnicode.m */; };
 		C5D1C15F258B215400784D2F /* UIView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1C15D258B215400784D2F /* UIView+EmptyData.m */; };
 		C5D6DD2125860F9A00029AFF /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6DD2025860F9A00029AFF /* NSTimerManager.m */; };
 		C5D8D377260CC52600BDAF76 /* toastLoading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5D8D376260CC52600BDAF76 /* toastLoading.gif */; };
 		C5D8D96D260CC97900BDAF76 /* NSObject+DefConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D8D96B260CC97900BDAF76 /* NSObject+DefConfig.m */; };
+		C5DFE1C0261319C3008C7E2E /* DebugLogDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DFE1BF261319C3008C7E2E /* DebugLogDescription.m */; };
 		C5E5C6892509154A001E69DA /* 水平进度条.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E5C6842509154A001E69DA /* 水平进度条.png */; };
 		C5E5C68A2509154A001E69DA /* WGradientProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C6872509154A001E69DA /* WGradientProgress.m */; };
 		C5E5C68B2509154A001E69DA /* WGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E5C6882509154A001E69DA /* WGradientProgressView.m */; };
@@ -349,9 +349,6 @@
 		C5C67C6924FE7671000A26B8 /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
 		C5C67C6C24FF4A80000A26B8 /* MovieCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCountDown.h; sourceTree = "<group>"; };
 		C5C67C6D24FF4A80000A26B8 /* MovieCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCountDown.m; sourceTree = "<group>"; };
-		C5CF18EC25AC805F00381935 /* LYLUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLUnicode.m; sourceTree = "<group>"; };
-		C5CF18ED25AC805F00381935 /* 解决打印日志对于Unicode编码不能正常显示中文的问题 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "解决打印日志对于Unicode编码不能正常显示中文的问题"; sourceTree = "<group>"; };
-		C5CF18EE25AC805F00381935 /* LYLUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLUnicode.h; sourceTree = "<group>"; };
 		C5D1C15D258B215400784D2F /* UIView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EmptyData.m"; sourceTree = "<group>"; };
 		C5D1C15E258B215400784D2F /* UIView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EmptyData.h"; sourceTree = "<group>"; };
 		C5D6DD1F25860F9A00029AFF /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
@@ -359,6 +356,8 @@
 		C5D8D376260CC52600BDAF76 /* toastLoading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = toastLoading.gif; sourceTree = "<group>"; };
 		C5D8D96B260CC97900BDAF76 /* NSObject+DefConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DefConfig.m"; sourceTree = "<group>"; };
 		C5D8D96C260CC97900BDAF76 /* NSObject+DefConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DefConfig.h"; sourceTree = "<group>"; };
+		C5DFE1BE261319C3008C7E2E /* DebugLogDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLogDescription.h; sourceTree = "<group>"; };
+		C5DFE1BF261319C3008C7E2E /* DebugLogDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLogDescription.m; sourceTree = "<group>"; };
 		C5E5C6842509154A001E69DA /* 水平进度条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水平进度条.png"; sourceTree = "<group>"; };
 		C5E5C6852509154A001E69DA /* WGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgressView.h; sourceTree = "<group>"; };
 		C5E5C6862509154A001E69DA /* WGradientProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGradientProgress.h; sourceTree = "<group>"; };
@@ -484,9 +483,9 @@
 		C55696A4255BFD10005C1361 /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
-				C5D8D96A260CC97900BDAF76 /* NSObject+DefConfig */,
 				C59689D025B580D0003E67A1 /* NSObject (Time) */,
 				C56BD7FC25E93971001E1E69 /* NSObject+CallBackInfoByBlock */,
+				C5D8D96A260CC97900BDAF76 /* NSObject+DefConfig */,
 				C55567C62580A5EF004DB33A /* NSObject+Others */,
 				C5968F0E25B5A769003E67A1 /* NSObject+Time */,
 			);
@@ -517,6 +516,7 @@
 		C558F45F258A32560078DB8F /* BaseCustomizeUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C5DFE1BD261319C3008C7E2E /* DebugLogDescription */,
 				C563222E26084BAE00822149 /* BaseProtocol */,
 				C542D76B25EB7C5900D776D8 /* UITextView */,
 				C55696A4255BFD10005C1361 /* NSObject */,
@@ -789,7 +789,6 @@
 				C5A43BC625AAF91D000F0CD2 /* 手势滑动返回 */,
 				C5E5C65C25088EED001E69DA /* 水平进度条 */,
 				C5C67C4A24FE3951000A26B8 /* 验证码按钮 */,
-				C5CF18EB25AC805F00381935 /* LYLUnicode */,
 				C572A2F924FE043E000A1687 /* TimerManager */,
 				C59A3F29258DD262005F6260 /* UserDefaultManager */,
 			);
@@ -1177,16 +1176,6 @@
 			path = "电影倒计时特效";
 			sourceTree = "<group>";
 		};
-		C5CF18EB25AC805F00381935 /* LYLUnicode */ = {
-			isa = PBXGroup;
-			children = (
-				C5CF18ED25AC805F00381935 /* 解决打印日志对于Unicode编码不能正常显示中文的问题 */,
-				C5CF18EE25AC805F00381935 /* LYLUnicode.h */,
-				C5CF18EC25AC805F00381935 /* LYLUnicode.m */,
-			);
-			path = LYLUnicode;
-			sourceTree = "<group>";
-		};
 		C5D1C15C258B215400784D2F /* UIView+EmptyData */ = {
 			isa = PBXGroup;
 			children = (
@@ -1230,6 +1219,15 @@
 				C5D8D96C260CC97900BDAF76 /* NSObject+DefConfig.h */,
 			);
 			path = "NSObject+DefConfig";
+			sourceTree = "<group>";
+		};
+		C5DFE1BD261319C3008C7E2E /* DebugLogDescription */ = {
+			isa = PBXGroup;
+			children = (
+				C5DFE1BE261319C3008C7E2E /* DebugLogDescription.h */,
+				C5DFE1BF261319C3008C7E2E /* DebugLogDescription.m */,
+			);
+			path = DebugLogDescription;
 			sourceTree = "<group>";
 		};
 		C5E5C65C25088EED001E69DA /* 水平进度条 */ = {
@@ -1511,7 +1509,6 @@
 				C59689D325B580D0003E67A1 /* TimeModel.m in Sources */,
 				C56737B325D77C49008ABAF9 /* BaseView.m in Sources */,
 				C572A2BD24FDFF66000A1687 /* ViewController.m in Sources */,
-				C5CF18EF25AC805F00381935 /* LYLUnicode.m in Sources */,
 				C561910226008FA500D4546E /* UITextView+Extend.m in Sources */,
 				C5C65617259DFA4200FD2F99 /* ECPrivacyCheckCamera.m in Sources */,
 				C5A445CB25ABFC99000F0CD2 /* XHLaunchAdImageManager.m in Sources */,
@@ -1538,6 +1535,7 @@
 				C572A30924FE1D53000A1687 /* Nanosecond_TimerManager.m in Sources */,
 				C5D6DD2125860F9A00029AFF /* NSTimerManager.m in Sources */,
 				C56202D62553F8EB00FE435F /* NSObject+RichText.m in Sources */,
+				C5DFE1C0261319C3008C7E2E /* DebugLogDescription.m in Sources */,
 				C572A2C324FDFF66000A1687 /* Timer.xcdatamodeld in Sources */,
 				C5C6561D259DFA4200FD2F99 /* ECPrivacyCheckMediaAndAppleMusic.m in Sources */,
 				C5A445BC25ABFC99000F0CD2 /* JXCategoryTimelineView.m in Sources */,
