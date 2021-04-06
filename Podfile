@@ -30,6 +30,7 @@ def func
   pod 'FLAnimatedImageView+RGWrapper'
   pod 'WHToast' # https://github.com/remember17/WHToast 一个轻量级的提示控件，没有任何依赖
   pod 'TABAnimated' # https://github.com/tigerAndBull/TABAnimated
+  pod 'LYEmptyView'
   end
 
 # 基础的公共配置
