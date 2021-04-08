@@ -749,7 +749,6 @@
 				C5480757261EC96C00ED5853 /* 水平进度条 */,
 				C5480746261EC96C00ED5853 /* 验证码按钮 */,
 				C548074A261EC96C00ED5853 /* CheckMemFreeVC */,
-				C548075D261EC96C00ED5853 /* TimerManager */,
 				C5480750261EC96C00ED5853 /* UserDefaultManager */,
 			);
 			path = "Manual_Add_ThirdParty ";
@@ -817,12 +816,12 @@
 		C548075D261EC96C00ED5853 /* TimerManager */ = {
 			isa = PBXGroup;
 			children = (
-				C548075E261EC96C00ED5853 /* TimerManager_DefineStructure.h */,
-				C548075F261EC96C00ED5853 /* NSTimerManager */,
-				C5480762261EC96C00ED5853 /* GCD_TimerManager(未完) */,
-				C5480765261EC96C00ED5853 /* TimerManager.h */,
-				C5480766261EC96C00ED5853 /* Nanosecond_TimerManager */,
 				C5480769261EC96C00ED5853 /* CADisplayLink_TimerManager */,
+				C5480762261EC96C00ED5853 /* GCD_TimerManager(未完) */,
+				C5480766261EC96C00ED5853 /* Nanosecond_TimerManager */,
+				C548075F261EC96C00ED5853 /* NSTimerManager */,
+				C548075E261EC96C00ED5853 /* TimerManager_DefineStructure.h */,
+				C5480765261EC96C00ED5853 /* TimerManager.h */,
 			);
 			path = TimerManager;
 			sourceTree = "<group>";
@@ -1087,8 +1086,6 @@
 			isa = PBXGroup;
 			children = (
 				C54807A7261EC96C00ED5853 /* NSObject+Others */,
-				C54807AE261EC96C00ED5853 /* NSObject+Time */,
-				C54807B1261EC96C00ED5853 /* NSObject (Time) */,
 				C54807B4261EC96C00ED5853 /* NSObject+DefConfig */,
 				C54807B7261EC96C00ED5853 /* NSObject+CallBackInfoByBlock */,
 			);
@@ -1134,8 +1131,8 @@
 		C54807B1261EC96C00ED5853 /* NSObject (Time) */ = {
 			isa = PBXGroup;
 			children = (
-				C54807B2261EC96C00ED5853 /* TimeModel.m */,
 				C54807B3261EC96C00ED5853 /* TimeModel.h */,
+				C54807B2261EC96C00ED5853 /* TimeModel.m */,
 			);
 			path = "NSObject (Time)";
 			sourceTree = "<group>";
@@ -1143,8 +1140,8 @@
 		C54807B4261EC96C00ED5853 /* NSObject+DefConfig */ = {
 			isa = PBXGroup;
 			children = (
-				C54807B5261EC96C00ED5853 /* NSObject+DefConfig.m */,
 				C54807B6261EC96C00ED5853 /* NSObject+DefConfig.h */,
+				C54807B5261EC96C00ED5853 /* NSObject+DefConfig.m */,
 			);
 			path = "NSObject+DefConfig";
 			sourceTree = "<group>";
@@ -1177,6 +1174,24 @@
 			path = DebugLogDescription;
 			sourceTree = "<group>";
 		};
+		C5480836261EE5D200ED5853 /* JobsTimerCore */ = {
+			isa = PBXGroup;
+			children = (
+				C5480837261EE60A00ED5853 /* BaseCustomizeUIKit */,
+				C548075D261EC96C00ED5853 /* TimerManager */,
+			);
+			path = JobsTimerCore;
+			sourceTree = "<group>";
+		};
+		C5480837261EE60A00ED5853 /* BaseCustomizeUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C54807AE261EC96C00ED5853 /* NSObject+Time */,
+				C54807B1261EC96C00ED5853 /* NSObject (Time) */,
+			);
+			path = BaseCustomizeUIKit;
+			sourceTree = "<group>";
+		};
 		C56CF2F3261EC66D00BE9D73 = {
 			isa = PBXGroup;
 			children = (
@@ -1204,6 +1219,7 @@
 		C56CF2FE261EC66D00BE9D73 /* JobsTimer */ = {
 			isa = PBXGroup;
 			children = (
+				C5480836261EE5D200ED5853 /* JobsTimerCore */,
 				C548073E261EC8B400ED5853 /* 业务 */,
 				C5480692261EC7CA00ED5853 /* 3rd */,
 				C5480681261EC7BF00ED5853 /* 🌹Macro */,
