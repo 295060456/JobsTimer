@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
     spec.author           = { 'Jobs' => 'lg295060456@gmail.com' }
     spec.source           = { :git => "https://github.com/295060456/JobsTimer.git", :tag => "#{spec.version}" }
     spec.requires_arc     = true
-    spec.source_files     = "JJobsTimer/JobsTimerCore/**/*.{h,m}"
+    spec.source_files     = "JobsTimer/JobsTimerCore/**/*.{h,m}"
     spec.ios.deployment_target = '9.0'
 end
