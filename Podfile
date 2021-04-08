@@ -35,12 +35,12 @@ def func
 
 # 基础的公共配置
 def cocoPodsConfig
-  target 'TimerTests' do
+  target 'JobsTimerTests' do
     inherit! :search_paths # abstract! 指示当前的target是抽象的，因此不会直接链接Xcode target。与其相对应的是 inherit！
     # Pods for testing
     end
   
-  target 'TimerUITests' do
+  target 'JobsTimerUITests' do
     inherit! :search_paths
     # Pods for testing
     end
@@ -61,8 +61,8 @@ def cocoPodsConfig
     end
   end
 
-target 'Timer' do
-  # Pods for Timer
+target 'JobsTimer' do
+  # Pods for JobsTimer
   func
   cocoPodsConfig # 基础的公共配置
 end
