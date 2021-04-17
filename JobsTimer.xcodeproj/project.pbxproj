@@ -10,6 +10,7 @@
 		25C0FE4B745E9CAFECF6DAA5 /* Pods_JobsTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED0FA8CCDF9A3480066766A /* Pods_JobsTimerTests.framework */; };
 		8597950007B5C96FA0D9F173 /* Pods_JobsTimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241AE620F8B9D74A1BB0A1CC /* Pods_JobsTimerUITests.framework */; };
 		9982473B47C776528A13560D /* Pods_JobsTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB1D77F3B8CA63CAEF3AF02 /* Pods_JobsTimer.framework */; };
+		C531859B262A907F003C69AD /* DispatchTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C531859A262A907F003C69AD /* DispatchTimerManager.m */; };
 		C5480639261EC77F00ED5853 /* JXCategoryTitleBackgroundCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C54805C9261EC77F00ED5853 /* JXCategoryTitleBackgroundCellModel.m */; };
 		C548063A261EC77F00ED5853 /* JXCategoryTitleBackgroundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C54805CA261EC77F00ED5853 /* JXCategoryTitleBackgroundCell.m */; };
 		C548063B261EC77F00ED5853 /* JXCategoryTitleBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C54805CB261EC77F00ED5853 /* JXCategoryTitleBackgroundView.m */; };
@@ -88,7 +89,6 @@
 		C54807C8261EC96D00ED5853 /* 水平进度条.png in Resources */ = {isa = PBXBuildFile; fileRef = C548075A261EC96C00ED5853 /* 水平进度条.png */; };
 		C54807C9261EC96D00ED5853 /* WGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C548075B261EC96C00ED5853 /* WGradientProgressView.m */; };
 		C54807CA261EC96D00ED5853 /* NSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5480761261EC96C00ED5853 /* NSTimerManager.m */; };
-		C54807CB261EC96D00ED5853 /* GCD_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5480763261EC96C00ED5853 /* GCD_TimerManager.m */; };
 		C54807CC261EC96D00ED5853 /* Nanosecond_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5480767261EC96C00ED5853 /* Nanosecond_TimerManager.m */; };
 		C54807CD261EC96D00ED5853 /* CADisplayLink_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C548076A261EC96C00ED5853 /* CADisplayLink_TimerManager.m */; };
 		C54807CE261EC96D00ED5853 /* UIScrollView+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C548076D261EC96C00ED5853 /* UIScrollView+FDFullscreenPopGesture.m */; };
@@ -153,6 +153,8 @@
 		60878A586D095EE35EA36779 /* Pods-JobsTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsTimer.release.xcconfig"; path = "Target Support Files/Pods-JobsTimer/Pods-JobsTimer.release.xcconfig"; sourceTree = "<group>"; };
 		8F4C846BF048E56BD1742237 /* Pods-JobsTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsTimer.debug.xcconfig"; path = "Target Support Files/Pods-JobsTimer/Pods-JobsTimer.debug.xcconfig"; sourceTree = "<group>"; };
 		965AF41742AE6E7E53C1FDCA /* Pods-JobsTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsTimerTests.release.xcconfig"; path = "Target Support Files/Pods-JobsTimerTests/Pods-JobsTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5318599262A907F003C69AD /* DispatchTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchTimerManager.h; sourceTree = "<group>"; };
+		C531859A262A907F003C69AD /* DispatchTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchTimerManager.m; sourceTree = "<group>"; };
 		C54805C7261EC77F00ED5853 /* JXCategoryTitleBackgroundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundCell.h; sourceTree = "<group>"; };
 		C54805C8261EC77F00ED5853 /* JXCategoryTitleBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundView.h; sourceTree = "<group>"; };
 		C54805C9261EC77F00ED5853 /* JXCategoryTitleBackgroundCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXCategoryTitleBackgroundCellModel.m; sourceTree = "<group>"; };
@@ -288,8 +290,6 @@
 		C548075E261EC96C00ED5853 /* TimerManager_DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager_DefineStructure.h; sourceTree = "<group>"; };
 		C5480760261EC96C00ED5853 /* NSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerManager.h; sourceTree = "<group>"; };
 		C5480761261EC96C00ED5853 /* NSTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerManager.m; sourceTree = "<group>"; };
-		C5480763261EC96C00ED5853 /* GCD_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD_TimerManager.m; sourceTree = "<group>"; };
-		C5480764261EC96C00ED5853 /* GCD_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD_TimerManager.h; sourceTree = "<group>"; };
 		C5480765261EC96C00ED5853 /* TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerManager.h; sourceTree = "<group>"; };
 		C5480767261EC96C00ED5853 /* Nanosecond_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nanosecond_TimerManager.m; sourceTree = "<group>"; };
 		C5480768261EC96C00ED5853 /* Nanosecond_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nanosecond_TimerManager.h; sourceTree = "<group>"; };
@@ -409,6 +409,15 @@
 				C63D37CA488E642F41601E14 /* Pods-JobsTimerUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5318598262A907F003C69AD /* DispatchTimerManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5318599262A907F003C69AD /* DispatchTimerManager.h */,
+				C531859A262A907F003C69AD /* DispatchTimerManager.m */,
+			);
+			path = DispatchTimerManager;
 			sourceTree = "<group>";
 		};
 		C54805C1261EC74E00ED5853 /* AppDelegate & SceneDelegate */ = {
@@ -817,7 +826,7 @@
 			isa = PBXGroup;
 			children = (
 				C5480769261EC96C00ED5853 /* CADisplayLink_TimerManager */,
-				C5480762261EC96C00ED5853 /* GCD_TimerManager(未完) */,
+				C5318598262A907F003C69AD /* DispatchTimerManager */,
 				C5480766261EC96C00ED5853 /* Nanosecond_TimerManager */,
 				C548075F261EC96C00ED5853 /* NSTimerManager */,
 				C548075E261EC96C00ED5853 /* TimerManager_DefineStructure.h */,
@@ -833,15 +842,6 @@
 				C5480761261EC96C00ED5853 /* NSTimerManager.m */,
 			);
 			path = NSTimerManager;
-			sourceTree = "<group>";
-		};
-		C5480762261EC96C00ED5853 /* GCD_TimerManager(未完) */ = {
-			isa = PBXGroup;
-			children = (
-				C5480763261EC96C00ED5853 /* GCD_TimerManager.m */,
-				C5480764261EC96C00ED5853 /* GCD_TimerManager.h */,
-			);
-			path = "GCD_TimerManager(未完)";
 			sourceTree = "<group>";
 		};
 		C5480766261EC96C00ED5853 /* Nanosecond_TimerManager */ = {
@@ -1545,7 +1545,6 @@
 				C54807C6261EC96D00ED5853 /* UserDefaultManager.m in Sources */,
 				C54807E6261EC96D00ED5853 /* DebugLogDescription.m in Sources */,
 				C5480645261EC77F00ED5853 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
-				C54807CB261EC96D00ED5853 /* GCD_TimerManager.m in Sources */,
 				C548063D261EC77F00ED5853 /* JXCategoryTimelineCellModel.m in Sources */,
 				C54807DF261EC96D00ED5853 /* NSString+Extras.m in Sources */,
 				C5480679261EC77F00ED5853 /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */,
@@ -1567,6 +1566,7 @@
 				C5480644261EC77F00ED5853 /* ECPrivacyCheckLocationServices.m in Sources */,
 				C5480674261EC77F00ED5853 /* XHLaunchAdConst.m in Sources */,
 				C54807E5261EC96D00ED5853 /* NSObject+CallBackInfoByBlock.m in Sources */,
+				C531859B262A907F003C69AD /* DispatchTimerManager.m in Sources */,
 				C5480673261EC77F00ED5853 /* XHLaunchImageView.m in Sources */,
 				C548064D261EC77F00ED5853 /* ECPrivacyCheckReminders.m in Sources */,
 				C548067C261EC77F00ED5853 /* XHLaunchAdImageManager.m in Sources */,
