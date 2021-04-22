@@ -79,8 +79,6 @@
 		C548067A261EC77F00ED5853 /* XHLaunchAdConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C5480633261EC77F00ED5853 /* XHLaunchAdConfiguration.m */; };
 		C548067B261EC77F00ED5853 /* XHLaunchAdCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C5480635261EC77F00ED5853 /* XHLaunchAdCache.m */; };
 		C548067C261EC77F00ED5853 /* XHLaunchAdImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5480637261EC77F00ED5853 /* XHLaunchAdImageManager.m */; };
-		C54807C1261EC96D00ED5853 /* UIButton+CountDownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5480747261EC96C00ED5853 /* UIButton+CountDownBtn.m */; };
-		C54807C2261EC96D00ED5853 /* 验证码按钮单例封装.md in Resources */ = {isa = PBXBuildFile; fileRef = C5480749261EC96C00ED5853 /* 验证码按钮单例封装.md */; };
 		C54807C3261EC96D00ED5853 /* CheckMemFreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C548074C261EC96C00ED5853 /* CheckMemFreeVC.m */; };
 		C54807C4261EC96D00ED5853 /* MovieCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C548074F261EC96C00ED5853 /* MovieCountDown.m */; };
 		C54807C5261EC96D00ED5853 /* UserDefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5480753261EC96C00ED5853 /* UserDefaultModel.m */; };
@@ -232,6 +230,7 @@
 		C58D6EB4263047A200966F5F /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6EAD263047A200966F5F /* BWItemCollectionViewCell.m */; };
 		C58D6EB5263047A200966F5F /* 分享控件的用法.md in Resources */ = {isa = PBXBuildFile; fileRef = C58D6EB0263047A200966F5F /* 分享控件的用法.md */; };
 		C58D6EBC263047AA00966F5F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6EBB263047AA00966F5F /* FileFolderHandleTool.m */; };
+		C5EA133326311FEC00155822 /* UILabel+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EA133126311FEC00155822 /* UILabel+Gesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -376,9 +375,6 @@
 		C5480690261EC7BF00ED5853 /* MacroDef_SysWarning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDef_SysWarning.h; sourceTree = "<group>"; };
 		C5480691261EC7BF00ED5853 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C548073A261EC86B00ED5853 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C5480747261EC96C00ED5853 /* UIButton+CountDownBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDownBtn.m"; sourceTree = "<group>"; };
-		C5480748261EC96C00ED5853 /* UIButton+CountDownBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDownBtn.h"; sourceTree = "<group>"; };
-		C5480749261EC96C00ED5853 /* 验证码按钮单例封装.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "验证码按钮单例封装.md"; sourceTree = "<group>"; };
 		C548074B261EC96C00ED5853 /* CheckMemFreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMemFreeVC.h; sourceTree = "<group>"; };
 		C548074C261EC96C00ED5853 /* CheckMemFreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMemFreeVC.m; sourceTree = "<group>"; };
 		C548074E261EC96C00ED5853 /* MovieCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCountDown.h; sourceTree = "<group>"; };
@@ -669,6 +665,9 @@
 		C58D6EB1263047A200966F5F /* BWShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWShareView.h; sourceTree = "<group>"; };
 		C58D6EBA263047AA00966F5F /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
 		C58D6EBB263047AA00966F5F /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
+		C5EA133126311FEC00155822 /* UILabel+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Gesture.m"; sourceTree = "<group>"; };
+		C5EA133226311FEC00155822 /* UILabel+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gesture.h"; sourceTree = "<group>"; };
+		C5EA17F3263122C100155822 /* JobsBaseCustomizeUIKitCoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseCustomizeUIKitCoreHeader.h; sourceTree = "<group>"; };
 		C63D37CA488E642F41601E14 /* Pods-JobsTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsTimerUITests.release.xcconfig"; path = "Target Support Files/Pods-JobsTimerUITests/Pods-JobsTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D6745EA2C41A78E20109F993 /* Pods-JobsTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsTimerTests.debug.xcconfig"; path = "Target Support Files/Pods-JobsTimerTests/Pods-JobsTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1004,6 +1003,7 @@
 			isa = PBXGroup;
 			children = (
 				C5480689261EC7BF00ED5853 /* Manual_Add_ThirdParty.h */,
+				C5EA17F3263122C100155822 /* JobsBaseCustomizeUIKitCoreHeader.h */,
 			);
 			path = "手动导入的第三方";
 			sourceTree = "<group>";
@@ -1062,21 +1062,10 @@
 				C5480755261EC96C00ED5853 /* 清除缓存 */,
 				C548076C261EC96C00ED5853 /* 手势滑动返回 */,
 				C5480757261EC96C00ED5853 /* 水平进度条 */,
-				C5480746261EC96C00ED5853 /* 验证码按钮 */,
 				C548074A261EC96C00ED5853 /* CheckMemFreeVC */,
 				C5480750261EC96C00ED5853 /* UserDefaultManager */,
 			);
 			path = "Manual_Add_ThirdParty ";
-			sourceTree = "<group>";
-		};
-		C5480746261EC96C00ED5853 /* 验证码按钮 */ = {
-			isa = PBXGroup;
-			children = (
-				C5480747261EC96C00ED5853 /* UIButton+CountDownBtn.m */,
-				C5480748261EC96C00ED5853 /* UIButton+CountDownBtn.h */,
-				C5480749261EC96C00ED5853 /* 验证码按钮单例封装.md */,
-			);
-			path = "验证码按钮";
 			sourceTree = "<group>";
 		};
 		C548074A261EC96C00ED5853 /* CheckMemFreeVC */ = {
@@ -1368,6 +1357,7 @@
 			isa = PBXGroup;
 			children = (
 				C58D6B9A2630453900966F5F /* UILabel+Extra */,
+				C5EA133026311FEC00155822 /* UILabel+Gesture */,
 			);
 			path = "UILabel+Category";
 			sourceTree = "<group>";
@@ -1433,9 +1423,9 @@
 			children = (
 				C58D6BAB2630453A00966F5F /* 高度自定义的按钮 */,
 				C58D6BAF2630453A00966F5F /* 高仿抖音点赞动画 */,
-				C58D6BB32630453A00966F5F /* UIButton+Timer */,
-				C58D6BBA2630453A00966F5F /* SoundBtn */,
 				C58D6BBF2630453A00966F5F /* 高仿iOS长按删除+抖动 */,
+				C58D6BBA2630453A00966F5F /* SoundBtn */,
+				C58D6BB32630453A00966F5F /* UIButton+Timer */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -1464,9 +1454,9 @@
 			isa = PBXGroup;
 			children = (
 				C58D6BB42630453A00966F5F /* ButtonTimerDefStructure.h */,
-				C58D6BB52630453A00966F5F /* UIButton+Timer.m */,
 				C58D6BB62630453A00966F5F /* ButtonTimerModel */,
 				C58D6BB92630453A00966F5F /* UIButton+Timer.h */,
+				C58D6BB52630453A00966F5F /* UIButton+Timer.m */,
 			);
 			path = "UIButton+Timer";
 			sourceTree = "<group>";
@@ -2725,6 +2715,15 @@
 			path = "文件夹操作";
 			sourceTree = "<group>";
 		};
+		C5EA133026311FEC00155822 /* UILabel+Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				C5EA133126311FEC00155822 /* UILabel+Gesture.m */,
+				C5EA133226311FEC00155822 /* UILabel+Gesture.h */,
+			);
+			path = "UILabel+Gesture";
+			sourceTree = "<group>";
+		};
 		EAC6544D138DF96D76DA55E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -2861,7 +2860,6 @@
 				C548066A261EC77F00ED5853 /* 文件和文件夹@3x.png in Resources */,
 				C54807C8261EC96D00ED5853 /* 水平进度条.png in Resources */,
 				C548065A261EC77F00ED5853 /* 通讯录@2x.png in Resources */,
-				C54807C2261EC96D00ED5853 /* 验证码按钮单例封装.md in Resources */,
 				C58D6EB5263047A200966F5F /* 分享控件的用法.md in Resources */,
 				C58D6D152630453A00966F5F /* Sound.wav in Resources */,
 				C58D6D2E2630453A00966F5F /* 移除 系统自带的 UITabBarButton in Resources */,
@@ -3100,7 +3098,6 @@
 				C58D6D222630453A00966F5F /* UIView+Gradient.m in Sources */,
 				C58D6D722630453A00966F5F /* TimeModel.m in Sources */,
 				C58D6D7B2630453A00966F5F /* ZYTextField+HistoryDataList.m in Sources */,
-				C54807C1261EC96D00ED5853 /* UIButton+CountDownBtn.m in Sources */,
 				C58D6D5E2630453A00966F5F /* TableViewFooterView.m in Sources */,
 				C58D6D242630453A00966F5F /* UIView+EmptyData.m in Sources */,
 				C58D6D482630453A00966F5F /* UIViewController+BaseVC.m in Sources */,
@@ -3144,6 +3141,7 @@
 				C58D6D752630453A00966F5F /* DebugLogDescription.m in Sources */,
 				C58D6D0E2630453A00966F5F /* BaseTableViewCell.m in Sources */,
 				C548064D261EC77F00ED5853 /* ECPrivacyCheckReminders.m in Sources */,
+				C5EA133326311FEC00155822 /* UILabel+Gesture.m in Sources */,
 				C58D6D5C2630453A00966F5F /* NSArray+Extend.m in Sources */,
 				C548067C261EC77F00ED5853 /* XHLaunchAdImageManager.m in Sources */,
 				C5480648261EC77F00ED5853 /* ECPrivacyCheckMotionAndFitness.m in Sources */,

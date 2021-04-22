@@ -11,33 +11,8 @@
 
 #import "AABlock.h"
 #import "MacroDef_SysWarning.h"
-#pragma mark —— Log
-#import "DebugLogDescription.h"
-#pragma mark —— UIView
-#import "LoadingImage.h"
-/// UIView+Category
-#import "UIView+Measure.h"
-#import "UIView+Extras.h"
-#import "UIView+MJRefresh.h"
-#import "UIView+EmptyData.h"
-#import "UIView+ViewController.h"
-/// BaseView
-#import "BaseView.h"
-#pragma mark —— UIImageView
-/// BaseImageView
-#import "BaseImageView.h"
-/// UIImageView+Category
-#import "UIImageView+GIF.h"//UIImageView支持GIF动画 https://github.com/pupboss/UIImageView-GIF
-#pragma mark —— UITextView
-/// UITextView+Category
-#import "UITextView+IndicateWordLimit.h"
-#import "UITextView+Extend.h"
 
-#import "NSString+Extras.h"
-#import "NSObject+Extras.h"
-#import "NSObject+Time.h"
-#import "NSObject+CallBackInfoByBlock.h"
-#import "NSObject+DefConfig.h"
+#import "JobsBaseCustomizeUIKitCoreHeader.h"
 
 #import "TimerManager.h"
 #import "WGradientProgress.h"
