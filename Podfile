@@ -12,15 +12,18 @@ source 'https://github.com/Artsy/Specs.git'# 使用其他来源地址
 # 需要特别说明的：在 post_install 时，为了一些版本的兼容，需要遍历所有 target，调整一部分库的版本；但是如果开启了 generate_multiple_pod_projects 的话，由于项目结构的变化，installer.pod_targets 就没办法获得所有 pods 引入的 target 了
 install! 'cocoapods',:deterministic_uuids=>false,generate_multiple_pod_projects: true,disable_input_output_paths: true
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 inhibit_all_warnings!
 use_frameworks!
 
 # 特别说明：Ruby对大小写敏感，所以方法名不要用大写，否则执行失败
 def func
+  
+  pod 'JobsGlobleDef'
   pod 'Masonry'
   pod 'ReactiveObjC'
   pod 'MJRefresh'
+  pod 'AFNetworking'
   pod 'MJExtension'
   pod 'GKPhotoBrowser' # https://github.com/QuintGao/GKPhotoBrowser iOS仿微信、今日头条等图片浏览器
   pod 'JXCategoryView'
@@ -31,6 +34,19 @@ def func
   pod 'WHToast' # https://github.com/remember17/WHToast 一个轻量级的提示控件，没有任何依赖
   pod 'TABAnimated' # https://github.com/tigerAndBull/TABAnimated
   pod 'LYEmptyView'
+  pod 'AFNetworking'
+  pod 'BRPickerView'
+  pod 'lottie-ios', '~> 2.5.3'
+  pod 'GKNavigationBar'
+  pod 'TXFileOperation'
+  pod 'SPAlertController'# https://github.com/SPStore/SPAlertController 深度定制AlertController
+  pod 'JPImageresizerView' # https://github.com/Rogue24/JPImageresizerView 一个专门裁剪图片、GIF、视频的轮子，简单易用，功能丰富（高自由度的参数设定、支持旋转和镜像翻转、蒙版、压缩等），能满足绝大部分裁剪的需求。
+  
+  pod 'ZFPlayer'
+  pod 'ZFPlayer/ControlView'
+  pod 'ZFPlayer/AVPlayer'
+  pod 'ZFPlayer/ijkplayer'
+  
   end
 
 # 基础的公共配置
