@@ -230,6 +230,7 @@
 		C58D6EB4263047A200966F5F /* BWItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6EAD263047A200966F5F /* BWItemCollectionViewCell.m */; };
 		C58D6EB5263047A200966F5F /* 分享控件的用法.md in Resources */ = {isa = PBXBuildFile; fileRef = C58D6EB0263047A200966F5F /* 分享控件的用法.md */; };
 		C58D6EBC263047AA00966F5F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6EBB263047AA00966F5F /* FileFolderHandleTool.m */; };
+		C58E92EF26312F6900D1EDB8 /* UIButton+DataBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E92EE26312F6900D1EDB8 /* UIButton+DataBinding.m */; };
 		C5EA133326311FEC00155822 /* UILabel+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EA133126311FEC00155822 /* UILabel+Gesture.m */; };
 /* End PBXBuildFile section */
 
@@ -665,6 +666,8 @@
 		C58D6EB1263047A200966F5F /* BWShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWShareView.h; sourceTree = "<group>"; };
 		C58D6EBA263047AA00966F5F /* FileFolderHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileFolderHandleTool.h; sourceTree = "<group>"; };
 		C58D6EBB263047AA00966F5F /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
+		C58E92ED26312F6900D1EDB8 /* UIButton+DataBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DataBinding.h"; sourceTree = "<group>"; };
+		C58E92EE26312F6900D1EDB8 /* UIButton+DataBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DataBinding.m"; sourceTree = "<group>"; };
 		C5EA133126311FEC00155822 /* UILabel+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Gesture.m"; sourceTree = "<group>"; };
 		C5EA133226311FEC00155822 /* UILabel+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gesture.h"; sourceTree = "<group>"; };
 		C5EA17F3263122C100155822 /* JobsBaseCustomizeUIKitCoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseCustomizeUIKitCoreHeader.h; sourceTree = "<group>"; };
@@ -1425,6 +1428,7 @@
 				C58D6BAF2630453A00966F5F /* 高仿抖音点赞动画 */,
 				C58D6BBF2630453A00966F5F /* 高仿iOS长按删除+抖动 */,
 				C58D6BBA2630453A00966F5F /* SoundBtn */,
+				C58E92EC26312F6900D1EDB8 /* UIButton+DataBinding */,
 				C58D6BB32630453A00966F5F /* UIButton+Timer */,
 			);
 			path = UIButton;
@@ -2715,6 +2719,15 @@
 			path = "文件夹操作";
 			sourceTree = "<group>";
 		};
+		C58E92EC26312F6900D1EDB8 /* UIButton+DataBinding */ = {
+			isa = PBXGroup;
+			children = (
+				C58E92ED26312F6900D1EDB8 /* UIButton+DataBinding.h */,
+				C58E92EE26312F6900D1EDB8 /* UIButton+DataBinding.m */,
+			);
+			path = "UIButton+DataBinding";
+			sourceTree = "<group>";
+		};
 		C5EA133026311FEC00155822 /* UILabel+Gesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -3055,6 +3068,7 @@
 				C548064A261EC77F00ED5853 /* ECPrivacyCheckPhotos.m in Sources */,
 				C58D6D0A2630453A00966F5F /* UITableViewCell+Margin.m in Sources */,
 				C58D6D542630453A00966F5F /* UITableView+XSAnimationKit.m in Sources */,
+				C58E92EF26312F6900D1EDB8 /* UIButton+DataBinding.m in Sources */,
 				C548067B261EC77F00ED5853 /* XHLaunchAdCache.m in Sources */,
 				C5480677261EC77F00ED5853 /* XHLaunchAdController.m in Sources */,
 				C548067A261EC77F00ED5853 /* XHLaunchAdConfiguration.m in Sources */,
