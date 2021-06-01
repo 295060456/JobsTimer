@@ -231,6 +231,7 @@
 		C58D6EB5263047A200966F5F /* 分享控件的用法.md in Resources */ = {isa = PBXBuildFile; fileRef = C58D6EB0263047A200966F5F /* 分享控件的用法.md */; };
 		C58D6EBC263047AA00966F5F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6EBB263047AA00966F5F /* FileFolderHandleTool.m */; };
 		C58E9D8D26313B4700D1EDB8 /* NSObject+DataBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E9D8B26313B4700D1EDB8 /* NSObject+DataBinding.m */; };
+		C5B5C98E26665B7800264958 /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B5C98D26665B7800264958 /* BaseButton.m */; };
 		C5EA133326311FEC00155822 /* UILabel+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EA133126311FEC00155822 /* UILabel+Gesture.m */; };
 /* End PBXBuildFile section */
 
@@ -668,6 +669,9 @@
 		C58D6EBB263047AA00966F5F /* FileFolderHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileFolderHandleTool.m; sourceTree = "<group>"; };
 		C58E9D8B26313B4700D1EDB8 /* NSObject+DataBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataBinding.m"; sourceTree = "<group>"; };
 		C58E9D8C26313B4700D1EDB8 /* NSObject+DataBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataBinding.h"; sourceTree = "<group>"; };
+		C5B5C98A26665B7200264958 /* BaseButtonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseButtonProtocol.h; sourceTree = "<group>"; };
+		C5B5C98C26665B7800264958 /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
+		C5B5C98D26665B7800264958 /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
 		C5EA133126311FEC00155822 /* UILabel+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Gesture.m"; sourceTree = "<group>"; };
 		C5EA133226311FEC00155822 /* UILabel+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gesture.h"; sourceTree = "<group>"; };
 		C5EA17F3263122C100155822 /* JobsBaseCustomizeUIKitCoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseCustomizeUIKitCoreHeader.h; sourceTree = "<group>"; };
@@ -1427,6 +1431,7 @@
 				C58D6BAB2630453A00966F5F /* 高度自定义的按钮 */,
 				C58D6BAF2630453A00966F5F /* 高仿抖音点赞动画 */,
 				C58D6BBF2630453A00966F5F /* 高仿iOS长按删除+抖动 */,
+				C5B5C98B26665B7800264958 /* BaseButton */,
 				C58D6BBA2630453A00966F5F /* SoundBtn */,
 				C58D6BB32630453A00966F5F /* UIButton+Timer */,
 			);
@@ -2595,8 +2600,9 @@
 		C58D6CE72630453A00966F5F /* BaseProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				C58D6CE82630453A00966F5F /* BaseViewControllerProtocol.h */,
+				C5B5C98A26665B7200264958 /* BaseButtonProtocol.h */,
 				C58D6CE92630453A00966F5F /* BaseCellProtocol.h */,
+				C58D6CE82630453A00966F5F /* BaseViewControllerProtocol.h */,
 				C58D6CEA2630453A00966F5F /* BaseViewProtocol.h */,
 			);
 			path = BaseProtocol;
@@ -2726,6 +2732,15 @@
 				C58E9D8C26313B4700D1EDB8 /* NSObject+DataBinding.h */,
 			);
 			path = "NSObject+DataBinding";
+			sourceTree = "<group>";
+		};
+		C5B5C98B26665B7800264958 /* BaseButton */ = {
+			isa = PBXGroup;
+			children = (
+				C5B5C98C26665B7800264958 /* BaseButton.h */,
+				C5B5C98D26665B7800264958 /* BaseButton.m */,
+			);
+			path = BaseButton;
 			sourceTree = "<group>";
 		};
 		C5EA133026311FEC00155822 /* UILabel+Gesture */ = {
@@ -3085,6 +3100,7 @@
 				C58D6D272630453A00966F5F /* UIView+JHGestureBlock.m in Sources */,
 				C58D6D052630453A00966F5F /* UIImage+SYS.m in Sources */,
 				C58D6D702630453A00966F5F /* NSObject+DataSave.m in Sources */,
+				C5B5C98E26665B7800264958 /* BaseButton.m in Sources */,
 				C56CF301261EC66D00BE9D73 /* AppDelegate.m in Sources */,
 				C58D6D4F2630453A00966F5F /* UIViewController+MJRefresh.m in Sources */,
 				C54807C6261EC96D00ED5853 /* UserDefaultManager.m in Sources */,
