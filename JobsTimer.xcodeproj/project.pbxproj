@@ -102,6 +102,7 @@
 		C56CF315261EC66E00BE9D73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C56CF314261EC66E00BE9D73 /* main.m */; };
 		C56CF31F261EC66E00BE9D73 /* JobsTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C56CF31E261EC66E00BE9D73 /* JobsTimerTests.m */; };
 		C56CF32A261EC66E00BE9D73 /* JobsTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C56CF329261EC66E00BE9D73 /* JobsTimerUITests.m */; };
+		C57687062674ABBC00379F34 /* DDRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C57687052674ABBC00379F34 /* DDRecord.m */; };
 		C58D6D032630453A00966F5F /* UIImage+ScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6B872630453900966F5F /* UIImage+ScreenShot.m */; };
 		C58D6D042630453A00966F5F /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6B8A2630453900966F5F /* UIImage+Extras.m */; };
 		C58D6D052630453A00966F5F /* UIImage+SYS.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6B8E2630453900966F5F /* UIImage+SYS.m */; };
@@ -423,6 +424,8 @@
 		C56CF325261EC66E00BE9D73 /* JobsTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56CF329261EC66E00BE9D73 /* JobsTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsTimerUITests.m; sourceTree = "<group>"; };
 		C56CF32B261EC66E00BE9D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57687042674ABBC00379F34 /* DDRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRecord.h; sourceTree = "<group>"; };
+		C57687052674ABBC00379F34 /* DDRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRecord.m; sourceTree = "<group>"; };
 		C58D6B842630453900966F5F /* LoadingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingImage.h; sourceTree = "<group>"; };
 		C58D6B872630453900966F5F /* UIImage+ScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScreenShot.m"; sourceTree = "<group>"; };
 		C58D6B882630453900966F5F /* UIImage+ScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScreenShot.h"; sourceTree = "<group>"; };
@@ -1239,6 +1242,15 @@
 				C56CF32B261EC66E00BE9D73 /* Info.plist */,
 			);
 			path = JobsTimerUITests;
+			sourceTree = "<group>";
+		};
+		C57687032674ABBC00379F34 /* DDRecord */ = {
+			isa = PBXGroup;
+			children = (
+				C57687042674ABBC00379F34 /* DDRecord.h */,
+				C57687052674ABBC00379F34 /* DDRecord.m */,
+			);
+			path = DDRecord;
 			sourceTree = "<group>";
 		};
 		C58D6B822630453900966F5F /* JobsBaseCustomizeUIKitCore */ = {
@@ -2426,6 +2438,7 @@
 		C58D6CB72630453A00966F5F /* NSObject */ = {
 			isa = PBXGroup;
 			children = (
+				C57687032674ABBC00379F34 /* DDRecord */,
 				C58D6CDE2630453A00966F5F /* NSObject (Time) */,
 				C58D6CB82630453A00966F5F /* NSObject+Alert */,
 				C58D6CE42630453A00966F5F /* NSObject+CallBackInfoByBlock */,
@@ -3110,6 +3123,7 @@
 				C5480645261EC77F00ED5853 /* ECPrivacyCheckFilesAndFolders.m in Sources */,
 				C58D6D3D2630453A00966F5F /* NSString+Extras.m in Sources */,
 				C58D6D262630453A00966F5F /* UIView+ViewController.m in Sources */,
+				C57687062674ABBC00379F34 /* DDRecord.m in Sources */,
 				C58D6D1D2630453A00966F5F /* BaseView.m in Sources */,
 				C58D6D652630453A00966F5F /* BaseCollectionReusableView.m in Sources */,
 				C548063D261EC77F00ED5853 /* JXCategoryTimelineCellModel.m in Sources */,
