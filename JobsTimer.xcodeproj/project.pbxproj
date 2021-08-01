@@ -261,6 +261,8 @@
 		647CAFFC99AF39A25E39B7D2 /* Pods_JobsTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E553C80344CB7097DC90787 /* Pods-JobsTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsTimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsTimerUITests/Pods-JobsTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F4C846BF048E56BD1742237 /* Pods-JobsTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsTimer.debug.xcconfig"; path = "Target Support Files/Pods-JobsTimer/Pods-JobsTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		C5292DB726B6756700BEACD7 /* Pods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
+		C5292DB826B6756700BEACD7 /* PodsManual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C5318599262A907F003C69AD /* DispatchTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchTimerManager.h; sourceTree = "<group>"; };
 		C531859A262A907F003C69AD /* DispatchTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchTimerManager.m; sourceTree = "<group>"; };
 		C54805C7261EC77F00ED5853 /* JXCategoryTitleBackgroundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXCategoryTitleBackgroundCell.h; sourceTree = "<group>"; };
@@ -369,8 +371,6 @@
 		C5480637261EC77F00ED5853 /* XHLaunchAdImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchAdImageManager.m; sourceTree = "<group>"; };
 		C5480638261EC77F00ED5853 /* XHLaunchAdConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchAdConst.h; sourceTree = "<group>"; };
 		C5480683261EC7BF00ED5853 /* Timer-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Timer-Bridging-Header.h"; sourceTree = "<group>"; };
-		C5480686261EC7BF00ED5853 /* Pods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
-		C5480687261EC7BF00ED5853 /* PodsManual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
 		C5480689261EC7BF00ED5853 /* Manual_Add_ThirdParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manual_Add_ThirdParty.h; sourceTree = "<group>"; };
 		C548068C261EC7BF00ED5853 /* DefineStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineStructure.h; sourceTree = "<group>"; };
 		C548068D261EC7BF00ED5853 /* AABlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABlock.h; sourceTree = "<group>"; };
@@ -723,6 +723,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C5292DB626B6756700BEACD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5292DB726B6756700BEACD7 /* Pods.h */,
+				C5292DB826B6756700BEACD7 /* PodsManual.h */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C5318598262A907F003C69AD /* DispatchTimerManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -994,19 +1003,10 @@
 		C5480684261EC7BF00ED5853 /* 第三方头文件管理 */ = {
 			isa = PBXGroup;
 			children = (
-				C5480685261EC7BF00ED5853 /* Pods */,
+				C5292DB626B6756700BEACD7 /* Pods */,
 				C5480688261EC7BF00ED5853 /* 手动导入的第三方 */,
 			);
 			path = "第三方头文件管理";
-			sourceTree = "<group>";
-		};
-		C5480685261EC7BF00ED5853 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C5480686261EC7BF00ED5853 /* Pods.h */,
-				C5480687261EC7BF00ED5853 /* PodsManual.h */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		C5480688261EC7BF00ED5853 /* 手动导入的第三方 */ = {
@@ -3400,14 +3400,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SY823K8838;
+				DEVELOPMENT_TEAM = K92UCMVH8G;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = JobsTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.JobsKit.JobsTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JobsComment.JobsAppDoor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3420,7 +3420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SY823K8838;
+				DEVELOPMENT_TEAM = K92UCMVH8G;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/🌹Macro/PrefixHeader.pch";
 				INFOPLIST_FILE = JobsTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
