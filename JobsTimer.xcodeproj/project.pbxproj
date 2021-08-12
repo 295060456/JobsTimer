@@ -233,6 +233,8 @@
 		C58D6EBC263047AA00966F5F /* FileFolderHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C58D6EBB263047AA00966F5F /* FileFolderHandleTool.m */; };
 		C58E9D8D26313B4700D1EDB8 /* NSObject+DataBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = C58E9D8B26313B4700D1EDB8 /* NSObject+DataBinding.m */; };
 		C5B5C98E26665B7800264958 /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B5C98D26665B7800264958 /* BaseButton.m */; };
+		C5C7C74026C52174007F4D5F /* TYFFSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C7C73E26C52174007F4D5F /* TYFFSwizzle.m */; };
+		C5C7C74426C5217C007F4D5F /* UINavigationController+SafeTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C7C74326C5217C007F4D5F /* UINavigationController+SafeTransition.m */; };
 		C5EA133326311FEC00155822 /* UILabel+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EA133126311FEC00155822 /* UILabel+Gesture.m */; };
 /* End PBXBuildFile section */
 
@@ -675,6 +677,10 @@
 		C5B5C98A26665B7200264958 /* BaseButtonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseButtonProtocol.h; sourceTree = "<group>"; };
 		C5B5C98C26665B7800264958 /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
 		C5B5C98D26665B7800264958 /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
+		C5C7C73E26C52174007F4D5F /* TYFFSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYFFSwizzle.m; sourceTree = "<group>"; };
+		C5C7C73F26C52174007F4D5F /* TYFFSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYFFSwizzle.h; sourceTree = "<group>"; };
+		C5C7C74226C5217C007F4D5F /* UINavigationController+SafeTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SafeTransition.h"; sourceTree = "<group>"; };
+		C5C7C74326C5217C007F4D5F /* UINavigationController+SafeTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SafeTransition.m"; sourceTree = "<group>"; };
 		C5EA133126311FEC00155822 /* UILabel+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Gesture.m"; sourceTree = "<group>"; };
 		C5EA133226311FEC00155822 /* UILabel+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Gesture.h"; sourceTree = "<group>"; };
 		C5EA17F3263122C100155822 /* JobsBaseCustomizeUIKitCoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsBaseCustomizeUIKitCoreHeader.h; sourceTree = "<group>"; };
@@ -1256,6 +1262,7 @@
 		C58D6B822630453900966F5F /* JobsBaseCustomizeUIKitCore */ = {
 			isa = PBXGroup;
 			children = (
+				C5C7C73D26C52174007F4D5F /* TYFSwizzle */,
 				C58D6CE72630453A00966F5F /* BaseProtocol */,
 				C58D6CAC2630453A00966F5F /* CALayer */,
 				C58D6CEB2630453A00966F5F /* DebugLogDescription */,
@@ -2183,6 +2190,7 @@
 		C58D6C742630453A00966F5F /* UINavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				C5C7C74126C5217C007F4D5F /* UINavigationController+Category */,
 				C58D6C752630453A00966F5F /* BaseNavigationVC */,
 			);
 			path = UINavigationController;
@@ -2756,6 +2764,24 @@
 			path = BaseButton;
 			sourceTree = "<group>";
 		};
+		C5C7C73D26C52174007F4D5F /* TYFSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				C5C7C73E26C52174007F4D5F /* TYFFSwizzle.m */,
+				C5C7C73F26C52174007F4D5F /* TYFFSwizzle.h */,
+			);
+			path = TYFSwizzle;
+			sourceTree = "<group>";
+		};
+		C5C7C74126C5217C007F4D5F /* UINavigationController+Category */ = {
+			isa = PBXGroup;
+			children = (
+				C5C7C74226C5217C007F4D5F /* UINavigationController+SafeTransition.h */,
+				C5C7C74326C5217C007F4D5F /* UINavigationController+SafeTransition.m */,
+			);
+			path = "UINavigationController+Category";
+			sourceTree = "<group>";
+		};
 		C5EA133026311FEC00155822 /* UILabel+Gesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -3134,6 +3160,7 @@
 				C58D6EB3263047A200966F5F /* BWShareView.m in Sources */,
 				C58D6D572630453A00966F5F /* BaseTableView.m in Sources */,
 				C5480679261EC77F00ED5853 /* XHLaunchAdImageView+XHLaunchAdCache.m in Sources */,
+				C5C7C74026C52174007F4D5F /* TYFFSwizzle.m in Sources */,
 				C58D6EB4263047A200966F5F /* BWItemCollectionViewCell.m in Sources */,
 				C54807C4261EC96D00ED5853 /* MovieCountDown.m in Sources */,
 				C58D6D1F2630453A00966F5F /* UIView+ZFPlayer.m in Sources */,
@@ -3155,6 +3182,7 @@
 				C5480672261EC77F00ED5853 /* XHLaunchAdButton.m in Sources */,
 				C58D6D2D2630453A00966F5F /* DeleteSystemUITabBarButton.m in Sources */,
 				C5480644261EC77F00ED5853 /* ECPrivacyCheckLocationServices.m in Sources */,
+				C5C7C74426C5217C007F4D5F /* UINavigationController+SafeTransition.m in Sources */,
 				C58D6D3E2630453A00966F5F /* UIViewController+JXPagerViewListViewDelegate.m in Sources */,
 				C5480674261EC77F00ED5853 /* XHLaunchAdConst.m in Sources */,
 				C58D6D762630453A00966F5F /* UITextField+Extend.m in Sources */,
