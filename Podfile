@@ -17,6 +17,10 @@ inhibit_all_warnings!
 use_frameworks!
 
 # 特别说明：Ruby对大小写敏感，所以方法名不要用大写，否则执行失败
+def develop_sdk
+  pod 'LookinServer', :configurations => ['Debug']
+end
+
 def func
   
   pod 'JobsGlobleDef'
@@ -83,6 +87,7 @@ end
 
 target 'JobsTimer' do
   # Pods for JobsTimer
+  develop_sdk
   func
   cocoPodsConfig # 基础的公共配置
 end
