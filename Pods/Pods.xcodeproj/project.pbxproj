@@ -264,9 +264,9 @@
 		46EB2E00000640 /* Pods-JobsTimerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JobsTimerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		46EB2E00000650 /* Pods-JobsTimerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JobsTimerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46EB2E00000660 /* Pods-JobsTimerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JobsTimerUITests-dummy.m"; sourceTree = "<group>"; };
-		54C512613726E7F526D8A98C5C63180A /* Pods_JobsTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JobsTimerTests.framework; path = "Pods-JobsTimerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8704D6F860B53F1F114F86291BD3E4B5 /* Pods_JobsTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JobsTimer.framework; path = "Pods-JobsTimer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AAB35026D6391EB0994618EB23B35FC /* Pods_JobsTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JobsTimerUITests.framework; path = "Pods-JobsTimerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C512613726E7F526D8A98C5C63180A /* Pods-JobsTimerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JobsTimerTests"; path = Pods_JobsTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8704D6F860B53F1F114F86291BD3E4B5 /* Pods-JobsTimer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JobsTimer"; path = Pods_JobsTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAB35026D6391EB0994618EB23B35FC /* Pods-JobsTimerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JobsTimerUITests"; path = Pods_JobsTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,9 +311,9 @@
 		46EB2E00000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8704D6F860B53F1F114F86291BD3E4B5 /* Pods_JobsTimer.framework */,
-				54C512613726E7F526D8A98C5C63180A /* Pods_JobsTimerTests.framework */,
-				8AAB35026D6391EB0994618EB23B35FC /* Pods_JobsTimerUITests.framework */,
+				8704D6F860B53F1F114F86291BD3E4B5 /* Pods-JobsTimer */,
+				54C512613726E7F526D8A98C5C63180A /* Pods-JobsTimerTests */,
+				8AAB35026D6391EB0994618EB23B35FC /* Pods-JobsTimerUITests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -471,8 +471,8 @@
 				46EB2E000009B0 /* PBXTargetDependency */,
 			);
 			name = "Pods-JobsTimerTests";
-			productName = "Pods-JobsTimerTests";
-			productReference = 54C512613726E7F526D8A98C5C63180A /* Pods_JobsTimerTests.framework */;
+			productName = Pods_JobsTimerTests;
+			productReference = 54C512613726E7F526D8A98C5C63180A /* Pods-JobsTimerTests */;
 			productType = "com.apple.product-type.framework";
 		};
 		3C93553C4EFEC36142E4A09B1FE2332E /* Pods-JobsTimer */ = {
@@ -514,8 +514,8 @@
 				46EB2E00000990 /* PBXTargetDependency */,
 			);
 			name = "Pods-JobsTimer";
-			productName = "Pods-JobsTimer";
-			productReference = 8704D6F860B53F1F114F86291BD3E4B5 /* Pods_JobsTimer.framework */;
+			productName = Pods_JobsTimer;
+			productReference = 8704D6F860B53F1F114F86291BD3E4B5 /* Pods-JobsTimer */;
 			productType = "com.apple.product-type.framework";
 		};
 		46ED43DF4614D966477320591C73B36E /* Pods-JobsTimerUITests */ = {
@@ -533,8 +533,8 @@
 				46EB2E000009D0 /* PBXTargetDependency */,
 			);
 			name = "Pods-JobsTimerUITests";
-			productName = "Pods-JobsTimerUITests";
-			productReference = 8AAB35026D6391EB0994618EB23B35FC /* Pods_JobsTimerUITests.framework */;
+			productName = Pods_JobsTimerUITests;
+			productReference = 8AAB35026D6391EB0994618EB23B35FC /* Pods-JobsTimerUITests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */

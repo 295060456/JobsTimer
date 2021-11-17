@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		0616509307F83C5188E8521E /* Pods_JobsTimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647CAFFC99AF39A25E39B7D2 /* Pods_JobsTimerUITests.framework */; };
 		1BF2773CC629BD4A0298A346 /* Pods_JobsTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DE9403F2221F0253383836 /* Pods_JobsTimerTests.framework */; };
+		845890542744B93500119697 /* UserInfo.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8458904A2744B93400119697 /* UserInfo.xcassets */; };
+		845890552744B93500119697 /* Bank.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8458904B2744B93400119697 /* Bank.xcassets */; };
+		845890562744B93500119697 /* Login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8458904C2744B93400119697 /* Login.xcassets */; };
+		845890582744B93500119697 /* Home.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8458904E2744B93400119697 /* Home.xcassets */; };
+		845890592744B93500119697 /* Chip.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8458904F2744B93400119697 /* Chip.xcassets */; };
+		8458905A2744B93500119697 /* Tabbar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845890502744B93500119697 /* Tabbar.xcassets */; };
+		8458905B2744B93500119697 /* Agency.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845890512744B93500119697 /* Agency.xcassets */; };
+		8458905C2744B93500119697 /* Customer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845890522744B93500119697 /* Customer.xcassets */; };
+		8458905D2744B93500119697 /* Message.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845890532744B93500119697 /* Message.xcassets */; };
 		9982473B47C776528A13560D /* Pods_JobsTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB1D77F3B8CA63CAEF3AF02 /* Pods_JobsTimer.framework */; };
 		C531859B262A907F003C69AD /* DispatchTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C531859A262A907F003C69AD /* DispatchTimerManager.m */; };
 		C5480639261EC77F00ED5853 /* JXCategoryTitleBackgroundCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C54805C9261EC77F00ED5853 /* JXCategoryTitleBackgroundCellModel.m */; };
@@ -262,6 +271,15 @@
 		60878A586D095EE35EA36779 /* Pods-JobsTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsTimer.release.xcconfig"; path = "Target Support Files/Pods-JobsTimer/Pods-JobsTimer.release.xcconfig"; sourceTree = "<group>"; };
 		647CAFFC99AF39A25E39B7D2 /* Pods_JobsTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JobsTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E553C80344CB7097DC90787 /* Pods-JobsTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsTimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-JobsTimerUITests/Pods-JobsTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8458904A2744B93400119697 /* UserInfo.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = UserInfo.xcassets; sourceTree = "<group>"; };
+		8458904B2744B93400119697 /* Bank.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Bank.xcassets; sourceTree = "<group>"; };
+		8458904C2744B93400119697 /* Login.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Login.xcassets; sourceTree = "<group>"; };
+		8458904E2744B93400119697 /* Home.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Home.xcassets; sourceTree = "<group>"; };
+		8458904F2744B93400119697 /* Chip.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Chip.xcassets; sourceTree = "<group>"; };
+		845890502744B93500119697 /* Tabbar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Tabbar.xcassets; sourceTree = "<group>"; };
+		845890512744B93500119697 /* Agency.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Agency.xcassets; sourceTree = "<group>"; };
+		845890522744B93500119697 /* Customer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Customer.xcassets; sourceTree = "<group>"; };
+		845890532744B93500119697 /* Message.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Message.xcassets; sourceTree = "<group>"; };
 		8F4C846BF048E56BD1742237 /* Pods-JobsTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsTimer.debug.xcconfig"; path = "Target Support Files/Pods-JobsTimer/Pods-JobsTimer.debug.xcconfig"; sourceTree = "<group>"; };
 		C5292DB726B6756700BEACD7 /* Pods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pods.h; sourceTree = "<group>"; };
 		C5292DB826B6756700BEACD7 /* PodsManual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodsManual.h; sourceTree = "<group>"; };
@@ -716,6 +734,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84588FEF2744B8F900119697 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				C56CF308261EC66D00BE9D73 /* Main.storyboard */,
+				C56CF310261EC66E00BE9D73 /* LaunchScreen.storyboard */,
+				C56CF314261EC66E00BE9D73 /* main.m */,
+				C56CF30B261EC66D00BE9D73 /* JobsTimer.xcdatamodeld */,
+			);
+			path = "其他";
+			sourceTree = "<group>";
+		};
+		84588FF02744B90000119697 /* 资源文件管理 */ = {
+			isa = PBXGroup;
+			children = (
+				845897E82744C01000119697 /* Json文件 */,
+				845897E72744C00800119697 /* 外部字体 */,
+				84588FF22744B91000119697 /* 图片资源文件 */,
+				84588FF12744B90700119697 /* 视频资源文件 */,
+			);
+			path = "资源文件管理";
+			sourceTree = "<group>";
+		};
+		84588FF12744B90700119697 /* 视频资源文件 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "视频资源文件";
+			sourceTree = "<group>";
+		};
+		84588FF22744B91000119697 /* 图片资源文件 */ = {
+			isa = PBXGroup;
+			children = (
+				8458905E2744B95B00119697 /* 进入编译期的资源 */,
+				845890492744B92A00119697 /* xcassets */,
+			);
+			path = "图片资源文件";
+			sourceTree = "<group>";
+		};
+		845890492744B92A00119697 /* xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				C56CF30E261EC66E00BE9D73 /* Assets.xcassets */,
+				845890512744B93500119697 /* Agency.xcassets */,
+				8458904B2744B93400119697 /* Bank.xcassets */,
+				8458904F2744B93400119697 /* Chip.xcassets */,
+				845890522744B93500119697 /* Customer.xcassets */,
+				8458904E2744B93400119697 /* Home.xcassets */,
+				8458904C2744B93400119697 /* Login.xcassets */,
+				845890532744B93500119697 /* Message.xcassets */,
+				845890502744B93500119697 /* Tabbar.xcassets */,
+				8458904A2744B93400119697 /* UserInfo.xcassets */,
+			);
+			path = xcassets;
+			sourceTree = "<group>";
+		};
+		8458905E2744B95B00119697 /* 进入编译期的资源 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "进入编译期的资源";
+			sourceTree = "<group>";
+		};
+		845897E72744C00800119697 /* 外部字体 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "外部字体";
+			sourceTree = "<group>";
+		};
+		845897E82744C01000119697 /* Json文件 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Json文件";
+			sourceTree = "<group>";
+		};
 		A274016FF596D3F7108B4832 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -977,11 +1071,8 @@
 		C5480680261EC79700ED5853 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				C56CF308261EC66D00BE9D73 /* Main.storyboard */,
-				C56CF30E261EC66E00BE9D73 /* Assets.xcassets */,
-				C56CF310261EC66E00BE9D73 /* LaunchScreen.storyboard */,
-				C56CF314261EC66E00BE9D73 /* main.m */,
-				C56CF30B261EC66D00BE9D73 /* JobsTimer.xcdatamodeld */,
+				84588FF02744B90000119697 /* 资源文件管理 */,
+				84588FEF2744B8F900119697 /* 其他 */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -2917,13 +3008,16 @@
 				C548066D261EC77F00ED5853 /* ECPrivacyCheckTools不用pod管理的情况说明.md in Resources */,
 				C5480652261EC77F00ED5853 /* 运动与健身@3x.png in Resources */,
 				C548064F261EC77F00ED5853 /* 媒体与AppleMusic@2x.png in Resources */,
+				845890552744B93500119697 /* Bank.xcassets in Resources */,
 				C5480655261EC77F00ED5853 /* 01.PNG in Resources */,
 				C5480664261EC77F00ED5853 /* HomeKit@2x.png in Resources */,
 				C5480661261EC77F00ED5853 /* 通讯录@3x.png in Resources */,
 				C58D6D622630453A00966F5F /* UICollectionViewFlowLayout.md in Resources */,
+				8458905B2744B93500119697 /* Agency.xcassets in Resources */,
 				C5480650261EC77F00ED5853 /* 运动与健身@2x.png in Resources */,
 				C5480675261EC77F00ED5853 /* XHLaunchAd不用pod导入的情况说明.md in Resources */,
 				C548065F261EC77F00ED5853 /* 语音识别@3x.png in Resources */,
+				845890542744B93500119697 /* UserInfo.xcassets in Resources */,
 				C548066A261EC77F00ED5853 /* 文件和文件夹@3x.png in Resources */,
 				C54807C8261EC96D00ED5853 /* 水平进度条.png in Resources */,
 				C548065A261EC77F00ED5853 /* 通讯录@2x.png in Resources */,
@@ -2941,14 +3035,19 @@
 				C5480654261EC77F00ED5853 /* 提醒事项@3x.png in Resources */,
 				C5480662261EC77F00ED5853 /* 定位服务@2x.png in Resources */,
 				C58D6D162630453A00966F5F /* 带有按键音的按钮.md in Resources */,
+				8458905C2744B93500119697 /* Customer.xcassets in Resources */,
 				C54807CF261EC96D00ED5853 /* README.md in Resources */,
 				C58D6D342630453A00966F5F /* 我为什么要这么做.md in Resources */,
 				C58D6D0F2630453A00966F5F /* 高度自定义的按钮.md in Resources */,
+				845890562744B93500119697 /* Login.xcassets in Resources */,
+				8458905A2744B93500119697 /* Tabbar.xcassets in Resources */,
 				C5480653261EC77F00ED5853 /* 健康@2x.png in Resources */,
 				C5480665261EC77F00ED5853 /* 相机@2x.png in Resources */,
+				8458905D2744B93500119697 /* Message.xcassets in Resources */,
 				C5480656261EC77F00ED5853 /* 麦克风@2x.png in Resources */,
 				C548065E261EC77F00ED5853 /* 蓝牙@3x.png in Resources */,
 				C5480668261EC77F00ED5853 /* 相机@3x.png in Resources */,
+				845890592744B93500119697 /* Chip.xcassets in Resources */,
 				C548066B261EC77F00ED5853 /* 定位服务@3x.png in Resources */,
 				C56CF312261EC66E00BE9D73 /* LaunchScreen.storyboard in Resources */,
 				C5480651261EC77F00ED5853 /* 媒体与AppleMusic@3x.png in Resources */,
@@ -2957,6 +3056,7 @@
 				C5480670261EC77F00ED5853 /* toastLoading.gif in Resources */,
 				C56CF30A261EC66D00BE9D73 /* Main.storyboard in Resources */,
 				C5480666261EC77F00ED5853 /* 照片@2x.png in Resources */,
+				845890582744B93500119697 /* Home.xcassets in Resources */,
 				C58D6D0C2630453A00966F5F /* WhiteRightArrow@3x.png in Resources */,
 				C58D6D7A2630453A00966F5F /* ZYTextField.bundle in Resources */,
 				C548064E261EC77F00ED5853 /* 健康@3x.png in Resources */,
