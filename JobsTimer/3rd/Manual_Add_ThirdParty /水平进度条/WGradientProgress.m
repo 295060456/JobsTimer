@@ -31,18 +31,18 @@
 }
 
 -(void)makeTimer_color{
-    //启动方式——1 定时器启动 手动添加定时器到RunLoop
+    //启动方式——1
     [NSTimerManager nsTimeStart:self.nsTimerManager_color
                     withRunLoop:nil];
-    //启动方式——2 定时器启动 系统自动添加到RunLoop
+    //启动方式——2
 //    [self.nsTimerManager nsTimeStartSysAutoInRunLoop];
 }
 
 -(void)makeTimer_length{
-    //启动方式——1 定时器启动 手动添加定时器到RunLoop
+    //启动方式——1
     [NSTimerManager nsTimeStart:self.nsTimerManager_length
                     withRunLoop:nil];
-    //启动方式——2 定时器启动 系统自动添加到RunLoop
+    //启动方式——2
 //    [self.nsTimerManager nsTimeStartSysAutoInRunLoop];
 }
 
@@ -79,11 +79,6 @@
     [self.nsTimerManager_length nsTimeDestroy];
     //UI归位
     self.gradLayer.frame = CGRectZero;
-}
-///旋转 以适应不同方向的直线型进度条
--(void)setTransformRadians:(CGFloat)transformRadians{
-    [UIView setTransform:transformRadians
-                 forView:self];
 }
 
 -(void)hide{
