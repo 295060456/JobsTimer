@@ -17,7 +17,7 @@
 #import "TimerManager.h"
 #import "WGradientProgress.h"
 #import "WGradientProgressView.h"
-#import "UserDefaultManager.h"
+#import "NSUserDefaults+Manager.h"
 #import "DDCacheTool.h"
 
 #endif /* Manual_Add_ThirdParty_h */
