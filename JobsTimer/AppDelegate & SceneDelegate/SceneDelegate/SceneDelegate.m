@@ -11,12 +11,18 @@
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunguarded-availability-new"
 
+SceneDelegate *sceneDelegate;
 @interface SceneDelegate ()
 
 @end
 
 @implementation SceneDelegate
 
+-(instancetype)init{
+    if (self = [super init]) {
+        sceneDelegate = self;
+    }return self;
+}
 //系统版本不低于iOS13.0的设备
 - (void)scene:(UIScene *)scene
 willConnectToSession:(UISceneSession *)session
